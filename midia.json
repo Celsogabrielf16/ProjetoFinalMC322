@@ -518,7 +518,7 @@
    },
    "anoLancamento": 2022,
    "faixaEtaria": 16,
-   "categorias": ["Terror"]
+   "categorias": ["Terror", "Mistério"]
 },
 {
    "tipo": "Filme",
@@ -680,7 +680,7 @@
   ],
   "anoLancamento": 2013,
   "faixaEtaria": 14,
-  "categorias": ["Comédia"]
+  "categorias": ["Comédia", "Drama"]
 },
 {
   "tipo": "Série",
