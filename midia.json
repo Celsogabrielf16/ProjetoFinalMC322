@@ -26,7 +26,7 @@
   },
   "anoLancamento": 2006,
   "faixaEtaria": 10,
-  "categorias": ["Animação", "Comédia", "Família", "Fantasia", "Terror"]
+  "categorias": ["Comédia", "Terror"]
 },
 {
   "tipo": "Filme",
@@ -132,7 +132,7 @@
   },
   "anoLancamento": 2024,
   "faixaEtaria": 12,
-  "categorias": ["Ação", "Fantasia", "Ficção Científica"]
+  "categorias": ["Ação", "Ficção Científica"]
 },
 {
   "tipo": "Filme",
@@ -166,7 +166,7 @@
   },
   "anoLancamento": 2010,
   "faixaEtaria": 16,
-  "categorias": ["Drama", "Suspense", "Mistério"]
+  "categorias": ["Drama", "Mistério"]
 },
 {
   "tipo": "Filme",
@@ -230,7 +230,7 @@
   },
   "anoLancamento": 2024,
   "faixaEtaria": 18,
-  "categorias": ["Ação", "Drama", "Suspense"]
+  "categorias": ["Ação", "Drama"]
 },
 {
   "tipo": "Filme",
@@ -310,7 +310,7 @@
   },
   "anoLancamento": 2022,
   "faixaEtaria": 13,
-  "categorias": ["Ação", "Crime", "Drama"]
+  "categorias": ["Ação", "Drama"]
 },
 {
   "tipo": "Filme",
@@ -340,7 +340,227 @@
   },
   "anoLancamento": 2019,
   "faixaEtaria": 18,
-  "categorias": ["Mistério", "Horror", "Drama", "Thriller"]
+  "categorias": ["Mistério", "Terror", "Drama"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "A Chegada",
+   "sinopse": "Quando misteriosas naves espaciais aterrissam em todo o mundo, a especialista em linguística Louise Banks é recrutada pelos militares para determinar se eles vêm em paz ou são uma ameaça. À medida que a humanidade oscila à beira da guerra global, Banks e sua equipe correm contra o tempo para encontrar uma maneira de se comunicar com os visitantes extraterrestres. Ela toma uma chance que poderia ameaçar sua vida e, possivelmente, a humanidade.",
+   "elenco": [
+      {
+         "nome": "Amy Adams",
+         "papel": "Dra. Louise Banks"
+      },
+      {
+         "nome": "Jeremy Renner",
+         "papel": "Ian Donnelly"
+      },
+      {
+         "nome": "Forest Whitaker",
+         "papel": "Coronel Weber"
+      }
+   ],
+   "diretor": {
+      "nome": "Denis Villeneuve",
+      "sobre": "Denis Villeneuve é um aclamado cineasta canadense conhecido por seu trabalho em filmes de suspense e ficção científica. Com uma carreira distinta que inclui títulos como 'Incêndios' e 'Sicario', Villeneuve é elogiado por sua habilidade em contar histórias complexas com profundidade emocional e visuais impressionantes."
+   },
+   "anoLancamento": 2016,
+   "faixaEtaria": 10,
+   "categorias": ["Ficção Científica", "Drama"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "A Lenda do Tarzan",
+   "sinopse": "Já se passaram muitos anos desde que o homem conhecido como Tarzan deixou as selvas de África para viver em Londres como John Clayton III, Lorde Greystoke, junto de sua esposa, Jane Porter. Agora, foi convidado para regressar ao Congo para servir como emissário do Parlamento, sem perceber que é apenas um peão numa convergência letal de ganância e vingança, engendrada pelo corrupto Capitão Rom.",
+   "elenco": [
+      {
+         "nome": "Alexander Skarsgård",
+         "papel": "John Clayton III, Lord Greystoke / Tarzan"
+      },
+      {
+         "nome": "Margot Robbie",
+         "papel": "Jane Porter"
+      },
+      {
+         "nome": "Christoph Waltz",
+         "papel": "Capitão Rom"
+      },
+      {
+         "nome": "Samuel L. Jackson",
+         "papel": "George Washington Williams"
+      },
+      {
+         "nome": "Djimon Hounsou",
+         "papel": "Chefe Mbonga"
+      }
+   ],
+   "diretor": {
+      "nome": "David Yates",
+      "sobre": "David Yates é um cineasta britânico, conhecido por dirigir os últimos quatro filmes da série Harry Potter e a série de filmes Animais Fantásticos. Sua direção em 'A Lenda do Tarzan' é marcada por uma visão moderna do clássico personagem, mantendo-se fiel à essência da história original enquanto explora temas contemporâneos."
+   },
+   "anoLancamento": 2016,
+   "faixaEtaria": 12,
+   "categorias": ["Ação", "Aventura"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "Agente Oculto",
+   "sinopse": "Agente Oculto segue Gentry, um dos melhores e mais letais mercenários da CIA - que ninguém sabe a real identidade. Ele embarca em uma missão pela Europa para resgatar seu contratante, Sir Donald Fitzroy, e sua família, de Lloyd, membro de uma gigantesca corporação francesa e ex-oficial da CIA. Porém, o mercenário acaba descobrindo segredos bem sujos da agência e Lloyd, por sua vez, coloca uma recompensa pela cabeça de Gentry, afim de que seja morto, para que ele consiga roubar um bilhão de dólares de um acordo de negócios petrolíferos na Nigéria.",
+   "elenco": [
+      {
+         "nome": "Ryan Gosling",
+         "papel": "Court Gentry / Sierra Six"
+      },
+      {
+         "nome": "Chris Evans",
+         "papel": "Lloyd Hansen"
+      },
+      {
+         "nome": "Ana de Armas",
+         "papel": "Dani Miranda"
+      },
+      {
+         "nome": "Billy Bob Thornton",
+         "papel": "Donald Fitzroy"
+      },
+      {
+         "nome": "Jessica Henwick",
+         "papel": "Suzanne Brewer"
+      },
+      {
+         "nome": "Dhanush",
+         "papel": "Avik San"
+      },
+      {
+         "nome": "Alfre Woodard",
+         "papel": "Margaret Cahill"
+      },
+      {
+         "nome": "Regé-Jean Page",
+         "papel": "Carmichael"
+      },
+      {
+         "nome": "Wagner Moura",
+         "papel": "Laszlo Sosa"
+      }
+   ],
+   "diretor": {
+      "nome": "Joe Russo, Anthony Russo",
+      "sobre": "Os irmãos Russo, Joe e Anthony, são conhecidos por dirigir alguns dos filmes mais bem-sucedidos do Universo Cinematográfico Marvel, incluindo 'Vingadores: Ultimato'. Eles trazem sua experiência em ação e narrativas complexas para 'Agente Oculto', criando um thriller de espionagem com uma escala global."
+   },
+   "anoLancamento": 2022,
+   "faixaEtaria": 14,
+   "categorias": ["Ação"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "Jogador Nº1",
+   "sinopse": "Em 2044, num futuro distópico, Wade Watts, como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday, morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
+   "elenco": [
+      {
+         "nome": "Tye Sheridan",
+         "papel": "Wade Watts / Parzival"
+      },
+      {
+         "nome": "Olivia Cooke",
+         "papel": "Samantha Cook / Art3mis"
+      },
+      {
+         "nome": "Ben Mendelsohn",
+         "papel": "Nolan Sorrento"
+      },
+      {
+         "nome": "Simon Pegg",
+         "papel": "Ogden Morrow"
+      },
+      {
+         "nome": "Mark Rylance",
+         "papel": "James Halliday / Anorak"
+      }
+   ],
+   "diretor": {
+      "nome": "Steven Spielberg",
+      "sobre": "Steven Spielberg é um renomado cineasta, produtor e roteirista americano, conhecido por seus trabalhos em filmes icônicos e por ser um dos pioneiros da Nova Hollywood. Com uma carreira que abrange mais de quatro décadas, ele é um dos diretores mais reconhecidos e influentes na indústria cinematográfica mundial."
+   },
+   "anoLancamento": 2018,
+   "faixaEtaria": 14,
+   "categorias": ["Ação", "Aventura", "Ficção Científica"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "O Telefone Preto",
+   "sinopse": "Finney Shaw, um garoto de 13 anos, é sequestrado e acorda em um porão com um telefone preto desligado. Quando o telefone começa a tocar, ele ouve as vozes das vítimas anteriores do sequestrador, que tentam ajudá-lo a evitar o mesmo destino.",
+   "elenco": [
+      {
+         "nome": "Ethan Hawke",
+         "Papel": "O Sequestrador"
+      },
+      {
+         "nome": "Mason Thames",
+         "Papel": "Finney Shaw"
+      },
+      {
+         "nome": "Madeleine McGraw",
+         "Papel": "Gwen Shaw"
+      },
+      {
+         "nome": "Jeremy Davies",
+         "Papel": "Terrence Shaw"
+      },
+      {
+         "nome": "James Ransone",
+         "Papel": "Max"
+      }
+   ],
+   "diretor": {
+      "nome": "Scott Derrickson",
+      "sobre": "Scott Derrickson é um diretor conhecido por seus trabalhos em filmes de terror como 'O Exorcismo de Emily Rose' e 'A Entidade'. Ele também dirigiu 'Doutor Estranho' da Marvel. 'O Telefone Preto' marca seu retorno ao gênero de terror."
+   },
+   "anoLancamento": 2022,
+   "faixaEtaria": 16,
+   "categorias": ["Terror"]
+},
+{
+   "tipo": "Filme",
+   "titulo": "Superbad",
+   "sinopse": "Dois amigos inseparáveis do ensino médio, Seth e Evan, querem aproveitar a festa antes de se formarem e ir para faculdades diferentes. Com a ajuda de seu amigo Fogell, eles planejam comprar álcool para a festa com uma identidade falsa, mas tudo se complica quando Fogell acaba se envolvendo com dois policiais incompetentes.",
+   "elenco": [
+      {
+         "nome": "Jonah Hill",
+         "Papel": "Seth"
+      },
+      {
+         "nome": "Michael Cera",
+         "Papel": "Evan"
+      },
+      {
+         "nome": "Christopher Mintz-Plasse",
+         "Papel": "Fogell"
+      },
+      {
+         "nome": "Bill Hader",
+         "Papel": "Officer Slater"
+      },
+      {
+         "nome": "Seth Rogen",
+         "Papel": "Officer Michaels"
+      },
+      {
+         "nome": "Martha MacIsaac",
+         "Papel": "Becca"
+      },
+      {
+         "nome": "Emma Stone",
+         "Papel": "Jules"
+      }
+   ],
+   "diretor": {
+      "nome": "Greg Mottola",
+      "sobre": "Greg Mottola é um cineasta conhecido por dirigir comédias como 'Superbad' e 'Adventureland'. Seu estilo é marcado por um humor inteligente e uma abordagem sincera dos desafios da juventude."
+   },
+   "anoLancamento": 2007,
+   "faixaEtaria": 14,
+   "categorias": ["Comédia"]
 },
 {
   "tipo": "Série",
@@ -408,7 +628,7 @@
   ],
   "anoLancamento": 2008,
   "faixaEtaria": 16,
-  "categorias": ["Crime", "Drama", "Suspense"]
+  "categorias": ["Drama"]
 },
 {
   "tipo": "Série",
@@ -460,7 +680,7 @@
   ],
   "anoLancamento": 2013,
   "faixaEtaria": 14,
-  "categorias": ["Comédia", "Policial"]
+  "categorias": ["Comédia"]
 },
 {
   "tipo": "Série",
@@ -504,7 +724,7 @@
   ],
   "anoLancamento": 2011,
   "faixaEtaria": 18,
-  "categorias": ["Ação", "Aventura", "Fantasia", "Drama", "Tragédia"]
+  "categorias": ["Ação", "Aventura", "Drama"]
 },
 {
   "tipo": "Série",
@@ -540,7 +760,7 @@
   ],
   "anoLancamento": 2013,
   "faixaEtaria": 18,
-  "categorias": ["Drama Histórico", "Crime"]
+  "categorias": ["Drama"]
 },
 {
   "tipo": "Série",
@@ -576,7 +796,7 @@
   ],
   "anoLancamento": 2005,
   "faixaEtaria": 16,
-  "categorias": ["Drama", "Ação", "Crime"]
+  "categorias": ["Drama", "Ação"]
 },
 {
   "tipo": "Série",
@@ -616,7 +836,7 @@
   ],
   "anoLancamento": 2023,
   "faixaEtaria": 16,
-  "categorias": ["Drama", "Ficção Científica", "Distopia"]
+  "categorias": ["Drama", "Ficção Científica"]
 },
 {
   "tipo": "Série",
@@ -644,7 +864,7 @@
   ],
   "anoLancamento": 2014,
   "faixaEtaria": 14,
-  "categorias": ["Ação", "Drama", "Ficção Científica", "Mistério", "Pós-apocalíptico"]
+  "categorias": ["Ação", "Drama", "Ficção Científica", "Mistério"]
 },
 {
   "tipo": "Série",
@@ -684,7 +904,7 @@
   ],
   "anoLancamento": 2019,
   "faixaEtaria": 18,
-  "categorias": ["Ação", "Comédia", "Crime", "Drama", "Ficção Científica"]
+  "categorias": ["Ação", "Comédia", "Drama", "Ficção Científica"]
 },
 {
   "tipo": "Série",
@@ -728,7 +948,7 @@
   ],
   "anoLancamento": 2016,
   "faixaEtaria": 14,
-  "categorias": ["Comédia", "Drama", "Fantasia"]
+  "categorias": ["Comédia", "Drama"]
 },
 {
   "tipo": "Série",
@@ -772,5 +992,35 @@
   ],
   "anoLancamento": 2005,
   "faixaEtaria": 0,
-  "categorias": ["Comédia", "Drama", "Biografia"]
+  "categorias": ["Comédia", "Drama"]
+},
+{
+   "tipo": "Série",
+   "titulo": "Dark",
+   "sinopse": "Quatro diferentes famílias - Kahnwald, Nielsen, Doppler e Tiedemann - vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear. Segredos familiares começam a emergir à medida que a polícia investiga os sumiços e logo percebe uma relação com eventos também sombrios do passado. O tempo e o espaço parecem se embaralhar cada vez mais, deflagrando uma série de tragédias que, curiosamente, se repete a cada geração.",
+   "elenco": [
+      {
+         "nome": "Louis Hofmann",
+         "papel": "Jonas Kahnwald"
+      },
+      {
+         "nome": "Lisa Vicari",
+         "papel": "Martha Nielsen"
+      },
+      {
+         "nome": "Moritz Jahn",
+         "papel": "Magnus Nielsen"
+      },
+      {
+         "nome": "Oliver Masucci",
+         "papel": "Ulrich Nielsen"
+      }
+   ],
+   "diretor": {
+      "nome": "Baran bo Odar",
+      "sobre": "Baran bo Odar é conhecido por seu trabalho em 'Dark', aclamada série de drama, suspense e ficção científica. Junto com Jantje Friese, criou uma narrativa complexa que explora as implicações existenciais do tempo e seus efeitos sobre a natureza humana, ganhando reconhecimento mundial e prêmios importantes."
+   },
+   "anoLancamento": 2017,
+   "faixaEtaria": 16,
+   "categorias": ["Drama", "Mistério"]
 }]
