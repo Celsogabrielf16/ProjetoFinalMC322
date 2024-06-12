@@ -1,0 +1,1053 @@
+[{
+  "tipo": "Filme",
+  "titulo": "A Casa Monstro",
+  "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação. Na véspera do Dia das Bruxas, DJ e seus amigos Chowder e Jenny descobrem que a casa tem vida própria e tentam destruí-la antes que ela faça mal a alguém.",
+  "elenco": [
+     {
+        "nome": "Mitchel Musso",
+        "Papel": "DJ"
+     },
+     {
+        "nome": "Sam Lerner",
+        "Papel": "Chowder"
+     },
+     {
+        "nome": "Spencer Locke",
+        "Papel": "Jenny"
+     },
+     {
+        "nome": "Steve Buscemi",
+        "Papel": "Nebbercracker"
+     }
+  ],
+  "diretor": {
+     "nome": "Gil Kenan",
+     "sobre": "Gil Kenan é um cineasta que explora o gênero de fantasia e terror. Conhecido por 'A Casa Monstro' e envolvimento em 'Five Nights at Freddy's' e 'Poltergeist'."
+  },
+  "anoLancamento": 2006,
+  "faixaEtaria": 10,
+  "categorias": ["COMEDIA", "TERROR"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Duna: Parte Dois",
+  "sinopse": "A sequência épica de 'Duna', onde Paul Atreides se une a Chani e aos Fremen em uma guerra de vingança contra os conspiradores que destruíram sua família, enfrentando escolhas difíceis entre o amor e o destino do universo.",
+  "elenco": [
+     {
+        "nome": "Timothée Chalamet",
+        "Papel": "Paul Atreides"
+     },
+     {
+        "nome": "Zendaya",
+        "Papel": "Chani"
+     },
+     {
+        "nome": "Rebecca Ferguson",
+        "Papel": "Lady Jessica"
+     },
+     {
+        "nome": "Josh Brolin",
+        "Papel": "Gurney Halleck"
+     },
+     {
+        "nome": "Stellan Skarsgård",
+        "Papel": "Baron Harkonnen"
+     },
+     {
+        "nome": "Dave Bautista",
+        "Papel": "Beast Rabban"
+     },
+     {
+        "nome": "Christopher Walken",
+        "Papel": "Emperor"
+     },
+     {
+        "nome": "Léa Seydoux",
+        "Papel": "Lady Margot Fenring"
+     }
+  ],
+  "diretor": {
+     "nome": "Denis Villeneuve",
+     "sobre": "Denis Villeneuve é um aclamado diretor canadense conhecido por seu trabalho em filmes de ficção científica e dramas, como 'A Chegada' e 'Blade Runner 2049'. Com 'Duna: Parte Dois', ele continua sua visão épica do clássico de Frank Herbert."
+  },
+  "anoLancamento": 2024,
+  "faixaEtaria": 14,
+  "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Gente Grande",
+  "sinopse": "Cinco amigos de infância se reencontram após a morte do treinador de basquete da escola para passar o feriado de 4 de julho juntos. Acompanhados de suas famílias, eles descobrem que envelhecer não necessariamente significa amadurecer.",
+  "elenco": [
+     {
+        "nome": "Adam Sandler",
+        "Papel": "Lenny Feder"
+     },
+     {
+        "nome": "Kevin James",
+        "Papel": "Eric Lamonsoff"
+     },
+     {
+        "nome": "Chris Rock",
+        "Papel": "Kurt McKenzie"
+     },
+     {
+        "nome": "David Spade",
+        "Papel": "Marcus Higgins"
+     },
+     {
+        "nome": "Rob Schneider",
+        "Papel": "Rob Hilliard"
+     }
+  ],
+  "diretor": {
+     "nome": "Dennis Dugan",
+     "sobre": "Dennis Dugan é um diretor americano conhecido por colaborar frequentemente com Adam Sandler, dirigindo comédias como 'Happy Gilmore' e 'Big Daddy'."
+  },
+  "anoLancamento": 2010,
+  "faixaEtaria": 12,
+  "categorias": ["COMEDIA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Godzilla e Kong: O Novo Império",
+  "sinopse": "Em 'Godzilla e Kong: O Novo Império', após se encontrarem como inimigos em 'Godzilla vs Kong', Kong e Godzilla se unem contra uma ameaça colossal escondida no mundo dos humanos, que ameaça a existência de ambos e da nossa espécie.",
+  "elenco": [
+     {
+        "nome": "Rebecca Hall",
+        "papel": "Ilene Andrews"
+     },
+     {
+        "nome": "Brian Tyree Henry",
+        "papel": "Bernie Hayes"
+     },
+     {
+        "nome": "Dan Stevens",
+        "papel": "Trapper"
+     }
+  ],
+  "diretor": {
+     "nome": "Adam Wingard",
+     "sobre": "Adam Wingard é conhecido por dirigir filmes de terror e suspense, como 'Você é o Próximo' e 'A Bruxa de Blair'. Ele também dirigiu 'Godzilla vs. Kong' e retorna para comandar este novo capítulo do MonsterVerse."
+  },
+  "anoLancamento": 2024,
+  "faixaEtaria": 12,
+  "categorias": ["ACAO", "FICCAOCIENTIFICA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Ilha do Medo",
+  "sinopse": "Em 1954, Teddy Daniels (Leonardo DiCaprio) investiga o desaparecimento de um paciente no Shutter Island Ashecliffe Hospital, em Boston. No local, ele descobre que os médicos realizam experiências radicais com os pacientes, envolvendo métodos ilegais e anti-éticos. Teddy tenta buscar mais informações, mas enfrenta a resistência dos médicos em lhe fornecer os arquivos que possam permitir que o caso seja aberto. Quando um furacão deixa a ilha sem comunicação, diversos prisioneiros conseguem escapar e tornam a situação ainda mais perigosa.",
+  "elenco": [
+     {
+        "nome": "Leonardo DiCaprio",
+        "papel": "Teddy Daniels"
+     },
+     {
+        "nome": "Mark Ruffalo",
+        "papel": "Chuck Aule"
+     },
+     {
+        "nome": "Ben Kingsley",
+        "papel": "Dr. John Cawley"
+     },
+     {
+        "nome": "Michelle Williams",
+        "papel": "Dolores Chanal"
+     },
+     {
+        "nome": "Emily Mortimer",
+        "papel": "Rachel Solando"
+     }
+  ],
+  "diretor": {
+     "nome": "Martin Scorsese",
+     "sobre": "Martin Scorsese é um renomado cineasta americano, cuja carreira se estende por mais de cinco décadas. Ele é conhecido por seu estilo distintivo e filmes que exploram temas como a culpa e a redenção, a fé e a moralidade, muitas vezes através de personagens complexos e conturbados."
+  },
+  "anoLancamento": 2010,
+  "faixaEtaria": 16,
+  "categorias": ["DRAMA", "MISTERIO"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Interestelar",
+  "sinopse": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand (Anne Hathaway), Jenkins (Marlon Sanders) e Doyle (Wes Bentley), ele seguirá em busca de uma nova casa. Com o passar dos anos, sua filha Murph (Mackenzie Foy e Jessica Chastain) investirá numa própria jornada para também tentar salvar a população do planeta.",
+  "elenco": [
+     {
+        "nome": "Matthew McConaughey",
+        "papel": "Cooper"
+     },
+     {
+        "nome": "Anne Hathaway",
+        "papel": "Brand"
+     },
+     {
+        "nome": "Jessica Chastain",
+        "papel": "Murph"
+     },
+     {
+        "nome": "Mackenzie Foy",
+        "papel": "Murph (10 Yrs.)"
+     },
+     {
+        "nome": "Michael Caine",
+        "papel": "Professor Brand"
+     }
+  ],
+  "diretor": {
+     "nome": "Christopher Nolan",
+     "sobre": "Christopher Nolan é um aclamado cineasta britânico conhecido por seus filmes complexos e visualmente impressionantes. Ele é o cérebro por trás de 'Interestelar', trazendo à vida a visão do espaço profundo e da exploração intergaláctica."
+  },
+  "anoLancamento": 2014,
+  "faixaEtaria": 10,
+  "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Matador de Aluguel",
+  "sinopse": "No remake do clássico de 1989, um ex-lutador de UFC aceita um emprego como segurança em uma estalagem nas Florida Keys, mas logo descobre que nem tudo é o que parece neste paraíso tropical.",
+  "elenco": [
+     {
+        "nome": "Jake Gyllenhaal",
+        "papel": "Dalton"
+     },
+     {
+        "nome": "Conor McGregor",
+        "papel": "Knox"
+     },
+     {
+        "nome": "Daniela Melchior",
+        "papel": "Ellie"
+     },
+     {
+        "nome": "Jessica Williams",
+        "papel": "Frankie"
+     }
+  ],
+  "diretor": {
+     "nome": "Doug Liman",
+     "sobre": "Doug Liman é um diretor americano conhecido por filmes de ação e aventura. Ele dirigiu sucessos como 'A Identidade Bourne' e 'No Limite do Amanhã', e é reconhecido por seu estilo dinâmico e cenas de ação inovadoras."
+  },
+  "anoLancamento": 2024,
+  "faixaEtaria": 18,
+  "categorias": ["ACAO", "DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Matrix",
+  "sinopse": "Em um futuro ciberpunk distópico, a realidade percebida pela maioria dos humanos é na verdade uma simulação criada por máquinas sencientes para subjugar a população humana, enquanto usam o calor e a atividade elétrica de seus corpos como fonte de energia. O cibercriminoso e programador de computador Neo descobre este fato e é atraído para uma rebelião contra as máquinas, que envolve outras pessoas que foram libertadas do 'mundo dos sonhos'.",
+  "elenco": [
+     {
+        "nome": "Keanu Reeves",
+        "papel": "Neo"
+     },
+     {
+        "nome": "Laurence Fishburne",
+        "papel": "Morpheus"
+     },
+     {
+        "nome": "Carrie-Anne Moss",
+        "papel": "Trinity"
+     },
+     {
+        "nome": "Hugo Weaving",
+        "papel": "Agent Smith"
+     },
+     {
+        "nome": "Joe Pantoliano",
+        "papel": "Cypher"
+     }
+  ],
+  "diretor": {
+     "nome": "Lilly Wachowski e Lana Wachowski",
+     "sobre": "Lilly e Lana Wachowski são cineastas conhecidas por seu trabalho em filmes de ficção científica e ação, incluindo a série Matrix. Elas são conhecidas por explorar temas complexos através de efeitos visuais inovadores e narrativas profundas."
+  },
+  "anoLancamento": 1999,
+  "faixaEtaria": 14,
+  "categorias": ["ACAO", "FICCAOCIENTIFICA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "The Batman",
+  "sinopse": "Batman, em seu segundo ano de luta contra o crime em Gotham City, descobre corrupção ligada à sua própria família enquanto persegue o Charada, um misterioso assassino em série que mira a elite da cidade.",
+  "elenco": [
+     {
+        "nome": "Robert Pattinson",
+        "papel": "Bruce Wayne / Batman"
+     },
+     {
+        "nome": "Zoë Kravitz",
+        "papel": "Selina Kyle / Mulher-Gato"
+     },
+     {
+        "nome": "Paul Dano",
+        "papel": "Edward Nashton / Charada"
+     },
+     {
+        "nome": "Jeffrey Wright",
+        "papel": "James Gordon"
+     },
+     {
+        "nome": "John Turturro",
+        "papel": "Carmine Falcone"
+     },
+     {
+        "nome": "Peter Sarsgaard",
+        "papel": "Gil Colson"
+     },
+     {
+        "nome": "Andy Serkis",
+        "papel": "Alfred Pennyworth"
+     },
+     {
+        "nome": "Colin Farrell",
+        "papel": "Oz / Pinguim"
+     }
+  ],
+  "diretor": {
+     "nome": "Matt Reeves",
+     "sobre": "Matt Reeves é um cineasta americano conhecido por dirigir filmes como 'Cloverfield', 'Planeta dos Macacos: A Guerra' e 'The Batman'. Ele é elogiado por sua habilidade em contar histórias visuais e por trazer uma nova perspectiva para franquias estabelecidas."
+  },
+  "anoLancamento": 2022,
+  "faixaEtaria": 13,
+  "categorias": ["ACAO", "DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Filme",
+  "titulo": "Us",
+  "sinopse": "O filme segue Adelaide Wilson e sua família, que são atacados por um grupo de doppelgängers ameaçadores chamados 'The Tethered'.",
+  "elenco": [
+     {
+        "nome": "Lupita Nyong'o",
+        "papel": "Adelaide Wilson / Red"
+     },
+     {
+        "nome": "Winston Duke",
+        "papel": "Gabe Wilson / Abraham"
+     },
+     {
+        "nome": "Elisabeth Moss",
+        "papel": "Kitty Tyler / Dahlia"
+     },
+     {
+        "nome": "Tim Heidecker",
+        "papel": "Josh Tyler / Tex"
+     }
+  ],
+  "diretor": {
+     "nome": "Jordan Peele",
+     "sobre": "Jordan Peele é um cineasta conhecido por seu trabalho em filmes de terror psicológico que exploram temas sociais profundos. Ele ganhou reconhecimento com o filme 'Get Out' e continua a impressionar com seu estilo único de contar histórias."
+  },
+  "anoLancamento": 2019,
+  "faixaEtaria": 18,
+  "categorias": ["MISTERIO", "TERROR", "DRAMA"],
+  "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "A Chegada",
+   "sinopse": "Quando misteriosas naves espaciais aterrissam em todo o mundo, a especialista em linguística Louise Banks é recrutada pelos militares para determinar se eles vêm em paz ou são uma ameaça. À medida que a humanidade oscila à beira da guerra global, Banks e sua equipe correm contra o tempo para encontrar uma maneira de se comunicar com os visitantes extraterrestres. Ela toma uma chance que poderia ameaçar sua vida e, possivelmente, a humanidade.",
+   "elenco": [
+      {
+         "nome": "Amy Adams",
+         "papel": "Dra. Louise Banks"
+      },
+      {
+         "nome": "Jeremy Renner",
+         "papel": "Ian Donnelly"
+      },
+      {
+         "nome": "Forest Whitaker",
+         "papel": "Coronel Weber"
+      }
+   ],
+   "diretor": {
+      "nome": "Denis Villeneuve",
+      "sobre": "Denis Villeneuve é um aclamado cineasta canadense conhecido por seu trabalho em filmes de suspense e ficção científica. Com uma carreira distinta que inclui títulos como 'Incêndios' e 'Sicario', Villeneuve é elogiado por sua habilidade em contar histórias complexas com profundidade emocional e visuais impressionantes."
+   },
+   "anoLancamento": 2016,
+   "faixaEtaria": 10,
+   "categorias": ["FICCAOCIENTIFICA", "DRAMA"],
+   "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "A Lenda do Tarzan",
+   "sinopse": "Já se passaram muitos anos desde que o homem conhecido como Tarzan deixou as selvas de África para viver em Londres como John Clayton III, Lorde Greystoke, junto de sua esposa, Jane Porter. Agora, foi convidado para regressar ao Congo para servir como emissário do Parlamento, sem perceber que é apenas um peão numa convergência letal de ganância e vingança, engendrada pelo corrupto Capitão Rom.",
+   "elenco": [
+      {
+         "nome": "Alexander Skarsgård",
+         "papel": "John Clayton III, Lord Greystoke / Tarzan"
+      },
+      {
+         "nome": "Margot Robbie",
+         "papel": "Jane Porter"
+      },
+      {
+         "nome": "Christoph Waltz",
+         "papel": "Capitão Rom"
+      },
+      {
+         "nome": "Samuel L. Jackson",
+         "papel": "George Washington Williams"
+      },
+      {
+         "nome": "Djimon Hounsou",
+         "papel": "Chefe Mbonga"
+      }
+   ],
+   "diretor": {
+      "nome": "David Yates",
+      "sobre": "David Yates é um cineasta britânico, conhecido por dirigir os últimos quatro filmes da série Harry Potter e a série de filmes Animais Fantásticos. Sua direção em 'A Lenda do Tarzan' é marcada por uma visão moderna do clássico personagem, mantendo-se fiel à essência da história original enquanto explora temas contemporâneos."
+   },
+   "anoLancamento": 2016,
+   "faixaEtaria": 12,
+   "categorias": ["ACAO", "AVENTURA"],
+   "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "Agente Oculto",
+   "sinopse": "Agente Oculto segue Gentry, um dos melhores e mais letais mercenários da CIA - que ninguém sabe a real identidade. Ele embarca em uma missão pela Europa para resgatar seu contratante, Sir Donald Fitzroy, e sua família, de Lloyd, membro de uma gigantesca corporação francesa e ex-oficial da CIA. Porém, o mercenário acaba descobrindo segredos bem sujos da agência e Lloyd, por sua vez, coloca uma recompensa pela cabeça de Gentry, afim de que seja morto, para que ele consiga roubar um bilhão de dólares de um acordo de negócios petrolíferos na Nigéria.",
+   "elenco": [
+      {
+         "nome": "Ryan Gosling",
+         "papel": "Court Gentry / Sierra Six"
+      },
+      {
+         "nome": "Chris Evans",
+         "papel": "Lloyd Hansen"
+      },
+      {
+         "nome": "Ana de Armas",
+         "papel": "Dani Miranda"
+      },
+      {
+         "nome": "Billy Bob Thornton",
+         "papel": "Donald Fitzroy"
+      },
+      {
+         "nome": "Jessica Henwick",
+         "papel": "Suzanne Brewer"
+      },
+      {
+         "nome": "Dhanush",
+         "papel": "Avik San"
+      },
+      {
+         "nome": "Alfre Woodard",
+         "papel": "Margaret Cahill"
+      },
+      {
+         "nome": "Regé-Jean Page",
+         "papel": "Carmichael"
+      },
+      {
+         "nome": "Wagner Moura",
+         "papel": "Laszlo Sosa"
+      }
+   ],
+   "diretor": {
+      "nome": "Joe Russo, Anthony Russo",
+      "sobre": "Os irmãos Russo, Joe e Anthony, são conhecidos por dirigir alguns dos filmes mais bem-sucedidos do Universo Cinematográfico Marvel, incluindo 'Vingadores: Ultimato'. Eles trazem sua experiência em ação e narrativas complexas para 'Agente Oculto', criando um thriller de espionagem com uma escala global."
+   },
+   "anoLancamento": 2022,
+   "faixaEtaria": 14,
+   "categorias": ["ACAO"],
+   "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "Jogador Nº1",
+   "sinopse": "Em 2044, num futuro distópico, Wade Watts, como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday, morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
+   "elenco": [
+      {
+         "nome": "Tye Sheridan",
+         "papel": "Wade Watts / Parzival"
+      },
+      {
+         "nome": "Olivia Cooke",
+         "papel": "Samantha Cook / Art3mis"
+      },
+      {
+         "nome": "Ben Mendelsohn",
+         "papel": "Nolan Sorrento"
+      },
+      {
+         "nome": "Simon Pegg",
+         "papel": "Ogden Morrow"
+      },
+      {
+         "nome": "Mark Rylance",
+         "papel": "James Halliday / Anorak"
+      }
+   ],
+   "diretor": {
+      "nome": "Steven Spielberg",
+      "sobre": "Steven Spielberg é um renomado cineasta, produtor e roteirista americano, conhecido por seus trabalhos em filmes icônicos e por ser um dos pioneiros da Nova Hollywood. Com uma carreira que abrange mais de quatro décadas, ele é um dos diretores mais reconhecidos e influentes na indústria cinematográfica mundial."
+   },
+   "anoLancamento": 2018,
+   "faixaEtaria": 14,
+   "categorias": ["ACAO", "AVENTURA", "FICCAOCIENTIFICA"],
+   "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "O Telefone Preto",
+   "sinopse": "Finney Shaw, um garoto de 13 anos, é sequestrado e acorda em um porão com um telefone preto desligado. Quando o telefone começa a tocar, ele ouve as vozes das vítimas anteriores do sequestrador, que tentam ajudá-lo a evitar o mesmo destino.",
+   "elenco": [
+      {
+         "nome": "Ethan Hawke",
+         "Papel": "O Sequestrador"
+      },
+      {
+         "nome": "Mason Thames",
+         "Papel": "Finney Shaw"
+      },
+      {
+         "nome": "Madeleine McGraw",
+         "Papel": "Gwen Shaw"
+      },
+      {
+         "nome": "Jeremy Davies",
+         "Papel": "Terrence Shaw"
+      },
+      {
+         "nome": "James Ransone",
+         "Papel": "Max"
+      }
+   ],
+   "diretor": {
+      "nome": "Scott Derrickson",
+      "sobre": "Scott Derrickson é um diretor conhecido por seus trabalhos em filmes de terror como 'O Exorcismo de Emily Rose' e 'A Entidade'. Ele também dirigiu 'Doutor Estranho' da Marvel. 'O Telefone Preto' marca seu retorno ao gênero de terror."
+   },
+   "anoLancamento": 2022,
+   "faixaEtaria": 16,
+   "categorias": ["TERROR", "MISTERIO"],
+   "avaliacoes": []
+},
+{
+   "tipo": "Filme",
+   "titulo": "Superbad",
+   "sinopse": "Dois amigos inseparáveis do ensino médio, Seth e Evan, querem aproveitar a festa antes de se formarem e ir para faculdades diferentes. Com a ajuda de seu amigo Fogell, eles planejam comprar álcool para a festa com uma identidade falsa, mas tudo se complica quando Fogell acaba se envolvendo com dois policiais incompetentes.",
+   "elenco": [
+      {
+         "nome": "Jonah Hill",
+         "Papel": "Seth"
+      },
+      {
+         "nome": "Michael Cera",
+         "Papel": "Evan"
+      },
+      {
+         "nome": "Christopher Mintz-Plasse",
+         "Papel": "Fogell"
+      },
+      {
+         "nome": "Bill Hader",
+         "Papel": "Officer Slater"
+      },
+      {
+         "nome": "Seth Rogen",
+         "Papel": "Officer Michaels"
+      },
+      {
+         "nome": "Martha MacIsaac",
+         "Papel": "Becca"
+      },
+      {
+         "nome": "Emma Stone",
+         "Papel": "Jules"
+      }
+   ],
+   "diretor": {
+      "nome": "Greg Mottola",
+      "sobre": "Greg Mottola é um cineasta conhecido por dirigir comédias como 'Superbad' e 'Adventureland'. Seu estilo é marcado por um humor inteligente e uma abordagem sincera dos desafios da juventude."
+   },
+   "anoLancamento": 2007,
+   "faixaEtaria": 14,
+   "categorias": ["COMEDIA"],
+   "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Breaking Bad",
+  "sinopse": "Um professor de química do ensino médio diagnosticado com câncer de pulmão inoperável se volta para a fabricação e venda de metanfetamina com um ex-aluno para garantir o futuro financeiro de sua família.",
+  "elenco": [
+     {
+        "nome": "Bryan Cranston",
+        "papel": "Walter White"
+     },
+     {
+        "nome": "Aaron Paul",
+        "papel": "Jesse Pinkman"
+     },
+     {
+        "nome": "Anna Gunn",
+        "papel": "Skyler White"
+     },
+     {
+        "nome": "Dean Norris",
+        "papel": "Hank Schrader"
+     },
+     {
+        "nome": "Betsy Brandt",
+        "papel": "Marie Schrader"
+     },
+     {
+        "nome": "RJ Mitte",
+        "papel": "Walter White Jr."
+     },
+     {
+        "nome": "Bob Odenkirk",
+        "papel": "Saul Goodman"
+     },
+     {
+        "nome": "Jonathan Banks",
+        "papel": "Mike Ehrmantraut"
+     },
+     {
+        "nome": "Giancarlo Esposito",
+        "papel": "Gus Fring"
+     }
+  ],
+  "diretor": [
+     {
+        "nome": "Vince Gilligan",
+        "sobre": "Vince Gilligan é o criador, roteirista, diretor e produtor executivo da série 'Breaking Bad'. Ele é conhecido por seu trabalho inovador na televisão, especialmente por transformar o protagonista em antagonista ao longo da série."
+     },
+     {
+        "nome": "Michelle MacLaren",
+        "sobre": "Michelle MacLaren é uma diretora e produtora canadense que dirigiu vários episódios de 'Breaking Bad'. Ela é reconhecida por seu estilo visual forte e habilidade de construir tensão dramática."
+     },
+     {
+        "nome": "Adam Bernstein",
+        "sobre": "Adam Bernstein é um diretor e produtor que dirigiu vários episódios de 'Breaking Bad'. Ele é conhecido por seu trabalho em séries de televisão aclamadas e por sua capacidade de dirigir cenas intensas e memoráveis."
+     },
+     {
+        "nome": "Michael Slovis",
+        "sobre": "Michael Slovis é um diretor de fotografia e diretor que trabalhou em 'Breaking Bad'. Ele é elogiado por sua habilidade em criar uma atmosfera visual única que complementa a narrativa da série."
+     },
+     {
+        "nome": "Rian Johnson",
+        "sobre": "Rian Johnson é um cineasta que dirigiu alguns dos episódios mais notáveis de 'Breaking Bad'. Ele é conhecido por seu estilo distinto e por trazer uma abordagem cinematográfica para a televisão."
+     }
+  ],
+  "anoLancamento": 2008,
+  "faixaEtaria": 16,
+  "categorias": ["DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Brooklyn Nine-Nine",
+  "sinopse": "Ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, a série segue as maluquices do imaturo detetive Jake Peralta e a relação que ele tem com o novo capitão, Ray Holt.",
+  "elenco": [
+     {
+        "nome": "Andy Samberg",
+        "papel": "Jake Peralta"
+     },
+     {
+        "nome": "Stephanie Beatriz",
+        "papel": "Rosa Diaz"
+     },
+     {
+        "nome": "Terry Crews",
+        "papel": "Terry Jeffords"
+     },
+     {
+        "nome": "Melissa Fumero",
+        "papel": "Amy Santiago"
+     },
+     {
+        "nome": "Joe Lo Truglio",
+        "papel": "Charles Boyle"
+     },
+     {
+        "nome": "Andre Braugher",
+        "papel": "Raymond Holt"
+     },
+     {
+        "nome": "Dirk Blocker",
+        "papel": "Hitchcock"
+     },
+     {
+        "nome": "Joel McKinnon Miller",
+        "papel": "Scully"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Michael McDonald",
+        "sobre": "Diretor de 12 episódios da série, conhecido por seu trabalho em comédias e programas de variedades."
+     },
+     {
+        "nome": "Claire Scanlon",
+        "sobre": "Diretora de 10 episódios, com uma carreira que inclui direção em séries de comédia aclamadas."
+     }
+  ],
+  "anoLancamento": 2013,
+  "faixaEtaria": 14,
+  "categorias": ["COMEDIA", "DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Game of Thrones",
+  "sinopse": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete reinos nobres lutam pelo controle de Westeros, enquanto uma antiga inimiga retorna após estar adormecida por milênios.",
+  "elenco": [
+     {
+        "nome": "Emilia Clarke",
+        "papel": "Daenerys Targaryen"
+     },
+     {
+        "nome": "Peter Dinklage",
+        "papel": "Tyrion Lannister"
+     },
+     {
+        "nome": "Kit Harington",
+        "papel": "Jon Snow"
+     },
+     {
+        "nome": "Lena Headey",
+        "papel": "Cersei Lannister"
+     },
+     {
+        "nome": "Sophie Turner",
+        "papel": "Sansa Stark"
+     },
+     {
+        "nome": "Maisie Williams",
+        "papel": "Arya Stark"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "David Nutter",
+        "sobre": "Diretor de 9 episódios, conhecido por seu trabalho em séries de televisão de alto perfil."
+     },
+     {
+        "nome": "Alan Taylor",
+        "sobre": "Diretor de 7 episódios, com uma carreira que inclui direção em séries de sucesso e filmes."
+     }
+  ],
+  "anoLancamento": 2011,
+  "faixaEtaria": 18,
+  "categorias": ["ACAO", "AVENTURA", "DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Peaky Blinders",
+  "sinopse": "Ambientada na Inglaterra do pós-Primeira Guerra Mundial, a série segue a família Shelby e sua gangue criminosa enquanto eles navegam pelas complexidades sociais e políticas da época, expandindo seu império criminoso.",
+  "elenco": [
+     {
+        "nome": "Cillian Murphy",
+        "papel": "Thomas Shelby"
+     },
+     {
+        "nome": "Paul Anderson",
+        "papel": "Arthur Shelby"
+     },
+     {
+        "nome": "Sophie Rundle",
+        "papel": "Ada Shelby"
+     },
+     {
+        "nome": "Helen McCrory",
+        "papel": "Polly Gray"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Anthony Byrne",
+        "sobre": "Diretor de 12 episódios, conhecido por seu estilo visual distinto e narrativa envolvente."
+     },
+     {
+        "nome": "Colm McCarthy",
+        "sobre": "Diretor de 6 episódios, com um talento para criar atmosferas densas e dramáticas."
+     }
+  ],
+  "anoLancamento": 2013,
+  "faixaEtaria": 18,
+  "categorias": ["DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Prison Break",
+  "sinopse": "A série gira em torno de Michael Scofield, um engenheiro que instala a si mesmo em uma prisão que ele ajudou a projetar, com o objetivo de salvar seu irmão, Lincoln Burrows, acusado falsamente e condenado à morte, planejando uma fuga de dentro para fora.",
+  "elenco": [
+     {
+        "nome": "Wentworth Miller",
+        "papel": "Michael Scofield"
+     },
+     {
+        "nome": "Dominic Purcell",
+        "papel": "Lincoln Burrows"
+     },
+     {
+        "nome": "Sarah Wayne Callies",
+        "papel": "Sara Tancredi"
+     },
+     {
+        "nome": "Robert Knepper",
+        "papel": "Theodore 'T-Bag' Bagwell"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Bobby Roth",
+        "sobre": "Diretor de 14 episódios, conhecido por seu trabalho em várias séries de televisão de alto perfil."
+     },
+     {
+        "nome": "Kevin Hooks",
+        "sobre": "Diretor de 14 episódios, com uma carreira que inclui direção em séries dramáticas e filmes."
+     }
+  ],
+  "anoLancamento": 2005,
+  "faixaEtaria": 16,
+  "categorias": ["DRAMA", "ACAO"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Silo",
+  "sinopse": "Em um futuro distópico, os últimos dez mil sobreviventes da Terra vivem em um silo subterrâneo, protegidos do mundo tóxico e mortal do lado de fora, enquanto lutam com as verdades ocultas de sua existência.",
+  "elenco": [
+     {
+        "nome": "Rebecca Ferguson",
+        "papel": "Juliette Nichols"
+     },
+     {
+        "nome": "Rashida Jones",
+        "papel": "Allison Becker"
+     },
+     {
+        "nome": "David Oyelowo",
+        "papel": "Holston Becker"
+     },
+     {
+        "nome": "Common",
+        "papel": "Robert Sims"
+     },
+     {
+        "nome": "Tim Robbins",
+        "papel": "Bernard Holland"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Adam Bernstein",
+        "sobre": "Diretor de 3 episódios, conhecido por seu trabalho em séries dramáticas e de ficção científica."
+     },
+     {
+        "nome": "Morten Tyldum",
+        "sobre": "Diretor de 3 episódios, com uma carreira que inclui filmes aclamados e séries de televisão."
+     }
+  ],
+  "anoLancamento": 2023,
+  "faixaEtaria": 16,
+  "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "The 100",
+  "sinopse": "97 anos após um apocalipse nuclear que devastou a Terra, os únicos sobreviventes da humanidade são os moradores de estações espaciais em órbita. Quando os sistemas de suporte de vida começam a falhar, 100 jovens detentos são enviados de volta ao planeta para testar sua habitabilidade.",
+  "elenco": [
+     {
+        "nome": "Eliza Taylor",
+        "papel": "Clarke Griffin"
+     },
+     {
+        "nome": "Bob Morley",
+        "papel": "Bellamy Blake"
+     },
+     {
+        "nome": "Marie Avgeropoulos",
+        "papel": "Octavia Blake"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Dean White",
+        "sobre": "Dean White é um dos diretores que trabalhou em vários episódios da série. Ele é conhecido por dirigir episódios de séries de sucesso e contribuiu significativamente para o desenvolvimento visual e narrativo de 'The 100'."
+     }
+  ],
+  "anoLancamento": 2014,
+  "faixaEtaria": 14,
+  "categorias": ["ACAO", "DRAMA", "FICCAOCIENTIFICA", "MISTERIO"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "The Boys",
+  "sinopse": "Em um mundo onde super-heróis são celebridades e parte de uma poderosa corporação, Vought International, 'The Boys' é uma equipe de vigilantes que busca expor a verdade sobre os 'Supes' e a corrupção por trás de suas fachadas heroicas.",
+  "elenco": [
+     {
+        "nome": "Karl Urban",
+        "papel": "Billy Butcher"
+     },
+     {
+        "nome": "Jack Quaid",
+        "papel": "Hughie Campbell"
+     },
+     {
+        "nome": "Antony Starr",
+        "papel": "Homelander"
+     },
+     {
+        "nome": "Erin Moriarty",
+        "papel": "Annie January / Starlight"
+     },
+     {
+        "nome": "Jessie T. Usher",
+        "papel": "A-Train"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Eric Kripke",
+        "sobre": "Eric Kripke é o criador e showrunner da série, conhecido por seu trabalho em outras séries de sucesso e por trazer uma visão única para o mundo dos super-heróis em 'The Boys'."
+     },
+     {
+        "nome": "Philip Sgriccia",
+        "sobre": "Philip Sgriccia é um dos diretores e produtores executivos da série, contribuindo com sua vasta experiência em televisão para dar vida à ação e ao drama de 'The Boys'."
+     }
+  ],
+  "anoLancamento": 2019,
+  "faixaEtaria": 18,
+  "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "The Good Place",
+  "sinopse": "Após sua morte, Eleanor Shellstrop é enviada ao 'Bom Lugar', uma utopia altamente seletiva semelhante ao paraíso. No entanto, ela logo descobre que foi enviada lá por engano e deve esconder seu comportamento moralmente imperfeito enquanto tenta se tornar uma pessoa melhor.",
+  "elenco": [
+     {
+        "nome": "Kristen Bell",
+        "papel": "Eleanor Shellstrop"
+     },
+     {
+        "nome": "William Jackson Harper",
+        "papel": "Chidi Anagonye"
+     },
+     {
+        "nome": "Jameela Jamil",
+        "papel": "Tahani Al-Jamil"
+     },
+     {
+        "nome": "D'Arcy Carden",
+        "papel": "Janet"
+     },
+     {
+        "nome": "Manny Jacinto",
+        "papel": "Jason Mendoza"
+     },
+     {
+        "nome": "Ted Danson",
+        "papel": "Michael"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Michael Schur",
+        "sobre": "Michael Schur é o criador da série e dirigiu alguns episódios. Ele é conhecido por seu trabalho em outras séries de sucesso e por trazer uma visão única para o mundo das comédias televisivas."
+     },
+     {
+        "nome": "Drew Goddard",
+        "sobre": "Drew Goddard é um dos diretores e produtores executivos da série, contribuindo com sua experiência em narrativas complexas e envolventes."
+     }
+  ],
+  "anoLancamento": 2016,
+  "faixaEtaria": 14,
+  "categorias": ["COMEDIA", "DRAMA"],
+  "avaliacoes": []
+},
+{
+  "tipo": "Série",
+  "titulo": "Todo Mundo Odeia o Chris",
+  "sinopse": "Baseada nas experiências de adolescência do comediante Chris Rock, a série segue as desventuras de Chris enquanto ele enfrenta os desafios de crescer em Bed-Stuy, Nova Iorque, durante a década de 1980.",
+  "elenco": [
+     {
+        "nome": "Tyler James Williams",
+        "papel": "Chris"
+     },
+     {
+        "nome": "Terry Crews",
+        "papel": "Julius"
+     },
+     {
+        "nome": "Tichina Arnold",
+        "papel": "Rochelle"
+     },
+     {
+        "nome": "Tequan Richmond",
+        "papel": "Drew"
+     },
+     {
+        "nome": "Imani Hakim",
+        "papel": "Tonya"
+     },
+     {
+        "nome": "Vincent Martella",
+        "papel": "Greg Wuliger"
+     }
+  ],
+  "diretores": [
+     {
+        "nome": "Ali LeRoi",
+        "sobre": "Ali LeRoi é um dos criadores da série e dirigiu vários episódios. Ele é conhecido por seu trabalho em comédias e por trazer uma perspectiva única e humorística para as histórias que conta."
+     },
+     {
+        "nome": "Chris Rock",
+        "sobre": "Chris Rock, além de ser o criador e narrador da série, também dirigiu alguns episódios, trazendo sua visão pessoal e experiências de vida para a tela."
+     }
+  ],
+  "anoLancamento": 2005,
+  "faixaEtaria": 0,
+  "categorias": ["COMEDIA", "DRAMA"],
+  "avaliacoes": []
+},
+{
+   "tipo": "Série",
+   "titulo": "Dark",
+   "sinopse": "Quatro diferentes famílias - Kahnwald, Nielsen, Doppler e Tiedemann - vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear. Segredos familiares começam a emergir à medida que a polícia investiga os sumiços e logo percebe uma relação com eventos também sombrios do passado. O tempo e o espaço parecem se embaralhar cada vez mais, deflagrando uma série de tragédias que, curiosamente, se repete a cada geração.",
+   "elenco": [
+      {
+         "nome": "Louis Hofmann",
+         "papel": "Jonas Kahnwald"
+      },
+      {
+         "nome": "Lisa Vicari",
+         "papel": "Martha Nielsen"
+      },
+      {
+         "nome": "Moritz Jahn",
+         "papel": "Magnus Nielsen"
+      },
+      {
+         "nome": "Oliver Masucci",
+         "papel": "Ulrich Nielsen"
+      }
+   ],
+   "diretor": {
+      "nome": "Baran bo Odar",
+      "sobre": "Baran bo Odar é conhecido por seu trabalho em 'Dark', aclamada série de drama, suspense e ficção científica. Junto com Jantje Friese, criou uma narrativa complexa que explora as implicações existenciais do tempo e seus efeitos sobre a natureza humana, ganhando reconhecimento mundial e prêmios importantes."
+   },
+   "anoLancamento": 2017,
+   "faixaEtaria": 16,
+   "categorias": ["DRAMA", "MISTERIO"],
+   "avaliacoes": []
+}]
