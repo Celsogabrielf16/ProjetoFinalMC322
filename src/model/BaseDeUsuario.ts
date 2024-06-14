@@ -63,7 +63,7 @@ export default class BaseDeUsuario {
         const listaUsuarios = this.getListaUsuarios();
 
         for (const usuario of listaUsuarios) {
-            if (usuario.userName === username) {
+            if (usuario.getUsername() === username) {
                 return usuario;
             }
         }
@@ -77,6 +77,6 @@ export default class BaseDeUsuario {
      * @returns true se a senha fornecida corresponde à senha do usuário, false caso contrário.
      */
     public senhaValida(usuario: Usuario, senha: string): boolean {
-        return usuario.senha === senha;
+        return usuario.getSenha() === senha;
     }
 }
