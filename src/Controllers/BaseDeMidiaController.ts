@@ -1,11 +1,9 @@
-class BaseDeMidiaController {
-
-    private baseDeUsuario: BaseDeUsuario;
+export default class BaseDeMidiaController {
+    private baseDeMidia: BaseDeMidia;
     private baseDeMidiaView: BaseDeMidiaView;
 
     constructor(baseDeMidiaRecebido: BaseDeMidia) {
-        this.baseDeMidia = baseDeMidiaRecebido;
-        this.baseDeMidiaView = new BaseDeMidiaoView();
+        this.baseDeMidia = BaseDeMidia.getInstancia();
+        this.baseDeMidiaView = new BaseDeMidiaView();
     }
-
 }
