@@ -42,19 +42,6 @@ export default class BaseDeUsuario {
     }
 
     /**
-     * Método que adiciona um novo usuário à lista de usuários.
-     * @param username Username do novo usuário.
-     * @param nome Nome do novo usuário.
-     * @param senha Senha do novo usuário.
-     * @param idade Idade do novo usuário.
-     * @param email Email do novo usuário.
-     */
-    public adicionaUsuario(username: string, nome: string, senha: string, idade: number, email: string) {
-        let usuario = new Usuario(username, nome, senha, idade, email);
-        this.listaUsuarios.push(usuario);
-    }
-
-    /**
      * Método que salva a lista de usuários utilizando o método escreverArquivo() de LerUsuario.
      */
     public salvaListaUsuario() {
