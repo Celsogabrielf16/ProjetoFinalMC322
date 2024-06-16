@@ -1,12 +1,17 @@
+import Midia from './Midia';
+import LerMidia from './LerMidia';
+
 export default class BaseDeMidia {
     private static instancia: BaseDeMidia;
     private lerMidia: LerMidia;
+    private listaMidia: Array<Midia>;
 
     /**
      * Construtor privado para garantir que a classe seja Singleton e inicializar LerMidia.
      */
     private constructor() {
         this.lerMidia = new LerMidia();
+        this.listaMidia = [];
     }
 
     /**
@@ -21,7 +26,19 @@ export default class BaseDeMidia {
         return BaseDeMidia.instancia;
     }
 
-    public getListaMidia(){
-        return this.lerMidia.lerArquivo();
+    /**
+     * Retorna a lista de mídias atual.
+     * @returns Um array contendo todas as mídias na base de mídias.
+     */
+    public getListaMidia(): Array<Midia> {
+        return this.listaMidia;
+    }
+
+    /**
+     * Método que cria a lista de mídias utilizando o método lerArquivo() de LerMidia.
+     * Atualiza a lista de mídias na instância atual.
+     */
+    public criaListaMidia() {
+        this.listaMidia = this.lerMidia.lerArquivo();
     }
 }
