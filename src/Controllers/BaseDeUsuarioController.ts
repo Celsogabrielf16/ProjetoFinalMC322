@@ -19,28 +19,20 @@ export default class BaseDeUsuarioController {
      * @param email Email do novo usuário.
      */
     public cadastrarUsuario(username: string, nome: string, senha: string, idade: number, email: string): void {
-        const novoUsuario = this.baseDeUsuario.criarUsuario(username, nome, senha, idade, email);
-        this.baseDeUsuario.salvarUsuarioArquivo(novoUsuario);
+        this.baseDeUsuario.adicionarUsuario(username, nome, senha, idade, email);
     }
 
     /**
-         * Método para autenticar um usuário com base no username e senha fornecidos.
-         * @param username Username do usuário a ser autenticado.
-         * @param senha Senha do usuário a ser verificada.
-         * @returns true se a autenticação for bem-sucedida.
-         * @throws Error se o usuário não for encontrado ou a senha estiver incorreta.
-         */
-    public autenticarUsuario(username: string, senha: string): boolean {
-        const usuario = this.baseDeUsuario.usuarioValido(username);
-        if (usuario) {
-            const senhaValida = this.baseDeUsuario.senhaValida(usuario, senha);
-            if (senhaValida) {
-                return true;
-            } else {
-                throw new Error('Senha incorreta');
-            }
-        } else {
-            throw new Error('Usuário não encontrado');
-        }
+     * Método para iniciar a lista de usuários na base de usuários.
+     */
+    public iniciaListaUsuario(){
+        this.baseDeUsuario.criaListaUsuario();
+    }
+
+    /**
+     * Método para salvar a lista de usuários.
+     */
+    public salvaListaUsuario(){
+        this.baseDeUsuario.salvaListaUsuario();
     }
 }
