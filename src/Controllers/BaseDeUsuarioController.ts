@@ -11,18 +11,6 @@ export default class BaseDeUsuarioController {
     }
 
     /**
-     * Método para adicionar um novo usuário na base de usuários.
-     * @param username Username do novo usuário.
-     * @param nome Nome do novo usuário.
-     * @param senha Senha do novo usuário.
-     * @param idade Idade do novo usuário.
-     * @param email Email do novo usuário.
-     */
-    public cadastrarUsuario(username: string, nome: string, senha: string, idade: number, email: string): void {
-        this.baseDeUsuario.adicionarUsuario(username, nome, senha, idade, email);
-    }
-
-    /**
      * Método para iniciar a lista de usuários na base de usuários.
      */
     public iniciaListaUsuario(){
