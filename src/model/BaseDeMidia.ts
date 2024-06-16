@@ -41,4 +41,11 @@ export default class BaseDeMidia {
     public criaListaMidia() {
         this.listaMidia = this.lerMidia.lerArquivo();
     }
+
+    /**
+     * Método que salva a lista de Midia utilizando o método escreverArquivo() de LerMidia.
+    */
+    public salvaListaMidia() {
+        this.lerMidia.escreverArquivo(this.getListaMidia());
+    }
 }

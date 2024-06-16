@@ -45,6 +45,6 @@ export default class BaseDeUsuario {
      * Método que salva a lista de usuários utilizando o método escreverArquivo() de LerUsuario.
      */
     public salvaListaUsuario() {
-        this.lerUsuario.escreverArquivo(this.getListaUsuarios);
+        this.lerUsuario.escreverArquivo(this.getListaUsuarios());
     }
 }
