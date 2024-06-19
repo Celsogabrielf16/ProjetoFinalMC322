@@ -107,4 +107,12 @@ export default class BaseDeUsuario {
     private adicionaUsuario(usuario: Usuario): void {
         this.listaUsuarios.push(usuario);
     }
+
+    /**
+     * Método para obter o ID do usuário ativo.
+     * @returns O ID do usuário ativo ou -1 se não houver um usuário ativo.
+     */
+    public getIDUsuarioAtivo(): number { 
+        return this.usuarioAtivo.getID();
+    }
 }
