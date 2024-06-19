@@ -1,20 +1,28 @@
-class Usuario {
+class Usuario extends Pessoa {
 
+    private static usuarios: Usuario[] = [];
     private id: number;
-    private nome: string;
+    private userName: string;
+    private email: string;
     private senha: string;
     private filmesFavoritos: Filme[];
     private seriesFavoritas: Serie[];
     private avaliacoes: Avaliacao[];
 
-    constructor(id: number, nome: string, senha: string) {
+    constructor(id: number, email: string, senha: string, nome: string, idade: number) {
 
+        super(nome, idade);
         this.id = id;
-        this.nome = nome;
+        this.userName = userName;
+        this.email = email;
         this.senha = senha;
         this.filmesFavoritos = [];
         this.seriesFavoritas = [];
         this.avaliacoes = [];
+    }
+
+    public static listarUsuarios(): Usuario[] {
+        return this.usuarios;
     }
 
     public getId(): number {
@@ -25,12 +33,20 @@ class Usuario {
         this.id = id;
     }
 
-    public getNome(): string {
-        return this.nome;
+    public getUserName(): string {
+        return this.userName;
     }
 
-    public setNome(nome: string): void {
-        this.nome = nome;
+    public setUserName(userName: string): void {
+        this.userName = this.userName;
+    }
+
+    public getEmail(): string {
+        return this.email;
+    }
+
+    public setEmail(email: string): void {
+        this.email = email;
     }
 
     public getSenha(): string {
@@ -89,18 +105,11 @@ class Usuario {
         this.avaliacoes = this.avaliacoes.filter(a => a !== avaliacao);
     }
 
-    public listarFavoritos(): string {
-        
-        let favoritos = 'Filmes Favoritos:\n';
-        for (const filme of this.filmesFavoritos) {
-            favoritos += `${filme.toString()}\n`;
-        }
+    public listarFavoritos(): Array<Filme | Serie> {
+        return [...this.filmesFavoritos, ...this.seriesFavoritas];
+    }
 
-        favoritos += 'Séries Favoritas:\n';
-        for (const serie of this.seriesFavoritas) {
-            favoritos += `${serie.toString()}\n`;
-        }
-
-        return favoritos;
+    public listarAvaliacoes(): Avaliacao[] {
+        return this.avaliacoes;
     }
 }
