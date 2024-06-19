@@ -39,14 +39,14 @@ export default class BaseDeUsuario {
     /**
      * Método que cria a lista de usuários utilizando o método lerArquivo() de LerUsuario.
      */
-    private criaListaUsuario() {
+    private criaListaUsuario(): void {
         this.listaUsuarios = this.lerUsuario.lerArquivo();
     }
 
     /**
      * Método que salva a lista de usuários utilizando o método escreverArquivo() de LerUsuario.
      */
-    public salvaListaUsuario() {
+    public salvaListaUsuario(): void {
         this.lerUsuario.escreverArquivo(this.getListaUsuarios());
     }
 
@@ -78,7 +78,7 @@ export default class BaseDeUsuario {
      * Adiciona o usuário ativo atual.
      * @param usuario O usuário a ser marcado como ativo.
      */
-    public adicionaUsuarioAtivo(usuario: Usuario) {
+    public adicionaUsuarioAtivo(usuario: Usuario): void {
         this.usuarioAtivo = usuario;
     }
 
@@ -104,7 +104,7 @@ export default class BaseDeUsuario {
      * Método privado que adiciona um novo usuário à lista de usuários.
      * @param usuario O usuário a ser inserido na lista de usuários.
      */
-    private adicionaUsuario(usuario: Usuario) {
+    private adicionaUsuario(usuario: Usuario): void {
         this.listaUsuarios.push(usuario);
     }
 }
