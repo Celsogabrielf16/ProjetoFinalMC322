@@ -1,5 +1,8 @@
 import Usuario from './Usuario';
 import LerUsuario from './LerUsuario';
+import Filme from './Filme';
+import Serie from './Serie';
+import Avaliacao from './Avaliacao';
 
 export default class BaseDeUsuario {
     private static instancia: BaseDeUsuario;
@@ -114,5 +117,51 @@ export default class BaseDeUsuario {
      */
     public getIDUsuarioAtivo(): number { 
         return this.usuarioAtivo.getID();
+    }
+
+    /**
+     * Método para listar os favoritos do usuário.
+     */
+    public listarFavoritos(): Array <Filme | Serie> {
+        return this.usuarioAtivo.listarFavoritos(); 
+    }
+
+    /**
+     * Método para listar as avaliações do usuário.
+     */
+    public listarAvaliacoes(): Array <Avaliacao>{
+        return this.usuarioAtivo.listarAvaliacoes();
+    }
+
+    /**
+     * Método para obter o nome de usuário do usuário.
+     * @returns O nome de usuário do usuário.
+     */
+    public getUserName(): string {
+        return this.usuarioAtivo.getUserName();
+    }
+
+    /**
+     * Método para obter o email do usuário.
+     * @returns O email do usuário.
+     */
+    public getEmail(): string {
+        return this.usuarioAtivo.getEmail();
+    }
+
+    /**
+     * Método para obter o nome do usuário.
+     * @returns O nome do usuário.
+     */
+    public getNome(): string {
+        return this.usuarioAtivo.getNome();
+    }
+
+    /**
+     * Método para obter a idade do usuário.
+     * @returns A idade do usuário.
+     */
+    public getIdade(): number {
+        return this.usuarioAtivo.getIdade();
     }
 }
