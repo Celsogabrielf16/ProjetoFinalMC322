@@ -49,4 +49,12 @@ export default class BaseDeUsuarioController {
         this.baseDeUsuario.adicionaUsuarioAtivo(novoUsuario);
         return true;
     }
+
+    /**
+     * Método para obter o ID do usuário ativo.
+     * @returns O ID do usuário ativo.
+     */
+    public getIDUsuarioAtivo(): number{
+        return this.baseDeUsuario.getIDUsuarioAtivo();
+    }
 }
