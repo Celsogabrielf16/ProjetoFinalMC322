@@ -1,4 +1,7 @@
 import BaseDeUsuario from './BaseDeUsuario';
+import Filme from './Filme';
+import Serie from './Serie';
+import Avaliacao from './Avaliacao';
 
 export default class BaseDeUsuarioController {
     private baseDeUsuario: BaseDeUsuario;
@@ -56,5 +59,67 @@ export default class BaseDeUsuarioController {
      */
     public getIDUsuarioAtivo(): number{
         return this.baseDeUsuario.getIDUsuarioAtivo();
+    }
+
+    /**
+     * Método para listar os favoritos do usuário.
+     */
+    public listarFavoritos(): Array <Filme | Serie> {
+        return this.baseDeUsuario.listarFavoritos(); 
+    }
+    
+    /**
+     * Método para listar as avaliações do usuário.
+     */
+    public listarAvaliacoes(): Array <Avaliacao>{
+        return this.baseDeUsuario.listarAvaliacoes();
+    }
+    
+    /**
+     * Método para inserir um filme ou série na lista de favoritos do usuário.
+     * @param favorito Objeto do tipo Filme ou Serie a ser inserido na lista de favoritos.
+     */
+    public inserirFavorito(favorito: Filme | Serie): void {
+        this.baseDeUsuario.inserirFavorito(favorito);
+    }
+
+    /**
+     * Método para inserir uma avaliação do usuário.
+     * @param avaliacao Objeto do tipo Avaliacao a ser inserido na lista de avaliações.
+     */
+    public inserirAvaliacao(avaliacao: Avaliacao): void {
+        this.baseDeUsuario.inserirAvaliacao(avaliacao);
+    }
+
+    /**
+     * Método para obter o nome de usuário do usuário.
+     * @returns O nome de usuário do usuário.
+     */
+    public getUserName(): string {
+        return this.baseDeUsuario.getUserName();
+    }
+
+    /**
+     * Método para obter o email do usuário.
+     * @returns O email do usuário.
+     */
+    public getEmail(): string {
+        return this.baseDeUsuario.getEmail();
+    }
+
+    /**
+     * Método para obter o nome do usuário.
+     * @returns O nome do usuário.
+     */
+    public getNome(): string {
+        return this.baseDeUsuario.getNome();
+    }
+
+    /**
+     * Método para obter a idade do usuário.
+     * @returns A idade do usuário.
+     */
+    public getIdade(): number {
+        return this.baseDeUsuario.getIdade();
     }
 }
