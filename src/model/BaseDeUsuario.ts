@@ -112,14 +112,6 @@ export default class BaseDeUsuario {
     }
 
     /**
-     * Método para obter o ID do usuário ativo.
-     * @returns O ID do usuário ativo ou -1 se não houver um usuário ativo.
-     */
-    public getIDUsuarioAtivo(): number { 
-        return this.usuarioAtivo.getID();
-    }
-
-    /**
      * Método para listar os favoritos do usuário.
      */
     public listarFavoritos(): Array <Filme | Serie> {
@@ -131,6 +123,34 @@ export default class BaseDeUsuario {
      */
     public listarAvaliacoes(): Array <Avaliacao>{
         return this.usuarioAtivo.listarAvaliacoes();
+    }
+
+    /**
+     * Método para inserir um filme ou série na lista de favoritos do usuário.
+     * @param favorito Objeto do tipo Filme ou Serie a ser inserido na lista de favoritos.
+     */
+    public inserirFavorito(favorito: Filme | Serie): void {
+        if (favorito instanceof Filme) {
+            this.usuarioAtivo.setFilmeFavorito(favorito);
+        } else if (favorito instanceof Serie) {
+            this.usuarioAtivo.setSerieFavorita(favorito);
+        }
+    }
+
+    /**
+     * Método para inserir uma avaliação do usuário.
+     * @param avaliacao Objeto do tipo Avaliacao a ser inserido na lista de avaliações.
+     */
+    public inserirAvaliacao(avaliacao: Avaliacao): void {
+        this.usuarioAtivo.setAvaliacoes(avaliacao);
+    }
+
+    /**
+     * Método para obter o ID do usuário ativo.
+     * @returns O ID do usuário ativo ou -1 se não houver um usuário ativo.
+     */
+    public getIDUsuarioAtivo(): number { 
+        return this.usuarioAtivo.getID();
     }
 
     /**
