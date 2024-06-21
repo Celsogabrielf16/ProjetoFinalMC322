@@ -9,9 +9,8 @@ import Serie from './Serie';
 export default class BaseDeMidiaController {
     private baseDeMidia: BaseDeMidia;
 
-    constructor(baseDeMidiaRecebido: BaseDeMidia) {
+    constructor() {
         this.baseDeMidia = BaseDeMidia.getInstancia();
-
     }
 
     /**
@@ -51,6 +50,24 @@ export default class BaseDeMidiaController {
     public listarCategorias(id: number): Array<Categoria> {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
         return midia.listarCategorias();
+    }
+
+    /**
+     * Retorna uma lista de filmes da base de mídia.
+     * @param quantidadeFilme A quantidade de filmes a ser retornada.
+     * @returns Um array de objetos Filme.
+     */
+    public listarFilme(quantidadeFilme: number): Array<Filme> {
+        return this.baseDeMidia.istarFilme(quantidadeFilme);
+    }
+    
+    /**
+     * Retorna uma lista de séries da base de mídia.
+     * @param quantidadeSerie A quantidade de séries a ser retornada.
+     * @returns Um array de objetos Serie.
+     */
+    public listarSerie(quantidadeSerie: number): Array<Serie> {
+        return this.baseDeMidia.listarSerie(quantidadeSerie);
     }
 
     /**
@@ -142,13 +159,4 @@ export default class BaseDeMidiaController {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
         return midia.getDuracao();
     }
-
-    public listarFilme(quantidadeFilme: number): Array<Filme> {
-        return this.baseDeMidia.istarFilme(quantidadeFilme);
-    }
-
-    public listarSerie(quantidadeSerie: number): Array<Serie> {
-        return this.baseDeMidia.listarSerie(quantidadeSerie);
-    }
-
 }
