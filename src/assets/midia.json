@@ -1,5 +1,6 @@
 [{
   "tipo": "Filme",
+  "id": 1,
   "titulo": "A Casa Monstro",
   "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação. Na véspera do Dia das Bruxas, DJ e seus amigos Chowder e Jenny descobrem que a casa tem vida própria e tentam destruí-la antes que ela faça mal a alguém.",
   "elenco": [
@@ -31,6 +32,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 2,
   "titulo": "Duna: Parte Dois",
   "sinopse": "A sequência épica de 'Duna', onde Paul Atreides se une a Chani e aos Fremen em uma guerra de vingança contra os conspiradores que destruíram sua família, enfrentando escolhas difíceis entre o amor e o destino do universo.",
   "elenco": [
@@ -78,6 +80,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 3,
   "titulo": "Gente Grande",
   "sinopse": "Cinco amigos de infância se reencontram após a morte do treinador de basquete da escola para passar o feriado de 4 de julho juntos. Acompanhados de suas famílias, eles descobrem que envelhecer não necessariamente significa amadurecer.",
   "elenco": [
@@ -113,6 +116,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 4,
   "titulo": "Godzilla e Kong: O Novo Império",
   "sinopse": "Em 'Godzilla e Kong: O Novo Império', após se encontrarem como inimigos em 'Godzilla vs Kong', Kong e Godzilla se unem contra uma ameaça colossal escondida no mundo dos humanos, que ameaça a existência de ambos e da nossa espécie.",
   "elenco": [
@@ -140,6 +144,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 5,
   "titulo": "Ilha do Medo",
   "sinopse": "Em 1954, Teddy Daniels (Leonardo DiCaprio) investiga o desaparecimento de um paciente no Shutter Island Ashecliffe Hospital, em Boston. No local, ele descobre que os médicos realizam experiências radicais com os pacientes, envolvendo métodos ilegais e anti-éticos. Teddy tenta buscar mais informações, mas enfrenta a resistência dos médicos em lhe fornecer os arquivos que possam permitir que o caso seja aberto. Quando um furacão deixa a ilha sem comunicação, diversos prisioneiros conseguem escapar e tornam a situação ainda mais perigosa.",
   "elenco": [
@@ -175,6 +180,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 6,
   "titulo": "Interestelar",
   "sinopse": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand (Anne Hathaway), Jenkins (Marlon Sanders) e Doyle (Wes Bentley), ele seguirá em busca de uma nova casa. Com o passar dos anos, sua filha Murph (Mackenzie Foy e Jessica Chastain) investirá numa própria jornada para também tentar salvar a população do planeta.",
   "elenco": [
@@ -210,6 +216,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 7,
   "titulo": "Matador de Aluguel",
   "sinopse": "No remake do clássico de 1989, um ex-lutador de UFC aceita um emprego como segurança em uma estalagem nas Florida Keys, mas logo descobre que nem tudo é o que parece neste paraíso tropical.",
   "elenco": [
@@ -241,6 +248,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 8,
   "titulo": "Matrix",
   "sinopse": "Em um futuro ciberpunk distópico, a realidade percebida pela maioria dos humanos é na verdade uma simulação criada por máquinas sencientes para subjugar a população humana, enquanto usam o calor e a atividade elétrica de seus corpos como fonte de energia. O cibercriminoso e programador de computador Neo descobre este fato e é atraído para uma rebelião contra as máquinas, que envolve outras pessoas que foram libertadas do 'mundo dos sonhos'.",
   "elenco": [
@@ -276,6 +284,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 9,
   "titulo": "The Batman",
   "sinopse": "Batman, em seu segundo ano de luta contra o crime em Gotham City, descobre corrupção ligada à sua própria família enquanto persegue o Charada, um misterioso assassino em série que mira a elite da cidade.",
   "elenco": [
@@ -323,6 +332,7 @@
 },
 {
   "tipo": "Filme",
+  "id": 10,
   "titulo": "Us",
   "sinopse": "O filme segue Adelaide Wilson e sua família, que são atacados por um grupo de doppelgängers ameaçadores chamados 'The Tethered'.",
   "elenco": [
@@ -354,6 +364,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 11,
    "titulo": "A Chegada",
    "sinopse": "Quando misteriosas naves espaciais aterrissam em todo o mundo, a especialista em linguística Louise Banks é recrutada pelos militares para determinar se eles vêm em paz ou são uma ameaça. À medida que a humanidade oscila à beira da guerra global, Banks e sua equipe correm contra o tempo para encontrar uma maneira de se comunicar com os visitantes extraterrestres. Ela toma uma chance que poderia ameaçar sua vida e, possivelmente, a humanidade.",
    "elenco": [
@@ -381,6 +392,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 12,
    "titulo": "A Lenda do Tarzan",
    "sinopse": "Já se passaram muitos anos desde que o homem conhecido como Tarzan deixou as selvas de África para viver em Londres como John Clayton III, Lorde Greystoke, junto de sua esposa, Jane Porter. Agora, foi convidado para regressar ao Congo para servir como emissário do Parlamento, sem perceber que é apenas um peão numa convergência letal de ganância e vingança, engendrada pelo corrupto Capitão Rom.",
    "elenco": [
@@ -416,6 +428,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 13,
    "titulo": "Agente Oculto",
    "sinopse": "Agente Oculto segue Gentry, um dos melhores e mais letais mercenários da CIA - que ninguém sabe a real identidade. Ele embarca em uma missão pela Europa para resgatar seu contratante, Sir Donald Fitzroy, e sua família, de Lloyd, membro de uma gigantesca corporação francesa e ex-oficial da CIA. Porém, o mercenário acaba descobrindo segredos bem sujos da agência e Lloyd, por sua vez, coloca uma recompensa pela cabeça de Gentry, afim de que seja morto, para que ele consiga roubar um bilhão de dólares de um acordo de negócios petrolíferos na Nigéria.",
    "elenco": [
@@ -467,6 +480,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 14,
    "titulo": "Jogador Nº1",
    "sinopse": "Em 2044, num futuro distópico, Wade Watts, como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday, morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
    "elenco": [
@@ -502,6 +516,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 15,
    "titulo": "O Telefone Preto",
    "sinopse": "Finney Shaw, um garoto de 13 anos, é sequestrado e acorda em um porão com um telefone preto desligado. Quando o telefone começa a tocar, ele ouve as vozes das vítimas anteriores do sequestrador, que tentam ajudá-lo a evitar o mesmo destino.",
    "elenco": [
@@ -537,6 +552,7 @@
 },
 {
    "tipo": "Filme",
+   "id": 16,
    "titulo": "Superbad",
    "sinopse": "Dois amigos inseparáveis do ensino médio, Seth e Evan, querem aproveitar a festa antes de se formarem e ir para faculdades diferentes. Com a ajuda de seu amigo Fogell, eles planejam comprar álcool para a festa com uma identidade falsa, mas tudo se complica quando Fogell acaba se envolvendo com dois policiais incompetentes.",
    "elenco": [
@@ -580,6 +596,7 @@
 },
 {
   "tipo": "Série",
+  "id": 17,
   "titulo": "Breaking Bad",
   "sinopse": "Um professor de química do ensino médio diagnosticado com câncer de pulmão inoperável se volta para a fabricação e venda de metanfetamina com um ex-aluno para garantir o futuro financeiro de sua família.",
   "elenco": [
@@ -649,6 +666,7 @@
 },
 {
   "tipo": "Série",
+  "id": 18,
   "titulo": "Brooklyn Nine-Nine",
   "sinopse": "Ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, a série segue as maluquices do imaturo detetive Jake Peralta e a relação que ele tem com o novo capitão, Ray Holt.",
   "elenco": [
@@ -702,6 +720,7 @@
 },
 {
   "tipo": "Série",
+  "id": 19,
   "titulo": "Game of Thrones",
   "sinopse": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete reinos nobres lutam pelo controle de Westeros, enquanto uma antiga inimiga retorna após estar adormecida por milênios.",
   "elenco": [
@@ -747,6 +766,7 @@
 },
 {
   "tipo": "Série",
+  "id": 20,
   "titulo": "Peaky Blinders",
   "sinopse": "Ambientada na Inglaterra do pós-Primeira Guerra Mundial, a série segue a família Shelby e sua gangue criminosa enquanto eles navegam pelas complexidades sociais e políticas da época, expandindo seu império criminoso.",
   "elenco": [
@@ -784,6 +804,7 @@
 },
 {
   "tipo": "Série",
+  "id": 21,
   "titulo": "Prison Break",
   "sinopse": "A série gira em torno de Michael Scofield, um engenheiro que instala a si mesmo em uma prisão que ele ajudou a projetar, com o objetivo de salvar seu irmão, Lincoln Burrows, acusado falsamente e condenado à morte, planejando uma fuga de dentro para fora.",
   "elenco": [
@@ -821,6 +842,7 @@
 },
 {
   "tipo": "Série",
+  "id": 22,
   "titulo": "Silo",
   "sinopse": "Em um futuro distópico, os últimos dez mil sobreviventes da Terra vivem em um silo subterrâneo, protegidos do mundo tóxico e mortal do lado de fora, enquanto lutam com as verdades ocultas de sua existência.",
   "elenco": [
@@ -862,6 +884,7 @@
 },
 {
   "tipo": "Série",
+  "id": 23,
   "titulo": "The 100",
   "sinopse": "97 anos após um apocalipse nuclear que devastou a Terra, os únicos sobreviventes da humanidade são os moradores de estações espaciais em órbita. Quando os sistemas de suporte de vida começam a falhar, 100 jovens detentos são enviados de volta ao planeta para testar sua habitabilidade.",
   "elenco": [
@@ -891,6 +914,7 @@
 },
 {
   "tipo": "Série",
+  "id": 24,
   "titulo": "The Boys",
   "sinopse": "Em um mundo onde super-heróis são celebridades e parte de uma poderosa corporação, Vought International, 'The Boys' é uma equipe de vigilantes que busca expor a verdade sobre os 'Supes' e a corrupção por trás de suas fachadas heroicas.",
   "elenco": [
@@ -932,6 +956,7 @@
 },
 {
   "tipo": "Série",
+  "id": 25,
   "titulo": "The Good Place",
   "sinopse": "Após sua morte, Eleanor Shellstrop é enviada ao 'Bom Lugar', uma utopia altamente seletiva semelhante ao paraíso. No entanto, ela logo descobre que foi enviada lá por engano e deve esconder seu comportamento moralmente imperfeito enquanto tenta se tornar uma pessoa melhor.",
   "elenco": [
@@ -977,6 +1002,7 @@
 },
 {
   "tipo": "Série",
+  "id": 26,
   "titulo": "Todo Mundo Odeia o Chris",
   "sinopse": "Baseada nas experiências de adolescência do comediante Chris Rock, a série segue as desventuras de Chris enquanto ele enfrenta os desafios de crescer em Bed-Stuy, Nova Iorque, durante a década de 1980.",
   "elenco": [
@@ -1022,6 +1048,7 @@
 },
 {
    "tipo": "Série",
+   "id": 27,
    "titulo": "Dark",
    "sinopse": "Quatro diferentes famílias - Kahnwald, Nielsen, Doppler e Tiedemann - vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear. Segredos familiares começam a emergir à medida que a polícia investiga os sumiços e logo percebe uma relação com eventos também sombrios do passado. O tempo e o espaço parecem se embaralhar cada vez mais, deflagrando uma série de tragédias que, curiosamente, se repete a cada geração.",
    "elenco": [
