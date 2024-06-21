@@ -10,10 +10,10 @@ export class Filme extends Midia {
         categorias: Array<Categoria>, avaliacoes: Array<Avaliacao>,
         urlImagem: string, diretor: Diretor, duracao: number) {
 
-            super(id, titulo, anoLancamento, faixaEtaria, mediaAvalicao, elenco, 
-                categorias, avaliacoes, urlImagem);
-            this.diretor = diretor;
-            this.duracao = duracao;
+        super(id, titulo, anoLancamento, faixaEtaria, mediaAvalicao, elenco, 
+            categorias, avaliacoes, urlImagem);
+        this.diretor = diretor;
+        this.duracao = duracao;
     }
 
     public getDiretor() {
