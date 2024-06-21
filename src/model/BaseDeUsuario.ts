@@ -3,6 +3,7 @@ import LerUsuario from './LerUsuario';
 import Filme from './Filme';
 import Serie from './Serie';
 import Avaliacao from './Avaliacao';
+import Observer from './Observer';
 
 export default class BaseDeUsuario implements Observer{
     private static instancia: BaseDeUsuario;
@@ -96,7 +97,7 @@ export default class BaseDeUsuario implements Observer{
         if (this.usuarioValido(email)) {
             return null; // email já está em uso
         }
-        let usuarioNovo = new Usuario(nome, senha, email);
+        let usuarioNovo = new Usuario(this.getListaUsuarios().length + 1, email, senha, nome); // id: number, email: string, senha: string, nome: string
         this.adicionaUsuario(usuarioNovo);
         return usuarioNovo;
     }

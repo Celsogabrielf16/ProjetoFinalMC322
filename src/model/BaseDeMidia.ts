@@ -6,6 +6,7 @@ import Diretor from './Diretor';
 import Elenco from './Elenco';
 import Avaliacao from './Avaliacao';
 import Categoria from './Categoria';
+import Observer from './Observer';
 
 export default class BaseDeMidia implements Observer {
     private static instancia: BaseDeMidia;
