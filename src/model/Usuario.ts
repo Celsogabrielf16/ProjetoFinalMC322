@@ -2,7 +2,6 @@ class Usuario extends Pessoa {
 
     private static usuarios: Usuario[] = [];
     private id: number;
-    private userName: string;
     private email: string;
     private senha: string;
     private filmesFavoritos: Filme[]; // array dos filmes favoritos
@@ -13,7 +12,6 @@ class Usuario extends Pessoa {
 
         super(nome, idade);
         this.id = id;
-        this.userName = userName;
         this.email = email;
         this.senha = senha;
         this.filmesFavoritos = [];
@@ -35,14 +33,6 @@ class Usuario extends Pessoa {
 
     public setId(id: number): void {
         this.id = id;
-    }
-
-    public getUserName(): string {
-        return this.userName;
-    }
-
-    public setUserName(userName: string): void {
-        this.userName = this.userName;
     }
 
     public getEmail(): string {
