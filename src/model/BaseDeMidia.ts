@@ -188,4 +188,17 @@ export default class BaseDeMidia implements Observer {
         return midia.getDuracao();
     }
 
+    public listarFilme(quantidadeFilme: number): Array<Filme> {
+        
+        const listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
+        const filmes: Array<Filme> = listaDeMidia.filter(midia => midia instanceof Filme) as Array<Filme>;
+        return filmes.slice(0, quantidadeFilme);
+    }
+
+    public listarSerie(quantidadeSerie: number): Array<Serie> {
+        
+        const listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
+        const series: Array<Serie> = listaDeMidia.filter(midia => midia instanceof Serie) as Array<Serie>;
+        return series.slice(0, quantidadeSerie);
+    }
 }
