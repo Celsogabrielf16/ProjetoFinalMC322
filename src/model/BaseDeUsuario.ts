@@ -54,13 +54,13 @@ export default class BaseDeUsuario implements Observer{
     }
 
     /**
-     * Verifica se existe um usuário válido com o username especificado.
-     * @param username Username do usuário a ser verificado.
+     * Verifica se existe um usuário válido com o email especificado.
+     * @param email email do usuário a ser verificado.
      * @returns O usuário encontrado ou null se nenhum usuário for encontrado com o username especificado.
      */
-    public usuarioValido(username: string): Usuario | null {
+    public usuarioValido(email: string): Usuario | null {
         for (const usuario of this.listaUsuarios) {
-            if (usuario.getUsername() === username) {
+            if (usuario.getEmail() === email) {
                 return usuario;
             }
         }
@@ -87,18 +87,16 @@ export default class BaseDeUsuario implements Observer{
 
     /**
      * Cadastra um novo usuário se o username não estiver em uso.
-     * @param username Username do novo usuário.
      * @param nome Nome do novo usuário.
      * @param senha Senha do novo usuário.
-     * @param idade Idade do novo usuário.
      * @param email Email do novo usuário.
      * @returns O usuário recém-cadastrado ou null se o username já estiver em uso.
      */
-    public cadastrar(username: string, nome: string, senha: string, idade: number, email: string): Usuario | null {
-        if (this.usuarioValido(username)) {
-            return null; // Username já está em uso
+    public cadastrar(nome: string, senha: string, email: string): Usuario | null {
+        if (this.usuarioValido(email)) {
+            return null; // email já está em uso
         }
-        let usuarioNovo = new Usuario(username, nome, senha, idade, email);
+        let usuarioNovo = new Usuario(nome, senha, email);
         this.adicionaUsuario(usuarioNovo);
         return usuarioNovo;
     }
@@ -159,13 +157,6 @@ export default class BaseDeUsuario implements Observer{
         return this.usuarioAtivo.getID();
     }
 
-    /**
-     * Método para obter o nome de usuário do usuário.
-     * @returns O nome de usuário do usuário.
-     */
-    public getUserName(): string {
-        return this.usuarioAtivo.getUserName();
-    }
 
     /**
      * Método para obter o email do usuário.
@@ -181,13 +172,5 @@ export default class BaseDeUsuario implements Observer{
      */
     public getNome(): string {
         return this.usuarioAtivo.getNome();
-    }
-
-    /**
-     * Método para obter a idade do usuário.
-     * @returns A idade do usuário.
-     */
-    public getIdade(): number {
-        return this.usuarioAtivo.getIdade();
     }
 }
