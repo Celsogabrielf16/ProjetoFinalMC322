@@ -92,14 +92,6 @@ export default class BaseDeUsuarioController {
     }
 
     /**
-     * Método para obter o nome de usuário do usuário.
-     * @returns O nome de usuário do usuário.
-     */
-    public getUserName(): string {
-        return this.baseDeUsuario.getUserName();
-    }
-
-    /**
      * Método para obter o email do usuário.
      * @returns O email do usuário.
      */
@@ -113,13 +105,5 @@ export default class BaseDeUsuarioController {
      */
     public getNome(): string {
         return this.baseDeUsuario.getNome();
-    }
-
-    /**
-     * Método para obter a idade do usuário.
-     * @returns A idade do usuário.
-     */
-    public getIdade(): number {
-        return this.baseDeUsuario.getIdade();
     }
 }
