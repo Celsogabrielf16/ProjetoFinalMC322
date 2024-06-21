@@ -4,7 +4,7 @@ import Filme from './Filme';
 import Serie from './Serie';
 import Avaliacao from './Avaliacao';
 
-export default class BaseDeUsuario {
+export default class BaseDeUsuario implements Observer{
     private static instancia: BaseDeUsuario;
     private usuarioAtivo: Usuario | null = null;
     private lerUsuario: LerUsuario;
@@ -143,6 +143,12 @@ export default class BaseDeUsuario {
      */
     public inserirAvaliacao(avaliacao: Avaliacao): void {
         this.usuarioAtivo.setAvaliacoes(avaliacao);
+    }
+
+    public update(avaliacao: Avaliacao): void {
+        if (this.usuarioAtivo) {
+            this.usuarioAtivo.setAvaliacoes(avaliacao);
+        }
     }
 
     /**

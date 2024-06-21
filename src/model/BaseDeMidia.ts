@@ -106,7 +106,6 @@ export default class BaseDeMidia implements Observer {
 
     public update(avaliacao: Avaliacao): void {
         this.adicionarAvaliacao(avaliacao);
-        console.log("BaseDeMidia recebeu uma nova avaliação:", avaliacao);
     }
 
     /**
