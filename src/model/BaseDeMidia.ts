@@ -66,6 +66,18 @@ export default class BaseDeMidia implements Observer {
     }
 
     /**
+     * Método que identifica a midia com base no seu nome.
+     * @param nomeMidia O nome da mídia a ser procurada.
+     * @returns A midia, filme ou série.
+    */
+       public obtemMidiaPeloNome(nomeMidia: string): Filme | Serie{
+
+        let listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
+        let midiaEncontrada = listaDeMidia.find(midia => midia.titulo === nomeMidia);
+        return midiaEncontrada || null;
+    }
+
+    /**
      * Adiciona uma avaliação ao filme ou série.
      * @param Avaliacao avaliação.
      */
