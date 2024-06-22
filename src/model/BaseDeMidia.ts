@@ -2,10 +2,7 @@ import Midia from './Midia';
 import LerMidia from './LerMidia';
 import Filme from './Filme';
 import Serie from './Serie';
-import Diretor from './Diretor';
-import Elenco from './Elenco';
 import Avaliacao from './Avaliacao';
-import Categoria from './Categoria';
 import Observer from './Observer';
 
 export default class BaseDeMidia implements Observer {
@@ -46,14 +43,14 @@ export default class BaseDeMidia implements Observer {
      * Método que cria a lista de mídias utilizando o método lerArquivo() de LerMidia.
      * Atualiza a lista de mídias na instância atual.
      */
-    public criaListaMidia() {
+    public criaListaMidia(): void {
         this.listaMidia = this.lerMidia.lerArquivo();
     }
 
     /**
      * Método que salva a lista de Midia utilizando o método escreverArquivo() de LerMidia.
     */
-    public salvaListaMidia() {
+    public salvaListaMidia(): void {
         this.lerMidia.escreverArquivo(this.getListaMidia());
     }
 
@@ -65,31 +62,19 @@ export default class BaseDeMidia implements Observer {
 
         let listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
         let midiaEncontrada = listaDeMidia.find(midia => midia.id === id);
-        
         return midiaEncontrada || null;
     }
 
     /**
-     * Lista os diretores da série.
-     * @returns Todos os diretores da série.
-     */
-    public listarDiretores(serie: Serie): Array<Diretor>{
-        return serie.listarDiretores();
-    }
+     * Método que identifica a midia com base no seu nome.
+     * @param nomeMidia O nome da mídia a ser procurada.
+     * @returns A midia, filme ou série.
+    */
+       public obtemMidiaPeloNome(nomeMidia: string): Filme | Serie{
 
-    /**
-     * Lista as avaliações do filme ou série.
-     */
-    public listarAvaliacoes(midia: Filme | Serie): Array<Avaliacao> {
-        return midia.listarAvaliacoes();
-
-    }
-
-    /**
-     * Lista as categorias do filme ou série.
-     */
-    public listarCategorias(midia: Filme | Serie): Array<Categoria> {
-        return midia.listarCategorias();
+        let listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
+        let midiaEncontrada = listaDeMidia.find(midia => midia.titulo === nomeMidia);
+        return midiaEncontrada || null;
     }
 
     /**
@@ -97,107 +82,51 @@ export default class BaseDeMidia implements Observer {
      * @param Avaliacao avaliação.
      */
     public adicionarAvaliacao(avaliacao: Avaliacao): void {
-        const nomeMidia = avaliacao.getNomeMidia();
+        const idMidia = avaliacao.getIDMidia();
         this.listaMidia.forEach(midia => {
-            if (midia.getTitulo() === nomeMidia) {
+            if (midia.getID() === idMidia) {
                 midia.adicionarAvaliacao(avaliacao);
             }
         });
     }
 
+    /**
+     * Recalcula a média das avaliações de uma mídia específica.
+     * @param avaliacao A avaliação utilizada para identificar a mídia e recalcular a média.
+     */
+    public recalculaMediaAvaliacao(avaliacao: Avaliacao): void {
+        const midia = this.obtemMidiaPorID(avaliacao.getIDMidia());
+        midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes());
+    }
+
+    /**
+     * Adiciona uma nova avaliação e recalcula a média das avaliações da mídia.
+     * @param avaliacao A avaliação a ser adicionada.
+     */
     public update(avaliacao: Avaliacao): void {
         this.adicionarAvaliacao(avaliacao);
+        this.recalculaMediaAvaliacao(avaliacao);
     }
 
     /**
-     * Obtém as temporadas da serie.
-     * @returns As temporadas da serie.
+     * Retorna uma lista dos primeiros filmes disponíveis na lista de mídias.
+     * @param quantidadeFilme O número de filmes a serem listados.
+     * @returns Um array contendo os filmes listados.
      */
-    public getTemporadas(serie: Serie): number {
-        return serie.getTemporadas();
-    }
-
-    /**
-     * Obtém o diretor do filme.
-     * @returns O diretor do filme.
-     */
-    public getDiretor(filme: Filme): Diretor {
-        return filme.getDiretor();
-    }
-
-    /**
-     * Obtém o título do filme ou série.
-     * @returns O título do filme ou série.
-     */
-    public getTitulo(midia: Filme | Serie): string {
-        return midia.getTitulo();
-    }
-
-    /**
-     * Obtém a sinopse do filme ou série.
-     * @returns A sinopse do filme ou série.
-     */
-    public getSinopse(midia: Filme | Serie): string {
-        return midia.getSinopse();
-    }
-
-    /**
-     * Obtém o ano de lançamento do filme ou série.
-     * @returns O ano de lançamento do filme ou série.
-     */
-    public getAnoLancamento(midia: Filme | Serie): number {
-        return midia.getAnoLancamento();
-    }
-
-    /**
-     * Obtém a faixa etária do filme ou série.
-     * @returns A faixa etária do filme ou série.
-     */
-    public getFaixaEtaria(midia: Filme | Serie): number {
-        return midia.getFaixaEtaria();
-    }
-
-    /**
-     * Obtém a média das avaliações do filme ou série.
-     * @returns A média das avaliações do filme ou série.
-     */
-    public getMediaAvaliacao(midia: Filme | Serie): number {
-        return midia.getMediaAvaliacao();
-    }
-
-    /**
-     * Obtém o elenco do filme ou série.
-     * @returns O elenco do filme ou série.
-     */
-    public getElenco(midia: Filme | Serie): Elenco {
-        return midia.getElenco();
-    }
-
-    /**
-     * Obtém a URL da imagem de capa do filme ou série.
-     * @returns A URL da imagem de capa do filme ou série.
-     */
-    public getUrlImagem(midia: Filme | Serie): string {
-        return midia.getUrlImagem();
-    }
-
-    /**
-     * Obtém a duração do filme ou série.
-     * @returns A duração do filme ou série.
-     */
-    public getDuracao(midia: Filme | Serie): number {
-        return midia.getDuracao();
-    }
-
     public listarFilme(quantidadeFilme: number): Array<Filme> {
-        
+
         const listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
         const filmes: Array<Filme> = listaDeMidia.filter(midia => midia instanceof Filme) as Array<Filme>;
         return filmes.slice(0, quantidadeFilme);
     }
 
+    /**
+     * Retorna uma lista das primeiras séries disponíveis na lista de mídias.
+     * @param quantidadeSerie O número de séries a serem listadas.
+     * @returns Um array contendo as séries listadas.
+     */
     public listarSerie(quantidadeSerie: number): Array<Serie> {
-        
+
         const listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
         const series: Array<Serie> = listaDeMidia.filter(midia => midia instanceof Serie) as Array<Serie>;
         return series.slice(0, quantidadeSerie);
