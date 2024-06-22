@@ -10,3 +10,19 @@ h1 {
     font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
     color: aliceblue;
 }
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #EE1C64;
+}
