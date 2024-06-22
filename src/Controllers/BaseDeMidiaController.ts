@@ -74,7 +74,7 @@ export default class BaseDeMidiaController {
      * Obtém as temporadas da serie.
      * @returns As temporadas da serie.
      */
-    public getTemporadas(id: number): number {
+    public getTemporadas(id: number): string {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
         return midia.getTemporadas();
     }
@@ -119,7 +119,7 @@ export default class BaseDeMidiaController {
      * Obtém a faixa etária do filme ou série.
      * @returns A faixa etária do filme ou série.
      */
-    public getFaixaEtaria(id: number): number {
+    public getFaixaEtaria(id: number): string {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
         return midia.getFaixaEtaria();
     }
@@ -146,16 +146,34 @@ export default class BaseDeMidiaController {
      * Obtém a URL da imagem de capa do filme ou série.
      * @returns A URL da imagem de capa do filme ou série.
      */
-    public getUrlImagem(id: number): string {
+    public getImagemCapa(id: number): string {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
-        return midia.getUrlImagem();
+        return midia.getImagemCapa();
+    }
+
+    /**
+     * Obtém a URL da imagem de logo de uma mídia (filme ou série).
+     * @returns A URL da imagem de logo da mídia.
+     */
+    public getImagemLogo(id: number): string {
+        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        return midia.getImagemLogo();
+    }
+
+    /**
+    * Obtém a URL da imagem de banner de uma mídia (filme ou série).
+    * @returns A URL da imagem de banner da mídia.
+    */
+    public getImagemBanner(id: number): string {
+        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        return midia.getImagemBanner();
     }
 
     /**
      * Obtém a duração do filme ou série.
      * @returns A duração do filme ou série.
      */
-    public getDuracao(id: number): number {
+    public getDuracao(id: number): string {
         const midia = this.baseDeMidia.obtemMidiaPorID(id);
         return midia.getDuracao();
     }
