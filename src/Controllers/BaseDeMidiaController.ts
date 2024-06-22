@@ -58,7 +58,7 @@ export default class BaseDeMidiaController {
      * @returns Um array de objetos Filme.
      */
     public listarFilme(quantidadeFilme: number): Array<Filme> {
-        return this.baseDeMidia.istarFilme(quantidadeFilme);
+        return this.baseDeMidia.listarFilme(quantidadeFilme);
     }
     
     /**
