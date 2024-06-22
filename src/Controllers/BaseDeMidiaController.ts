@@ -71,6 +71,21 @@ export default class BaseDeMidiaController {
     }
 
     /**
+     * Método que identifica a midia com base no seu nome.
+     * @param nomeMidia O nome da mídia a ser procurada.
+     * @returns A midia, filme ou série.
+    */
+    public pesquisar(nomeMidia: string): Filme | Serie{
+
+        const midia = this.baseDeMidia.obtemMidiaPeloNome(nomeMidia);
+        if(midia){
+            return midia.getID();
+        }else{
+            return -1;
+        }
+    }
+
+    /**
      * Obtém as temporadas da serie.
      * @returns As temporadas da serie.
      */
