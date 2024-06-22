@@ -26,9 +26,13 @@
      "sobre": "Gil Kenan é um cineasta que explora o gênero de fantasia e terror. Conhecido por 'A Casa Monstro' e envolvimento em 'Five Nights at Freddy's' e 'Poltergeist'."
   },
   "anoLancamento": 2006,
-  "faixaEtaria": 10,
+  "faixaEtaria": "+10",
   "categorias": ["COMEDIA", "TERROR"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"1h 31m"
 },
 {
   "tipo": "Filme",
@@ -74,9 +78,13 @@
      "sobre": "Denis Villeneuve é um aclamado diretor canadense conhecido por seu trabalho em filmes de ficção científica e dramas, como 'A Chegada' e 'Blade Runner 2049'. Com 'Duna: Parte Dois', ele continua sua visão épica do clássico de Frank Herbert."
   },
   "anoLancamento": 2024,
-  "faixaEtaria": 14,
+  "faixaEtaria": "+14",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 46m"
 },
 {
   "tipo": "Filme",
@@ -110,9 +118,13 @@
      "sobre": "Dennis Dugan é um diretor americano conhecido por colaborar frequentemente com Adam Sandler, dirigindo comédias como 'Happy Gilmore' e 'Big Daddy'."
   },
   "anoLancamento": 2010,
-  "faixaEtaria": 12,
+  "faixaEtaria": "+12",
   "categorias": ["COMEDIA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"1h 42m"
 },
 {
   "tipo": "Filme",
@@ -138,9 +150,13 @@
      "sobre": "Adam Wingard é conhecido por dirigir filmes de terror e suspense, como 'Você é o Próximo' e 'A Bruxa de Blair'. Ele também dirigiu 'Godzilla vs. Kong' e retorna para comandar este novo capítulo do MonsterVerse."
   },
   "anoLancamento": 2024,
-  "faixaEtaria": 12,
+  "faixaEtaria": "+12",
   "categorias": ["ACAO", "FICCAOCIENTIFICA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"1h 55m"
 },
 {
   "tipo": "Filme",
@@ -174,9 +190,13 @@
      "sobre": "Martin Scorsese é um renomado cineasta americano, cuja carreira se estende por mais de cinco décadas. Ele é conhecido por seu estilo distintivo e filmes que exploram temas como a culpa e a redenção, a fé e a moralidade, muitas vezes através de personagens complexos e conturbados."
   },
   "anoLancamento": 2010,
-  "faixaEtaria": 16,
+  "faixaEtaria": "+16",
   "categorias": ["DRAMA", "MISTERIO"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 18m"
 },
 {
   "tipo": "Filme",
@@ -210,9 +230,13 @@
      "sobre": "Christopher Nolan é um aclamado cineasta britânico conhecido por seus filmes complexos e visualmente impressionantes. Ele é o cérebro por trás de 'Interestelar', trazendo à vida a visão do espaço profundo e da exploração intergaláctica."
   },
   "anoLancamento": 2014,
-  "faixaEtaria": 10,
+  "faixaEtaria": "+10",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 49m"
 },
 {
   "tipo": "Filme",
@@ -242,9 +266,13 @@
      "sobre": "Doug Liman é um diretor americano conhecido por filmes de ação e aventura. Ele dirigiu sucessos como 'A Identidade Bourne' e 'No Limite do Amanhã', e é reconhecido por seu estilo dinâmico e cenas de ação inovadoras."
   },
   "anoLancamento": 2024,
-  "faixaEtaria": 18,
+  "faixaEtaria": "+18",
   "categorias": ["ACAO", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 1m"
 },
 {
   "tipo": "Filme",
@@ -278,9 +306,13 @@
      "sobre": "Lilly e Lana Wachowski são cineastas conhecidas por seu trabalho em filmes de ficção científica e ação, incluindo a série Matrix. Elas são conhecidas por explorar temas complexos através de efeitos visuais inovadores e narrativas profundas."
   },
   "anoLancamento": 1999,
-  "faixaEtaria": 14,
+  "faixaEtaria": "+14",
   "categorias": ["ACAO", "FICCAOCIENTIFICA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 16m"
 },
 {
   "tipo": "Filme",
@@ -326,9 +358,13 @@
      "sobre": "Matt Reeves é um cineasta americano conhecido por dirigir filmes como 'Cloverfield', 'Planeta dos Macacos: A Guerra' e 'The Batman'. Ele é elogiado por sua habilidade em contar histórias visuais e por trazer uma nova perspectiva para franquias estabelecidas."
   },
   "anoLancamento": 2022,
-  "faixaEtaria": 13,
+  "faixaEtaria": "+13",
   "categorias": ["ACAO", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 56m"
 },
 {
   "tipo": "Filme",
@@ -358,9 +394,13 @@
      "sobre": "Jordan Peele é um cineasta conhecido por seu trabalho em filmes de terror psicológico que exploram temas sociais profundos. Ele ganhou reconhecimento com o filme 'Get Out' e continua a impressionar com seu estilo único de contar histórias."
   },
   "anoLancamento": 2019,
-  "faixaEtaria": 18,
+  "faixaEtaria": "+18",
   "categorias": ["MISTERIO", "TERROR", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "duracao":"2h 1m"
 },
 {
    "tipo": "Filme",
@@ -386,9 +426,13 @@
       "sobre": "Denis Villeneuve é um aclamado cineasta canadense conhecido por seu trabalho em filmes de suspense e ficção científica. Com uma carreira distinta que inclui títulos como 'Incêndios' e 'Sicario', Villeneuve é elogiado por sua habilidade em contar histórias complexas com profundidade emocional e visuais impressionantes."
    },
    "anoLancamento": 2016,
-   "faixaEtaria": 10,
+   "faixaEtaria": "+10",
    "categorias": ["FICCAOCIENTIFICA", "DRAMA"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"1h 56m"
 },
 {
    "tipo": "Filme",
@@ -422,9 +466,13 @@
       "sobre": "David Yates é um cineasta britânico, conhecido por dirigir os últimos quatro filmes da série Harry Potter e a série de filmes Animais Fantásticos. Sua direção em 'A Lenda do Tarzan' é marcada por uma visão moderna do clássico personagem, mantendo-se fiel à essência da história original enquanto explora temas contemporâneos."
    },
    "anoLancamento": 2016,
-   "faixaEtaria": 12,
+   "faixaEtaria": "+12",
    "categorias": ["ACAO", "AVENTURA"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"1h 50m"
 },
 {
    "tipo": "Filme",
@@ -474,9 +522,13 @@
       "sobre": "Os irmãos Russo, Joe e Anthony, são conhecidos por dirigir alguns dos filmes mais bem-sucedidos do Universo Cinematográfico Marvel, incluindo 'Vingadores: Ultimato'. Eles trazem sua experiência em ação e narrativas complexas para 'Agente Oculto', criando um thriller de espionagem com uma escala global."
    },
    "anoLancamento": 2022,
-   "faixaEtaria": 14,
+   "faixaEtaria": "+14",
    "categorias": ["ACAO"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"2h 2m"
 },
 {
    "tipo": "Filme",
@@ -510,9 +562,13 @@
       "sobre": "Steven Spielberg é um renomado cineasta, produtor e roteirista americano, conhecido por seus trabalhos em filmes icônicos e por ser um dos pioneiros da Nova Hollywood. Com uma carreira que abrange mais de quatro décadas, ele é um dos diretores mais reconhecidos e influentes na indústria cinematográfica mundial."
    },
    "anoLancamento": 2018,
-   "faixaEtaria": 14,
+   "faixaEtaria": "+14",
    "categorias": ["ACAO", "AVENTURA", "FICCAOCIENTIFICA"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"2h 20m"
 },
 {
    "tipo": "Filme",
@@ -546,9 +602,13 @@
       "sobre": "Scott Derrickson é um diretor conhecido por seus trabalhos em filmes de terror como 'O Exorcismo de Emily Rose' e 'A Entidade'. Ele também dirigiu 'Doutor Estranho' da Marvel. 'O Telefone Preto' marca seu retorno ao gênero de terror."
    },
    "anoLancamento": 2022,
-   "faixaEtaria": 16,
+   "faixaEtaria": "+16",
    "categorias": ["TERROR", "MISTERIO"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"1h 42m"
 },
 {
    "tipo": "Filme",
@@ -590,9 +650,13 @@
       "sobre": "Greg Mottola é um cineasta conhecido por dirigir comédias como 'Superbad' e 'Adventureland'. Seu estilo é marcado por um humor inteligente e uma abordagem sincera dos desafios da juventude."
    },
    "anoLancamento": 2007,
-   "faixaEtaria": 14,
+   "faixaEtaria": "+14",
    "categorias": ["COMEDIA"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "duracao":"1h 59m"
 },
 {
   "tipo": "Série",
@@ -637,7 +701,7 @@
         "papel": "Gus Fring"
      }
   ],
-  "diretor": [
+  "diretores": [
      {
         "nome": "Vince Gilligan",
         "sobre": "Vince Gilligan é o criador, roteirista, diretor e produtor executivo da série 'Breaking Bad'. Ele é conhecido por seu trabalho inovador na televisão, especialmente por transformar o protagonista em antagonista ao longo da série."
@@ -660,9 +724,13 @@
      }
   ],
   "anoLancamento": 2008,
-  "faixaEtaria": 16,
+  "faixaEtaria": "+16",
   "categorias": ["DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"5 temporadas"
 },
 {
   "tipo": "Série",
@@ -714,9 +782,13 @@
      }
   ],
   "anoLancamento": 2013,
-  "faixaEtaria": 14,
+  "faixaEtaria": "+14",
   "categorias": ["COMEDIA", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"8 temporadas"
 },
 {
   "tipo": "Série",
@@ -760,9 +832,13 @@
      }
   ],
   "anoLancamento": 2011,
-  "faixaEtaria": 18,
+  "faixaEtaria": "+18",
   "categorias": ["ACAO", "AVENTURA", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"8 temporadas"
 },
 {
   "tipo": "Série",
@@ -798,9 +874,13 @@
      }
   ],
   "anoLancamento": 2013,
-  "faixaEtaria": 18,
+  "faixaEtaria": "+18",
   "categorias": ["DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"6 temporadas"
 },
 {
   "tipo": "Série",
@@ -836,9 +916,13 @@
      }
   ],
   "anoLancamento": 2005,
-  "faixaEtaria": 16,
+  "faixaEtaria": "+16",
   "categorias": ["DRAMA", "ACAO"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"5 temporadas"
 },
 {
   "tipo": "Série",
@@ -878,9 +962,13 @@
      }
   ],
   "anoLancamento": 2023,
-  "faixaEtaria": 16,
+  "faixaEtaria": "+16",
   "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"1 temporada"
 },
 {
   "tipo": "Série",
@@ -908,9 +996,13 @@
      }
   ],
   "anoLancamento": 2014,
-  "faixaEtaria": 14,
+  "faixaEtaria": "+14",
   "categorias": ["ACAO", "DRAMA", "FICCAOCIENTIFICA", "MISTERIO"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"7 temporadas"
 },
 {
   "tipo": "Série",
@@ -950,9 +1042,13 @@
      }
   ],
   "anoLancamento": 2019,
-  "faixaEtaria": 18,
+  "faixaEtaria": "+18",
   "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"4 temporadas"
 },
 {
   "tipo": "Série",
@@ -996,9 +1092,13 @@
      }
   ],
   "anoLancamento": 2016,
-  "faixaEtaria": 14,
+  "faixaEtaria": "+14",
   "categorias": ["COMEDIA", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"4 temporadas"
 },
 {
   "tipo": "Série",
@@ -1042,9 +1142,13 @@
      }
   ],
   "anoLancamento": 2005,
-  "faixaEtaria": 0,
+  "faixaEtaria": "Livre",
   "categorias": ["COMEDIA", "DRAMA"],
-  "avaliacoes": []
+  "avaliacoes": [],
+  "imagemBanner":"",
+  "imagemCapa":"",
+  "imagemLogo":"",
+  "temporadas":"4 temporadas"
 },
 {
    "tipo": "Série",
@@ -1069,12 +1173,54 @@
          "papel": "Ulrich Nielsen"
       }
    ],
-   "diretor": {
+   "diretores": [{
       "nome": "Baran bo Odar",
       "sobre": "Baran bo Odar é conhecido por seu trabalho em 'Dark', aclamada série de drama, suspense e ficção científica. Junto com Jantje Friese, criou uma narrativa complexa que explora as implicações existenciais do tempo e seus efeitos sobre a natureza humana, ganhando reconhecimento mundial e prêmios importantes."
-   },
+   }],
    "anoLancamento": 2017,
-   "faixaEtaria": 16,
+   "faixaEtaria": "+16",
    "categorias": ["DRAMA", "MISTERIO"],
-   "avaliacoes": []
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "temporadas":"3 temporadas"
+},
+{
+   "tipo": "Série",
+   "id": 28,
+   "titulo": "One Piece: A Série",
+   "sinopse": "A série segue um jovem pirata capitão e sua tripulação em busca do título de Rei dos Piratas e do tesouro mítico conhecido como 'One Piece'.",
+   "elenco": [
+      {
+         "nome": "Iñaki Godoy",
+         "Papel": "Monkey D. Luffy"
+      },
+      {
+         "nome": "Emily Rudd",
+         "Papel": "Nami"
+      },
+      {
+         "nome": "Mackenyu",
+         "Papel": "Roronoa Zoro"
+      }
+   ],
+   "diretores": [
+      {
+         "nome": "Steven Maeda",
+         "sobre": "Steven Maeda é um diretor talentoso com uma vasta experiência em produção de séries de televisão. Ele é conhecido por seu trabalho em várias séries populares e tem uma abordagem criativa e inovadora para contar histórias."
+      },
+      {
+         "nome": "Matt Owens",
+         "sobre": "Steven Maeda é um diretor talentoso com uma vasta experiência em produção de séries de televisão. Ele é conhecido por seu trabalho em várias séries populares e tem uma abordagem criativa e inovadora para contar histórias."
+      }
+   ],
+   "anoLancamento": 2023,
+   "faixaEtaria": "+13",
+   "categorias": ["ACAO"],
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "temporadas":"1 temporada"
 }]
