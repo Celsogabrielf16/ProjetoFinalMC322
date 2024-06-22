@@ -89,7 +89,7 @@ body {
 }
 
 .form__item--error::before {
-    content: 'A tentativa de Login Falhou';
+    content: 'A tentativa de Entrar falhou';
     position: absolute;
     margin-top: 75px;
     margin-left: 10px;
