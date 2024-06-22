@@ -79,11 +79,21 @@ export default class BaseDeMidia implements Observer {
     }
 
     /**
-     * Atualiza a avaliação de uma mídia existente ou adiciona uma nova avaliação.
-     * @param avaliacao A avaliação a ser atualizada ou adicionada.
+     * Recalcula a média das avaliações de uma mídia específica.
+     * @param avaliacao A avaliação utilizada para identificar a mídia e recalcular a média.
+     */
+    public recalculaMediaAvaliacao(avaliacao: Avaliacao): void {
+        const midia = this.obtemMidiaPorID(avaliacao.getIDMidia());
+        midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes());
+    }
+
+    /**
+     * Adiciona uma nova avaliação e recalcula a média das avaliações da mídia.
+     * @param avaliacao A avaliação a ser adicionada.
      */
     public update(avaliacao: Avaliacao): void {
         this.adicionarAvaliacao(avaliacao);
+        this.recalculaMediaAvaliacao(avaliacao);
     }
 
     /**
