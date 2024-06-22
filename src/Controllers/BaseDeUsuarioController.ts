@@ -44,8 +44,8 @@ export default class BaseDeUsuarioController {
      * @param email Email do novo usuário.
      * @returns true se o cadastro foi bem-sucedido, false se o username já estiver em uso.
      */
-    public cadastrarUsuario(username: string, nome: string, senha: string, idade: number, email: string): boolean {
-        const novoUsuario = this.baseDeUsuario.cadastrar(username, nome, senha, idade, email);
+    public cadastrarUsuario(nome: string, senha: string, email: string): boolean {
+        const novoUsuario = this.baseDeUsuario.cadastrar(nome, senha, email);
         if (novoUsuario === null) {
             return false;
         }
