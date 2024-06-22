@@ -75,7 +75,7 @@ export default class BaseDeMidiaController {
      * @param nomeMidia O nome da mídia a ser procurada.
      * @returns A midia, filme ou série.
     */
-    public pesquisar(nomeMidia: string): Filme | Serie{
+    public pesquisar(nomeMidia: string): number{
 
         const midia = this.baseDeMidia.obtemMidiaPeloNome(nomeMidia);
         if(midia){
