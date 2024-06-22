@@ -3,6 +3,7 @@ import BaseDeUsuarioController from "../../Controllers/BaseDeUsuarioController.j
 class Entrar {
     private baseDeUsuarioController: BaseDeUsuarioController;
     private submitButton: HTMLElement;
+    private itemPassword: HTMLElement;
     private emailInput: HTMLInputElement;
     private senhaInput: HTMLInputElement;
 
@@ -10,6 +11,7 @@ class Entrar {
         this.baseDeUsuarioController = baseDeUsuarioController;
 
         this.submitButton = document.getElementById("submitButton") as HTMLElement;
+        this.itemPassword = document.getElementById("itemPassword") as HTMLElement;
         this.emailInput = document.getElementById("email") as HTMLInputElement;
         this.senhaInput = document.getElementById("password") as HTMLInputElement;
 
@@ -21,7 +23,14 @@ class Entrar {
     }
 
     private onClick(): void {
-        this.baseDeUsuarioController.autenticarUsuario(this.emailInput.value, this.senhaInput.value);
+        this.itemPassword.classList.remove("form__item--error");
+        let autenticou = this.baseDeUsuarioController.autenticarUsuario(this.emailInput.value, this.senhaInput.value);
+
+        if(autenticou) {
+            window.location.href = `/src/view/home/home.html`;
+        } else {
+            this.itemPassword.classList.add("form__item--error");
+        }
     }
 }
 

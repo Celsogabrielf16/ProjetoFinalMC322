@@ -81,6 +81,19 @@ body {
     display: grid;
     grid-template-columns: 15% 85%;
 }
+
+.form__item--error {
+    position: relative;
+    margin-bottom: 40px;
+    color: var(--danger-color);
+}
+
+.form__item--error::before {
+    content: 'A tentativa de Login Falhou';
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 10px;
+}
   
 .form__svg {
     display: flex;
