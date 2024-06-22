@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./entrar.css">
     <link rel="stylesheet" href="../../main.css">
-    <script src="/dist/view/entrar/entrar.js"></script>
+    <script type="module" src="/dist/view/entrar/entrar.js"></script>
     <title>Projeto Final</title>
 </head>
 <body>
@@ -32,17 +32,17 @@
                 <div class="form__svg">
                   <img src="./../../assets/icons/email.png" alt="Email">
                 </div>
-                <input class="form__input" type="text"  placeholder="Email" name="email"/>
+                <input class="form__input" type="text"  placeholder="Email" name="email" id="email"/>
             </div>
 
             <div class="form__item background-gradient-primary">
                 <div class="form__svg">
                   <img src="./../../assets/icons/password.png" alt="Senha">
                 </div>
-                <input class="form__input" type="text"  placeholder="Senha" name="password"/>
+                <input class="form__input" type="text"  placeholder="Senha" name="password" id="password"/>
             </div>
 
-            <div class="form__button background-gradient-secondary" type="submit">
+            <div class="form__button background-gradient-secondary" id="submitButton">
                 Entrar
             </div>
 
