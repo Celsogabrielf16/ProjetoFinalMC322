@@ -2,10 +2,7 @@ import Midia from './Midia';
 import LerMidia from './LerMidia';
 import Filme from './Filme';
 import Serie from './Serie';
-import Diretor from './Diretor';
-import Elenco from './Elenco';
 import Avaliacao from './Avaliacao';
-import Categoria from './Categoria';
 import Observer from './Observer';
 
 export default class BaseDeMidia implements Observer {
@@ -69,29 +66,6 @@ export default class BaseDeMidia implements Observer {
     }
 
     /**
-     * Lista os diretores da série.
-     * @returns Todos os diretores da série.
-     */
-    public listarDiretores(serie: Serie): Array<Diretor>{
-        return serie.listarDiretores();
-    }
-
-    /**
-     * Lista as avaliações do filme ou série.
-     */
-    public listarAvaliacoes(midia: Filme | Serie): Array<Avaliacao> {
-        return midia.listarAvaliacoes();
-
-    }
-
-    /**
-     * Lista as categorias do filme ou série.
-     */
-    public listarCategorias(midia: Filme | Serie): Array<Categoria> {
-        return midia.listarCategorias();
-    }
-
-    /**
      * Adiciona uma avaliação ao filme ou série.
      * @param Avaliacao avaliação.
      */
@@ -134,104 +108,5 @@ export default class BaseDeMidia implements Observer {
         const listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
         const series: Array<Serie> = listaDeMidia.filter(midia => midia instanceof Serie) as Array<Serie>;
         return series.slice(0, quantidadeSerie);
-    }
-
-    /**
-     * Obtém as temporadas da serie.
-     * @returns As temporadas da serie.
-     */
-    public getTemporadas(serie: Serie): string {
-        return serie.getTemporadas();
-    }
-
-    /**
-     * Obtém o diretor do filme.
-     * @returns O diretor do filme.
-     */
-    public getDiretor(filme: Filme): Diretor {
-        return filme.getDiretor();
-    }
-
-    /**
-     * Obtém o título do filme ou série.
-     * @returns O título do filme ou série.
-     */
-    public getTitulo(midia: Filme | Serie): string {
-        return midia.getTitulo();
-    }
-
-    /**
-     * Obtém a sinopse do filme ou série.
-     * @returns A sinopse do filme ou série.
-     */
-    public getSinopse(midia: Filme | Serie): string {
-        return midia.getSinopse();
-    }
-
-    /**
-     * Obtém o ano de lançamento do filme ou série.
-     * @returns O ano de lançamento do filme ou série.
-     */
-    public getAnoLancamento(midia: Filme | Serie): number {
-        return midia.getAnoLancamento();
-    }
-
-    /**
-     * Obtém a faixa etária do filme ou série.
-     * @returns A faixa etária do filme ou série.
-     */
-    public getFaixaEtaria(midia: Filme | Serie): string {
-        return midia.getFaixaEtaria();
-    }
-
-    /**
-     * Obtém a média das avaliações do filme ou série.
-     * @returns A média das avaliações do filme ou série.
-     */
-    public getMediaAvaliacao(midia: Filme | Serie): number {
-        return midia.getMediaAvaliacao();
-    }
-
-    /**
-     * Obtém o elenco do filme ou série.
-     * @returns O elenco do filme ou série.
-     */
-    public getElenco(midia: Filme | Serie): Elenco {
-        return midia.getElenco();
-    }
-
-    /**
-     * Obtém a URL da imagem de capa do filme ou série.
-     * @param midia A mídia (filme ou série) da qual se deseja obter a imagem de capa.
-     * @returns A URL da imagem de capa da mídia.
-     */
-    public getImagemCapa(midia: Filme | Serie): string {
-        return midia.getImagemCapa();
-    }
-
-    /**
-     * Obtém a URL da imagem de banner de uma mídia (filme ou série).
-     * @param midia A mídia (filme ou série) da qual se deseja obter a imagem de banner.
-     * @returns A URL da imagem de banner da mídia.
-     */
-    public getImagemBanner(midia: Filme | Serie): string {
-        return midia.getImagemBanner();
-    }
-
-    /**
-     * Obtém a URL da imagem de logo de uma mídia (filme ou série).
-     * @param midia A mídia (filme ou série) da qual se deseja obter a imagem de logo.
-     * @returns A URL da imagem de logo da mídia.
-     */
-    public getImagemLogo(midia: Filme | Serie): string {
-        return midia.getImagemLogo();
-    }
-
-    /**
-     * Obtém a duração do filme ou série.
-     * @returns A duração do filme ou série.
-     */
-    public getDuracao(midia: Filme | Serie): string {
-        return midia.getDuracao();
     }
 }
