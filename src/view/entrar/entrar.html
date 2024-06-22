@@ -9,16 +9,48 @@
     <title>Projeto Final</title>
 </head>
 <body>
+    <nav class="navbar">
+
+        <h1 class="navbar__logo">
+            <a href="/">QuintaEstrela</a>
+        </h1>
+
+        <div class="navbar__menu">
+            <a class="navbar__link" href="/src/view/entrar/entrar.html">Entrar</a>
+            <a class="navbar__link navbar__link--gradient" href="/src/view/cadastrar/cadastrar.html">Cadastrar-se</a>
+        </div>
+
+    </nav>
+
     <main class="main-content">
-        <nav class="navbar">
-            <h1 class="navbar__logo">
-                <a href="/">QuintaEstrela</a>
-            </h1>
-            <div class="navbar__menu">
-                <a class="navbar__link" href="">Entrar</a>
-                <a class="navbar__link navbar__link--gradient" href="">Cadastrar-se</a>
+
+        <form class="form">
+
+            <h2 class="form__title"><b class="form__text--gradient">E</b>ntrar</h2>
+
+            <div class="form__item background-gradient-primary">
+                <div class="form__svg">
+                  <img src="./../../assets/icons/email.png" alt="Email">
+                </div>
+                <input class="form__input" type="text"  placeholder="Email" name="email"/>
             </div>
-        </nav>
+
+            <div class="form__item background-gradient-primary">
+                <div class="form__svg">
+                  <img src="./../../assets/icons/password.png" alt="Senha">
+                </div>
+                <input class="form__input" type="text"  placeholder="Senha" name="password"/>
+            </div>
+
+            <div class="form__button background-gradient-secondary" type="submit">
+                Entrar
+            </div>
+
+            <p class="form__text">
+                Não tem uma conta? <a href="/src/view/cadastrar/cadastrar.html" class="form__text--gradient">Cadastre-se<a>
+            </p>
+
+        </form>
     </main>
 </body>
 </html>

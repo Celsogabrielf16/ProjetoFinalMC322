@@ -5,11 +5,45 @@
     --primary-color: #FFCA39;
     --secondary-color: #EE1C64;
     --dark-color: #0D1115;
-    --gray-color: #56585B;
-    --gray-light-color: #C5C7D1;
+    --gray-primary-color: #56585B;
+    --gray-secondary-color: #C5C7D1;
+    --gray-tertiary-color: #D0CFD0;
     --light-color: #f8f9fa;
+    --white-color: #ffffff;
     --gradient-primary: linear-gradient(350deg, #FFCA39, #EE1C64);
+    --gradient-secondary: linear-gradient(350deg, rgba(255, 202, 57, 0.6), rgba(238, 28, 100, 0.6));
+    --gradient-tertiary: linear-gradient(350deg, rgba(255, 202, 57, 0.3), rgba(238, 28, 100, 0.3));
 
     --font-primary: 'Poppins', Arial, sans-serif;
     --font-display: 'Leckerli One', Arial, sans-serif;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px var(--dark-color) inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--light-color) !important;
+}
+
+input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 30px none inset;
+}
+
+.background-gradient-primary {
+    backdrop-filter: blur(10px);
+    border: double 2px transparent;
+    border-radius: 24px;
+    background-image: linear-gradient(var(--dark-color), var(--dark-color)), var(--gradient-tertiary);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.background-gradient-secondary {
+    backdrop-filter: blur(10px);
+    border: double 2px transparent;
+    border-radius: 24px;
+    background-image: linear-gradient(var(--dark-color), var(--dark-color)), var(--gradient-primary);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }

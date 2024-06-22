@@ -2,21 +2,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--dark-color);
-}
-
-.main-content {
-    width: 100vw;
-    height: 100%;
+    font-family: var(--font-primary);
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .navbar {
     width: 90%;
     min-width: 1600px;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,7 +33,6 @@ body {
 .navbar__link {
     text-decoration: none;
     font-weight: 600;
-    font-family: var(--font-primary);
     font-size: 1rem;
     color: var(--light-color);
 }
@@ -49,5 +42,82 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+
+.main-content {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title {
+    font-size: 3rem;
+    color: var(--light-color);
+    width: 100%;
+    text-align: center;
+}
+
+.form__text--gradient {
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+  
+.form__item {
+    width: 400px;
+    height: 55px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+  
+.form__svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__input {
+    padding-right: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--gray-tertiary-color);
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.form__input::placeholder {
+    color: var(--gray-primary-color);
+}
+
+.form__button {
+    width: 400px;
+    height: 55px;
+    margin-top: 20px;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.form__text {
+    margin-top: 20px;
+    text-align: center;
     color: var(--light-color);
 }
