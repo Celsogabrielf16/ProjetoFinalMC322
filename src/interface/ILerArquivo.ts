@@ -1,4 +1,4 @@
-export interface ILerArquivos {
+export default interface ILerArquivos {
     lerArquivo(): void;
     escreverArquivo(): void;
 }

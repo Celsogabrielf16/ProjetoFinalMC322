@@ -1,5 +1,5 @@
 import Avaliacao from './Avaliacao'
 
-interface Observer {
+export default interface Observer {
     update(avaliacao: Avaliacao): void;
 }
