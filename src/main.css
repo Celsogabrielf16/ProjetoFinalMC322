@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet');
+
+:root {
+    --primary-color: #FFCA39;
+    --secondary-color: #EE1C64;
+    --dark-color: #0D1115;
+    --gray-color: #56585B;
+    --gray-light-color: #C5C7D1;
+    --light-color: #f8f9fa;
+    --gradient-primary: linear-gradient(350deg, #FFCA39, #EE1C64);
+
+    --font-primary: 'Poppins', Arial, sans-serif;
+    --font-display: 'Leckerli One', Arial, sans-serif;
+}
