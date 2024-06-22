@@ -70,9 +70,9 @@ export default class BaseDeMidia implements Observer {
      * @param Avaliacao avaliação.
      */
     public adicionarAvaliacao(avaliacao: Avaliacao): void {
-        const nomeMidia = avaliacao.getNomeMidia();
+        const idMidia = avaliacao.getIDMidia();
         this.listaMidia.forEach(midia => {
-            if (midia.getTitulo() === nomeMidia) {
+            if (midia.getID() === idMidia) {
                 midia.adicionarAvaliacao(avaliacao);
             }
         });
