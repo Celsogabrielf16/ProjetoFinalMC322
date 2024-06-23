@@ -1,0 +1,250 @@
+[   {
+        "email": "alice.silva.99@yahoo.com",
+        "senha": "Yun33ONsMpm8",
+        "nome": "Alice Silva",
+        "filmesFavoritos": [
+            "The Batman",
+            "Matrix",
+            "The Boys"
+        ],
+        "seriesFavoritos": [
+            "Game of Thrones",
+            "Breaking Bad",
+            "Silo"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 10,
+                "dataAvaliacao": "22/07/2020",
+                "comentario": "The Batman é incrível, não deixe de conferir.",
+                "nomeUsuario": "Alice Silva",
+                "idMidia": 6 
+            },
+            {
+                "notaAvaliacao": 6,
+                "dataAvaliacao": "26/09/2022",
+                "comentario": "Gostei muito de Breaking Bad, recomendo para todos!",
+                "nome_usuario": "Alice Silva",
+                "idMidia": 8
+            }
+        ]
+    },
+    {
+        "email": "bruno.oliveira.46@yahoo.com",
+        "senha": "rDfsMdfrfxY0",
+        "nome": "Bruno Oliveira",
+        "filmesFavoritos": [
+            "Matrix",
+            "The Batman",
+            "Ilha do Medo"
+        ],
+        "seriesFavoritos": [
+            "Breaking Bad",
+            "Dark",
+            "Brooklyn Nine-Nine"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 9,
+                "dataAvaliacao": "01/09/2020",
+                "comentario": "The Batman me surpreendeu, muito bom!",
+                "nome_usuario": "Bruno Oliveira",
+                "idMidia": 6
+            },
+            {
+                "notaAvaliacao": 7,
+                "dataAvaliacao": "10/03/2021",
+                "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+                "nome_usuario": "Bruno Oliveira",
+                "idMidia": 9
+            }
+        ]
+    },
+    {
+        "email": "carlos.souza.40@gmail.com",
+        "senha": "MHMtHqS6ycXZ",
+        "nome": "Carlos Souza",
+        "filmesFavoritos": [
+            "The Batman",
+            "Breaking Bad",
+            "Silo"
+        ],
+        "seriesFavoritos": [
+            "The Boys",
+            "One Piece",
+            "Peaky Blinders"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 4,
+                "dataAvaliacao": "05/12/2023",
+                "comentario": "Gostei muito de Silo, recomendo para todos!",
+                "nome_usuario": "Carlos Souza",
+                "idMidia": 13
+            },
+            {
+                "notaAvaliacao": 6,
+                "dataAvaliacao": "15/08/2022",
+                "comentario": "The Boys é incrível, não deixe de conferir.",
+                "nome_usuario": "Carlos Souza",
+                "idMidia": 12
+            }
+        ]
+    },
+    {
+        "email": "daniela.lima.14@gmail.com",
+        "senha": "s!2NlP)F37lB",
+        "nome": "Daniela Lima",
+        "filmesFavoritos": [
+            "Brooklyn Nine-Nine",
+            "Silo",
+            "The Boys"
+        ],
+        "seriesFavoritos": [
+            "Peaky Blinders",
+            "The Boys",
+            "Dark"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 5,
+                "dataAvaliacao": "17/07/2023",
+                "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+                "nome_usuario": "Daniela Lima",
+                "idMidia": 9
+            },
+            {
+                "notaAvaliacao": 8,
+                "dataAvaliacao": "20/11/2020",
+                "comentario": "Dark me surpreendeu, muito bom!",
+                "nome_usuario": "Daniela Lima",
+                "idMidia": 14
+            }
+        ]
+    },
+    {
+        "email": "eduardo.pereira.96@outlook.com",
+        "senha": "zq2EF^1KNbRP",
+        "nome": "Eduardo Pereira",
+        "filmesFavoritos": [
+            "One Piece",
+            "Dark",
+            "Matrix"
+        ],
+        "seriesFavoritos": [
+            "Game of Thrones",
+            "Dark",
+            "Breaking Bad"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 9,
+                "dataAvaliacao": "08/06/2021",
+                "comentario": "One Piece é incrível, não deixe de conferir.",
+                "nome_usuario": "Eduardo Pereira",
+                "idMidia": 15
+            },
+            {
+                "notaAvaliacao": 7,
+                "dataAvaliacao": "14/01/2020",
+                "comentario": "Dark foi uma ótima experiência, vale a pena assistir.",
+                "nome_usuario": "Eduardo Pereira",
+                "idMidia": 14
+            }
+        ]
+    },
+    {
+        "email": "fernanda.costa.23@yahoo.com",
+        "senha": "fXd8L#z0J4Bm",
+        "nome": "Fernanda Costa",
+        "filmesFavoritos": [
+            "Matrix",
+            "Dark",
+            "Brooklyn Nine-Nine"
+        ],
+        "seriesFavoritos": [
+            "The Boys",
+            "Silo",
+            "Peaky Blinders"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 7,
+                "dataAvaliacao": "25/03/2022",
+                "comentario": "Gostei muito de Matrix, recomendo para todos!",
+                "nome_usuario": "Fernanda Costa",
+                "idMidia": 5
+            },
+            {
+                "notaAvaliacao": 6,
+                "dataAvaliacao": "09/10/2021",
+                "comentario": "Silo é bom, mas poderia ser melhor.",
+                "nome_usuario": "Fernanda Costa",
+                "idMidia": 13
+            }
+        ]
+    },
+    {
+        "email": "gabriel.martins.87@hotmail.com",
+        "senha": "XIaGPuH@1PUK",
+        "nome": "Gabriel Martins",
+        "filmesFavoritos": [
+            "Brooklyn Nine-Nine",
+            "Silo",
+            "Ilha do Medo"
+        ],
+        "seriesFavoritos": [
+            "Peaky Blinders",
+            "The Boys",
+            "One Piece"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 8,
+                "dataAvaliacao": "29/10/2023",
+                "comentario": "Ilha do Medo foi uma ótima experiência, vale a pena assistir.",
+                "nome_usuario": "Gabriel Martins",
+                "idMidia": 2
+            },
+            {
+                "notaAvaliacao": 10,
+                "dataAvaliacao": "19/04/2021",
+                "comentario": "Gostei muito de Dark, recomendo para todos!",
+                "nome_usuario": "Gabriel Martins",
+                "idMidia": 14
+            }
+        ]
+    },
+    {
+        "email": "helena.rodrigues.69@outlook.com",
+        "senha": "Z75lTp%I$7^H",
+        "nome": "Helena Rodrigues",
+        "filmesFavoritos": [
+            "A Casa Monstro",
+            "Brooklyn Nine-Nine",
+            "Game of Thrones"
+        ],
+        "seriesFavoritos": [
+            "Brooklyn Nine-Nine",
+            "The Boys",
+            "Game of Thrones"
+        ],
+        "avaliacoes": [
+            {
+                "notaAvaliacao": 3,
+                "dataAvaliacao": "08/01/2021",
+                "comentario": "Brooklyn Nine-Nine me surpreendeu, muito bom!",
+                "nome_usuario": "Helena Rodrigues",
+                "idMidia": 9
+            },
+            {
+                "notaAvaliacao": 7,
+                "dataAvaliacao": "24/05/2023",
+                "comentario": "Game of Thrones é incrível, não deixe de conferir.",
+                "nome_usuario": "Helena Rodrigues",
+                "idMidia": 10
+            }
+        ]
+    }
+]
+
