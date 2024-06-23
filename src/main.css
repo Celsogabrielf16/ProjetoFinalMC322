@@ -11,7 +11,7 @@
     --gray-tertiary-color: #D0CFD0;
     --light-color: #f8f9fa;
     --white-color: #ffffff;
-    --gradient-primary: linear-gradient(350deg, #FFCA39, #EE1C64);
+    --gradient-primary: linear-gradient(150deg, #FFCA39, #EE1C64);
     --gradient-secondary: linear-gradient(350deg, rgba(255, 202, 57, 0.6), rgba(238, 28, 100, 0.6));
     --gradient-tertiary: linear-gradient(350deg, rgba(255, 202, 57, 0.3), rgba(238, 28, 100, 0.3));
 
@@ -47,4 +47,22 @@ input:-webkit-autofill:hover {
     background-image: linear-gradient(var(--dark-color), var(--dark-color)), var(--gradient-primary);
     background-origin: border-box;
     background-clip: content-box, border-box;
+}
+
+.text--gradient-font-primary {
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+
+.text--gradient-font-display {
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+    font-family: var(--font-display);
+    font-size: 3.2rem;
 }

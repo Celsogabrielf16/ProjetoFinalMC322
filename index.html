@@ -5,18 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./src/main.css">
+    <script src="/dist/index.js"></script>
     <title>Projeto Final</title>
 </head>
 <body>
-    <h1>Leading Page Work!</h1>
-    <div class="links">
-        <a href="./src/view/home/home.html">Ir para a Home</a>
-        <a href="./src/view/detalhesMidia/detalhesMidia.html">Ir para os Detalhes da Midia</a>
-        <a href="./src/view/avaliacoesUsuario/avaliacoesUsuario.html">Ir para as Avaliações do Usuario</a>
-        <a href="./src/view/favoritosUsuario/favoritosUsuario.html">Ir para os Favoritos do Usuario</a>
-        <a href="./src/view/entrar/entrar.html">Ir para Entrar</a>
-        <a href="./src/view/cadastrar/cadastrar.html">Ir para Cadastrar</a>
-    </div>
-    <script src="/dist/index.js"></script>
+    <nav class="navbar">
+
+        <h1 class="navbar__logo">
+            <a href="/">QuintaEstrela</a>
+        </h1>
+
+        <div class="navbar__menu">
+            <a class="navbar__link" href="/src/view/home/home.html">Ir para a Home</a>
+            <a class="navbar__link" href="/src/view/detalhesMidia/detalhesMidia.html">Ir para os Detalhes da Midia</a>
+            <a class="navbar__link" href="/src/view/avaliacoesUsuarios/avaliacoesUsuarios.html">Ir para as Avaliações do Usuario</a>
+            <a class="navbar__link" href="/src/view/favoritosUsuario/favoritosUsuario.html">Ir para os Favoritos do Usuario</a>
+            <a class="navbar__link" href="/src/view/entrar/entrar.html">Entrar</a>
+            <a class="navbar__link navbar__link--gradient" href="/src/view/cadastrar/cadastrar.html">Cadastrar-se</a>
+        </div>
+
+    </nav>
+
+    <main class="main-content">
+        <div class="detail"></div>
+        <section class="content-section">
+            <div class="content-section__principal-information">
+                <div class="principal-information__text">
+                    <h6 class="text__title">
+                        Descubra as <b class="text--gradient-font-display">melhores</b> <b class="text--gradient-font-display">histórias</b> através dos olhos de verdadeiros <b class="text--gradient-font-display">cinéfilos</b>
+                    </h6>
+                    <p class="text__paragraph">
+                        Avalie filmes e séries, adicione aos seus favoritos e explore detalhes completos de cada obra.
+                    </p>
+                    <a href="/src/view/cadastrar/cadastrar.html" class="text__button background-gradient-secondary">
+                        Cadastrar-se
+                    </a>
+                </div>
+                <div class="principal-information__cards">
+                    <img src="./src/assets/icons/cards.png">
+                </div>
+            </div>
+            <div class="content-section__brands">
+                <img src="./src/assets/icons/brands.png">
+            </div>
+        </section>
+    </main>
 </body>
 </html>

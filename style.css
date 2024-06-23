@@ -1,28 +1,108 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0c0c0c;
+    height: 100vh;
+    background-color: var(--dark-color);
+    font-family: var(--font-primary);
+    overflow: hidden;
 }
 
-h1 {
-    width: 100%;
-    text-align: center;
-    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-}
-
-.links {
+.navbar {
+    left: 5%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
+.navbar__logo {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar__link {
     text-decoration: none;
-    text-align: center;
-    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--light-color);
 }
 
-a:hover {
-    color: #EE1C64;
+.navbar__link--gradient {
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+
+.main-content {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    gap: 100px;
+}
+
+.detail {
+    width: 4px;
+    height: 780px;
+    background: linear-gradient(0deg, var(--secondary-color), var(--primary-color), var(--dark-color));
+}
+
+.content-section {
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.content-section__principal-information {
+    display: flex;
+    gap: 120px;
+}
+
+.principal-information__text {
+    color: var(--light-color);
+    max-width: 700px;
+}
+
+.text__title {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.text__paragraph {
+    font-size: 1.2rem;
+}
+
+.text__button {
+    width: 300px;
+    height: 55px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.content-section__brands {
+    display: flex;
+    gap: 120px;
+}
+
+.content-section__brands img {
+    height: 60px; 
 }
