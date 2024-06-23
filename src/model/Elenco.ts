@@ -1,4 +1,4 @@
-import { Ator } from "./Ator"
+import Ator from "./Ator"
 
 export default class Elenco {
     private listaDeAtores: Array<Ator>;

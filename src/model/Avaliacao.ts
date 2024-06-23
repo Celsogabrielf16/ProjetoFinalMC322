@@ -1,25 +1,18 @@
-import { Usuario } from "./Usuario"
+export default abstract class Avaliacao {
 
-export abstract class Avaliacao {
-
-    private id: number;
     private notaAvaliacao: number;
     private dataAvaliacao: string;
     private comentario: string;
-    private usuario: Usuario;
+    private nomeUsuario: string;
+    private idMidia: number;
 
-    constructor (id: number, avaliacao: number, dataAvaliacao: string,
-        comentario: string, usuario: Usuario
-    ) {
-        this.id = id;
+    constructor (avaliacao: number, dataAvaliacao: string,
+        comentario: string, nomeUsuario: string, idMidia: number) {
         this.notaAvaliacao = avaliacao;
         this.dataAvaliacao = dataAvaliacao;
         this.comentario = comentario;
-        this.usuario = usuario;
-    }
-
-    public getID(): number {
-        return this.id;
+        this.nomeUsuario = nomeUsuario;
+        this.idMidia = idMidia;
     }
 
     public getNotaAvaliacao(): number {
@@ -34,7 +27,11 @@ export abstract class Avaliacao {
         return this.comentario;
     }
 
-    public getUsuario(): Usuario {
-        return this.usuario;
+    public getNomeUsuario(): string {
+        return this.nomeUsuario;
+    }
+
+    public getIDMidia(): number {
+        return this.idMidia;
     }
 }

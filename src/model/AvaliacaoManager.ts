@@ -1,5 +1,5 @@
-import Subject from './Subject';
-import Observer from './Observer';
+import Subject from '../interface/ISubject';
+import Observer from '../interface/IObserver';
 import Avaliacao from './Avaliacao';
 
 export default class AvaliacaoManager implements Subject {

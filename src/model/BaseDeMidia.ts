@@ -1,9 +1,8 @@
-import Midia from './Midia';
 import LerMidia from './LerMidia';
 import Filme from './Filme';
 import Serie from './Serie';
 import Avaliacao from './Avaliacao';
-import Observer from './Observer';
+import Observer from '../interface/IObserver';
 
 export default class BaseDeMidia implements Observer {
     private static instancia: BaseDeMidia;
@@ -35,7 +34,7 @@ export default class BaseDeMidia implements Observer {
      * Retorna a lista de mídias atual.
      * @returns Um array contendo todas as mídias na base de mídias.
      */
-    public getListaMidia(): Array<Midia> {
+    public getListaMidia(): Array <Filme|Serie> {
         return this.listaMidia;
     }
 
@@ -44,7 +43,9 @@ export default class BaseDeMidia implements Observer {
      * Atualiza a lista de mídias na instância atual.
      */
     public criaListaMidia(): void {
-        this.listaMidia = this.lerMidia.lerArquivo();
+        this.lerMidia.lerArquivo().then(listaMidia => {
+            this.listaMidia = listaMidia;
+        });
     }
 
     /**
@@ -54,28 +55,28 @@ export default class BaseDeMidia implements Observer {
         this.lerMidia.escreverArquivo(this.getListaMidia());
     }
 
-   /**
+    /**
      * Método que identifica a midia com base no seu id.
      * @returns A midia, filme ou série.
     */
-    public obtemMidiaPorID(id: number): Filme | Serie{
+    public obtemMidiaPorID(id: number): Filme | Serie | null{
 
         let listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
-        let midiaEncontrada = listaDeMidia.find(midia => midia.id === id);
+        let midiaEncontrada = listaDeMidia.find(midia => midia.getID() === id);
         return midiaEncontrada || null;
     }
 
     /**
-     * Método que identifica a midia com base no seu nome.
+     * Método que identifica a mídia com base no seu nome.
      * @param nomeMidia O nome da mídia a ser procurada.
-     * @returns A midia, filme ou série.
-    */
-       public obtemMidiaPeloNome(nomeMidia: string): Filme | Serie{
-
+     * @returns A mídia encontrada (filme ou série) ou null se não encontrada.
+     */
+    public obtemMidiaPeloNome(nomeMidia: string): Filme | Serie | null {
         let listaDeMidia: Array<Filme | Serie> = this.getListaMidia();
-        let midiaEncontrada = listaDeMidia.find(midia => midia.titulo === nomeMidia);
+        let midiaEncontrada = listaDeMidia.find(midia => midia.getTitulo() === nomeMidia);
         return midiaEncontrada || null;
     }
+
 
     /**
      * Adiciona uma avaliação ao filme ou série.
@@ -95,7 +96,7 @@ export default class BaseDeMidia implements Observer {
      * @param avaliacao A avaliação utilizada para identificar a mídia e recalcular a média.
      */
     public recalculaMediaAvaliacao(avaliacao: Avaliacao): void {
-        const midia = this.obtemMidiaPorID(avaliacao.getIDMidia());
+        const midia = this.obtemMidiaPorID(avaliacao.getIDMidia()) as Filme | Serie;
         midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes());
     }
 

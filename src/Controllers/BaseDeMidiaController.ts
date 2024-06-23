@@ -1,10 +1,10 @@
-import Diretor from './Diretor';
-import BaseDeMidia from './BaseDeMidia';
-import Avaliacao from './Avaliacao';
-import Categoria from './Categoria';
-import Elenco from './Elenco';
-import Filme from './Filme';
-import Serie from './Serie';
+import Diretor from '../model/Diretor';
+import BaseDeMidia from '../model/BaseDeMidia';
+import Avaliacao from '../model/Avaliacao';
+import {Categoria} from '../model/Categorias';
+import Elenco from '../model/Elenco';
+import Filme from '../model/Filme';
+import Serie from '../model/Serie';
 
 export default class BaseDeMidiaController {
     private baseDeMidia: BaseDeMidia;
@@ -32,7 +32,7 @@ export default class BaseDeMidiaController {
      * @returns Todos os diretores da série.
      */
     public listarDiretores(id: number): Array<Diretor>{
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Serie;
         return midia.listarDiretores();
     }
 
@@ -40,15 +40,15 @@ export default class BaseDeMidiaController {
      * Lista as avaliações do filme ou série.
      */
     public listarAvaliacoes(id: number): Array<Avaliacao> {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
-        return midia.listarAvaliacoes();
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
+        return midia.listarAvaliacao();
     }
 
     /**
      * Lista as categorias do filme ou série.
      */
     public listarCategorias(id: number): Array<Categoria> {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie; 
         return midia.listarCategorias();
     }
 
@@ -90,7 +90,7 @@ export default class BaseDeMidiaController {
      * @returns As temporadas da serie.
      */
     public getTemporadas(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Serie;
         return midia.getTemporadas();
     }
 
@@ -99,7 +99,7 @@ export default class BaseDeMidiaController {
      * @returns O diretor do filme.
      */
     public getDiretor(id: number): Diretor {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme;
         return midia.getDiretor();
     }
 
@@ -108,7 +108,7 @@ export default class BaseDeMidiaController {
      * @returns O título do filme ou série.
      */
     public getTitulo(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getTitulo();
     }
 
@@ -117,7 +117,7 @@ export default class BaseDeMidiaController {
      * @returns A sinopse do filme ou série.
      */
     public getSinopse(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getSinopse();
     }
 
@@ -126,7 +126,7 @@ export default class BaseDeMidiaController {
      * @returns O ano de lançamento do filme ou série.
      */
     public getAnoLancamento(id: number): number {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getAnoLancamento();
     }
 
@@ -135,7 +135,7 @@ export default class BaseDeMidiaController {
      * @returns A faixa etária do filme ou série.
      */
     public getFaixaEtaria(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getFaixaEtaria();
     }
 
@@ -144,7 +144,7 @@ export default class BaseDeMidiaController {
      * @returns A média das avaliações do filme ou série.
      */
     public getMediaAvaliacao(id: number): number {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getMediaAvaliacao();
     }
 
@@ -153,7 +153,7 @@ export default class BaseDeMidiaController {
      * @returns O elenco do filme ou série.
      */
     public getElenco(id: number): Elenco {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getElenco();
     }
 
@@ -162,7 +162,7 @@ export default class BaseDeMidiaController {
      * @returns A URL da imagem de capa do filme ou série.
      */
     public getImagemCapa(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getImagemCapa();
     }
 
@@ -171,7 +171,7 @@ export default class BaseDeMidiaController {
      * @returns A URL da imagem de logo da mídia.
      */
     public getImagemLogo(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getImagemLogo();
     }
 
@@ -180,16 +180,16 @@ export default class BaseDeMidiaController {
     * @returns A URL da imagem de banner da mídia.
     */
     public getImagemBanner(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme | Serie;
         return midia.getImagemBanner();
     }
 
     /**
-     * Obtém a duração do filme ou série.
-     * @returns A duração do filme ou série.
+     * Obtém a duração do filme.
+     * @returns A duração do filme.
      */
     public getDuracao(id: number): string {
-        const midia = this.baseDeMidia.obtemMidiaPorID(id);
+        const midia = this.baseDeMidia.obtemMidiaPorID(id) as Filme;
         return midia.getDuracao();
     }
 }

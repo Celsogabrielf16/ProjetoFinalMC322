@@ -1,10 +1,10 @@
-import { Filme } from "./Filme"
-import { Serie } from "./Serie"
+import Filme from "./Filme"
+import Serie from "./Serie"
 import * as fs from 'fs';
 
 export default class LerMidia {
 
-    private parserMidia(midia: any, id: number): Filme | Serie | number {
+    private parserMidia(midia: any, id: number): Filme | Serie {
         // formata um filme e o retorna
         if(midia.tipo == "Filme") {
             return new Filme(id, midia.titulo, midia.sinopse, midia.anoLancamento,
@@ -14,15 +14,12 @@ export default class LerMidia {
         }
 
         // formata uma série e a retorna
-        else if(midia.tipo == "Serie") {
+        else {
             return new Serie(id, midia.titulo, midia.sinopse, midia.anoLancamento,
                 midia.faixaEtaria, midia.elenco, midia.categorias, midia.avaliacoes,
                 midia.imagemCapa, midia.imagemBanner, midia.imagemLogo, 
                 midia.temporadas, midia.diretores);
         }
-
-        // caso algo tenha dado errado
-        return 0;
     }
 
     public async lerArquivo() {
@@ -39,7 +36,9 @@ export default class LerMidia {
              * 
              * o parâmetro i se tornará o ID da mídia, na função parserMidia
             */
-            midias[i] = this.parserMidia(json[i], i);
+            if(json[i] != null){
+               midias[i] = this.parserMidia(json[i], i);
+            }
         }
     
         return midias;

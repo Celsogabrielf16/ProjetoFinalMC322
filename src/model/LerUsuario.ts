@@ -1,12 +1,12 @@
-import { Usuario } from "./Usuario"
+import Usuario from "./Usuario"
 import * as fs from "fs"
 
 export default class LerUsuario {
 
     private parserUsuario(user: any, id: number): Usuario {
         // formata um usuario e o retorna
-        return new Usuario(id, user.email, user.senha, user.filmesFavoritos,
-            user.seriesFavoritas, user.avaliacoes);
+        return new Usuario(id, user.email, user.senha, user.nome, user.filmesFavoritos,
+                            user.seriesFavoritas, user.avaliacoes);
     }
 
     public async lerArquivo() {

@@ -1,10 +1,10 @@
-import { Midia } from "./Midia";
-import { Avaliacao } from "./Avaliacao"
-import { Categoria } from "./Categorias"
-import { Elenco } from "./Elenco"
-import { Diretor } from "./Diretor"
+import Midia from "./Midia";
+import Avaliacao from "./Avaliacao"
+import {Categoria} from "./Categorias"
+import Elenco from "./Elenco"
+import Diretor from "./Diretor"
 
-export class Serie extends Midia {
+export default class Serie extends Midia {
 
     private temporadas: string;
     private diretores: Array<Diretor>;

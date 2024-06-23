@@ -3,11 +3,11 @@ import LerUsuario from './LerUsuario';
 import Filme from './Filme';
 import Serie from './Serie';
 import Avaliacao from './Avaliacao';
-import Observer from './Observer';
+import Observer from '../interface/IObserver';
 
 export default class BaseDeUsuario implements Observer{
     private static instancia: BaseDeUsuario;
-    private usuarioAtivo: Usuario | null = null;
+    private usuarioAtivo: Usuario | null;
     private lerUsuario: LerUsuario;
     private listaUsuarios: Array<Usuario>;
 
@@ -18,6 +18,7 @@ export default class BaseDeUsuario implements Observer{
         this.lerUsuario = new LerUsuario();
         this.listaUsuarios = [];
         this.criaListaUsuario();
+        this.usuarioAtivo = null;
     }
 
     /**
@@ -42,9 +43,11 @@ export default class BaseDeUsuario implements Observer{
 
     /**
      * Método que cria a lista de usuários utilizando o método lerArquivo() de LerUsuario.
-     */
+     */ 
     private criaListaUsuario(): void {
-        this.listaUsuarios = this.lerUsuario.lerArquivo();
+        this.lerUsuario.lerArquivo().then(listaUsuario => {
+            this.listaUsuarios = listaUsuario;
+        });
     }
 
     /**
@@ -97,7 +100,7 @@ export default class BaseDeUsuario implements Observer{
         if (this.usuarioValido(email)) {
             return null; // email já está em uso
         }
-        let usuarioNovo = new Usuario(this.getListaUsuarios().length + 1, email, senha, nome); // id: number, email: string, senha: string, nome: string
+        let usuarioNovo = new Usuario(this.getListaUsuarios().length + 1, email, senha, nome, [], [],[]); // id: number, email: string, senha: string, nome: string
         this.adicionaUsuario(usuarioNovo);
         return usuarioNovo;
     }
@@ -114,14 +117,22 @@ export default class BaseDeUsuario implements Observer{
      * Método para listar os favoritos do usuário.
      */
     public listarFavoritos(): Array <Filme | Serie> {
-        return this.usuarioAtivo.listarFavoritos(); 
+        if (this.usuarioAtivo) {
+            return this.usuarioAtivo.listarFavoritos();
+        } else {
+            return [];
+        }
     }
 
     /**
      * Método para listar as avaliações do usuário.
      */
     public listarAvaliacoes(): Array <Avaliacao>{
-        return this.usuarioAtivo.listarAvaliacoes();
+        if (this.usuarioAtivo) {
+            return this.usuarioAtivo.listarAvaliacoes();
+        }else{
+            return [];
+        }
     }
 
     /**
@@ -130,9 +141,13 @@ export default class BaseDeUsuario implements Observer{
      */
     public inserirFavorito(favorito: Filme | Serie): void {
         if (favorito instanceof Filme) {
-            this.usuarioAtivo.setFilmeFavorito(favorito);
+            if(this.usuarioAtivo){
+                this.usuarioAtivo.adicionarFilmeFavorito(favorito);
+            }
         } else if (favorito instanceof Serie) {
-            this.usuarioAtivo.setSerieFavorita(favorito);
+            if(this.usuarioAtivo){
+                this.usuarioAtivo.adicionarSerieFavorita(favorito);
+            }
         }
     }
 
@@ -150,8 +165,12 @@ export default class BaseDeUsuario implements Observer{
      * Método para obter o ID do usuário ativo.
      * @returns O ID do usuário ativo ou -1 se não houver um usuário ativo.
      */
-    public getIDUsuarioAtivo(): number { 
-        return this.usuarioAtivo.getID();
+    public getIDUsuarioAtivo(): number {
+        if (this.usuarioAtivo) {
+            return this.usuarioAtivo.getId();
+        }else{
+            return -1;
+        }
     }
 
 
@@ -160,7 +179,11 @@ export default class BaseDeUsuario implements Observer{
      * @returns O email do usuário.
      */
     public getEmail(): string {
-        return this.usuarioAtivo.getEmail();
+        if(this.usuarioAtivo){
+            return this.usuarioAtivo.getEmail();  
+        }else{
+            return "Email não encontrado!";
+        }
     }
 
     /**
@@ -168,6 +191,10 @@ export default class BaseDeUsuario implements Observer{
      * @returns O nome do usuário.
      */
     public getNome(): string {
-        return this.usuarioAtivo.getNome();
+        if(this.usuarioAtivo){
+            return this.usuarioAtivo.getNome();
+        }else{
+            return "Nome não encontrado!";
+        }
     }
 }

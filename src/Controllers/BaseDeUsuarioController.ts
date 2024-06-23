@@ -1,7 +1,7 @@
-import BaseDeUsuario from './BaseDeUsuario';
-import Filme from './Filme';
-import Serie from './Serie';
-import Avaliacao from './Avaliacao';
+import BaseDeUsuario from '../model/BaseDeUsuario';
+import Filme from '../model/Filme';
+import Serie from '../model/Serie';
+import Avaliacao from '../model/Avaliacao';
 
 export default class BaseDeUsuarioController {
     private baseDeUsuario: BaseDeUsuario;

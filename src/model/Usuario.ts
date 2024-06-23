@@ -12,15 +12,15 @@ export default class Usuario extends Pessoa {
     private seriesFavoritas: Serie[];
     private avaliacoes: Avaliacao[];
 
-    constructor(id: number, email: string, senha: string, nome: string) {
+    constructor(id: number, email: string, senha: string, nome: string, filmesFavoritos: Filme[], seriesFavoritas: Serie[], avaliacoes: Avaliacao[]) {
 
         super(nome);
         this.id = id;
         this.email = email;
         this.senha = senha;
-        this.filmesFavoritos = [];
-        this.seriesFavoritas = [];
-        this.avaliacoes = [];
+        this.filmesFavoritos = filmesFavoritos;
+        this.seriesFavoritas = seriesFavoritas;
+        this.avaliacoes = avaliacoes;
     }
 
     /**

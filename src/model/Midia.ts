@@ -1,6 +1,6 @@
-import { Categoria } from "./Categorias"
-import { Avaliacao } from "./Avaliacao"
-import { Elenco } from "./Elenco"
+import {Categoria} from "./Categorias"
+import Avaliacao from "./Avaliacao"
+import Elenco from "./Elenco"
 
 export default abstract class Midia {
 
@@ -35,7 +35,7 @@ export default abstract class Midia {
         this.imagemLogo = imagemLogo;
     }
 
-    private calculaMediaDasAvaliacoes(avaliacoes: Array<Avaliacao>): number {
+    public calculaMediaDasAvaliacoes(avaliacoes: Array<Avaliacao>): number {
         let numeroDeAvaliacoes = avaliacoes.length;
         this.mediaAvaliacao = 0;
 
