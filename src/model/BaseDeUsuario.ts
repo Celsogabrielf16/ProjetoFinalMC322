@@ -137,16 +137,12 @@ export default class BaseDeUsuario implements Observer{
     }
 
     /**
-     * Método para inserir uma avaliação do usuário.
-     * @param avaliacao Objeto do tipo Avaliacao a ser inserido na lista de avaliações.
+     * Atualiza as avaliações do usuário ativo.
+     * @param avaliacao - A avaliação a ser adicionada ao usuário ativo.
      */
-    public inserirAvaliacao(avaliacao: Avaliacao): void {
-        this.usuarioAtivo.setAvaliacoes(avaliacao);
-    }
-
     public update(avaliacao: Avaliacao): void {
         if (this.usuarioAtivo) {
-            this.usuarioAtivo.setAvaliacoes(avaliacao);
+            this.usuarioAtivo.adicionarAvaliacao(avaliacao);
         }
     }
 
