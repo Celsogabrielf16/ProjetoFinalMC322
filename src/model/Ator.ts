@@ -1,23 +1,20 @@
-class Ator extends Pessoa {
+import Pessoa from "./Pessoa";
+
+export default class Ator extends Pessoa {
 
     private papel: string;
 
-    constructor(papel: string, nome: string, idade: number) {
+    constructor(papel: string, nome: string) {
         
-        super(nome, idade);
+        super(nome);
         this.papel = papel;
     }
 
-     // Getter para papel
-
-     public get papel(): string {
-        return this._papel;
+     public getPapel(): string {
+        return this.papel;
     }
 
-    // Setter para papel
-
-    public set papel(papel: string) {
-        this._papel = papel;
+    public setPapel(papel: string):void {
+        this.papel = papel;
     }
-
 }

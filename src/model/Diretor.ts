@@ -1,23 +1,20 @@
-class Diretor extends Pessoa {
+import Pessoa from "./Pessoa";
+
+export default class Diretor extends Pessoa {
 
     private sobre: string;
 
-    constructor(sobre: string, nome: string, idade: number) {
+    constructor(sobre: string, nome: string) {
         
-        super(nome, idade);
+        super(nome);
         this.sobre = sobre;
     }
 
-     // Getter para o sobre
-
-     public get sobre(): string {
-        return this._sobre;
+    public getSobre(): string {
+        return this.sobre;
     }
 
-    // Setter para o sobre
-
-    public set sobre(sobre: string) {
-        this._sobre = sobre;
+    public setSobre(sobre: string): void {
+        this.sobre = sobre;
     }
-
 }
