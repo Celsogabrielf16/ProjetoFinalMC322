@@ -1,6 +1,6 @@
-import {Categoria} from "./Categorias"
-import Avaliacao from "./Avaliacao"
-import Elenco from "./Elenco"
+import {Categoria} from "./Categorias.js"
+import Avaliacao from "./Avaliacao.js"
+import Elenco from "./Elenco.js"
 
 export default abstract class Midia {
 

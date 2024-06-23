@@ -1,8 +1,8 @@
-import LerMidia from './LerMidia';
-import Filme from './Filme';
-import Serie from './Serie';
-import Avaliacao from './Avaliacao';
-import Observer from '../interface/IObserver';
+import LerMidia from './LerMidia.js';
+import Filme from './Filme.js';
+import Serie from './Serie.js';
+import Avaliacao from './Avaliacao.js';
+import Observer from '../interface/IObserver.js';
 
 export default class BaseDeMidia implements Observer {
     private static instancia: BaseDeMidia;

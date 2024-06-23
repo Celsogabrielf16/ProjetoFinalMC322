@@ -1,7 +1,7 @@
-import Pessoa from "./Pessoa";
-import Filme from "./Filme";
-import Serie from "./Serie";
-import Avaliacao from "./Avaliacao";
+import Pessoa from "./Pessoa.js";
+import Filme from "./Filme.js";
+import Serie from "./Serie.js";
+import Avaliacao from "./Avaliacao.js";
 
 export default class Usuario extends Pessoa {
 

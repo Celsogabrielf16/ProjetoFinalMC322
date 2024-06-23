@@ -1,10 +1,10 @@
-import Diretor from '../model/Diretor';
-import BaseDeMidia from '../model/BaseDeMidia';
-import Avaliacao from '../model/Avaliacao';
-import {Categoria} from '../model/Categorias';
-import Elenco from '../model/Elenco';
-import Filme from '../model/Filme';
-import Serie from '../model/Serie';
+import Diretor from '../model/Diretor.js';
+import BaseDeMidia from '../model/BaseDeMidia.js';
+import Avaliacao from '../model/Avaliacao.js';
+import {Categoria} from '../model/Categorias.js';
+import Elenco from '../model/Elenco.js';
+import Filme from '../model/Filme.js';
+import Serie from '../model/Serie.js';
 
 export default class BaseDeMidiaController {
     private baseDeMidia: BaseDeMidia;

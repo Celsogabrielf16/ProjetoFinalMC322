@@ -1,9 +1,9 @@
-import Usuario from './Usuario';
-import LerUsuario from './LerUsuario';
-import Filme from './Filme';
-import Serie from './Serie';
-import Avaliacao from './Avaliacao';
-import Observer from '../interface/IObserver';
+import Usuario from './Usuario.js';
+import LerUsuario from './LerUsuario.js';
+import Filme from './Filme.js';
+import Serie from './Serie.js';
+import Avaliacao from './Avaliacao.js';
+import Observer from '../interface/IObserver.js';
 
 export default class BaseDeUsuario implements Observer{
     private static instancia: BaseDeUsuario;

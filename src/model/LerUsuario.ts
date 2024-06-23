@@ -1,5 +1,4 @@
-import Usuario from "./Usuario"
-import * as fs from "fs"
+import Usuario from "./Usuario.js"
 
 export default class LerUsuario {
 
@@ -29,7 +28,7 @@ export default class LerUsuario {
         return usuarios;
     }
 
-    public escreverArquivo(usuarios: Array<Usuario>): void {
+/*     public escreverArquivo(usuarios: Array<Usuario>): void {
         // formata o array de usuarios em json
         let usuariosFormatadosEmJson = JSON.stringify(usuarios, null, 2);
 
@@ -42,5 +41,5 @@ export default class LerUsuario {
                 console.error("Erro ao salvar o arquivo:", err);
             }
         });
-    }
+    } */
 }

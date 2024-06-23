@@ -1,6 +1,5 @@
-import Filme from "./Filme"
-import Serie from "./Serie"
-import * as fs from 'fs';
+import Filme from "./Filme.js"
+import Serie from "./Serie.js"
 
 export default class LerMidia {
 
@@ -26,7 +25,7 @@ export default class LerMidia {
         // A função retorna um array com as mídias já formatadas
         let midias = [];
         
-        const res = await fetch("../assets/midia.json");
+        const res = await fetch("/src/assets/midia.json");
         const json = await res.json();
 
         // percorre todo o array do json formatado
@@ -44,7 +43,7 @@ export default class LerMidia {
         return midias;
     }
 
-    public escreverArquivo(midias: Array<Filme | Serie>): void {
+/*     public escreverArquivo(midias: Array<Filme | Serie>): void {
         // formata o array de midias em json
         let midiasFormatadasEmJson = JSON.stringify(midias, null, 2);
 
@@ -57,5 +56,5 @@ export default class LerMidia {
                 console.error("Erro ao salvar o arquivo:", err);
             }
         });
-    }
+    } */
 }

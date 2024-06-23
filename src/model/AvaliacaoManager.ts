@@ -1,6 +1,6 @@
-import Subject from '../interface/ISubject';
-import Observer from '../interface/IObserver';
-import Avaliacao from './Avaliacao';
+import Subject from '../interface/ISubject.js';
+import Observer from '../interface/IObserver.js';
+import Avaliacao from './Avaliacao.js';
 
 export default class AvaliacaoManager implements Subject {
     private observers: Observer[] = [];

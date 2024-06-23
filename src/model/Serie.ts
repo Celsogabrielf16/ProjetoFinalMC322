@@ -1,8 +1,8 @@
-import Midia from "./Midia";
-import Avaliacao from "./Avaliacao"
-import {Categoria} from "./Categorias"
-import Elenco from "./Elenco"
-import Diretor from "./Diretor"
+import Midia from "./Midia.js";
+import Avaliacao from "./Avaliacao.js"
+import {Categoria} from "./Categorias.js"
+import Elenco from "./Elenco.js"
+import Diretor from "./Diretor.js"
 
 export default class Serie extends Midia {
 
