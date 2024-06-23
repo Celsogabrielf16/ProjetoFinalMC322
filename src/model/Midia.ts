@@ -2,7 +2,7 @@ import { Categoria } from "./Categorias"
 import { Avaliacao } from "./Avaliacao"
 import { Elenco } from "./Elenco"
 
-export abstract class Midia {
+export default abstract class Midia {
 
     private id: number;
     private titulo: string;
