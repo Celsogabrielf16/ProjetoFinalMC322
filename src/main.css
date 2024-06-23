@@ -9,6 +9,7 @@
     --gray-primary-color: #56585B;
     --gray-secondary-color: #C5C7D1;
     --gray-tertiary-color: #D0CFD0;
+    --transparent-color: rgba(255, 255, 255, 0.05);
     --light-color: #f8f9fa;
     --white-color: #ffffff;
     --gradient-primary: linear-gradient(150deg, #FFCA39, #EE1C64);
