@@ -84,14 +84,6 @@ export default class BaseDeUsuarioController {
     }
 
     /**
-     * Método para inserir uma avaliação do usuário.
-     * @param avaliacao Objeto do tipo Avaliacao a ser inserido na lista de avaliações.
-     */
-    public inserirAvaliacao(avaliacao: Avaliacao): void {
-        this.baseDeUsuario.inserirAvaliacao(avaliacao);
-    }
-
-    /**
      * Método para obter o email do usuário.
      * @returns O email do usuário.
      */
