@@ -10,6 +10,10 @@ export default class BaseDeUsuarioController {
         this.baseDeUsuario = BaseDeUsuario.getInstancia();
     }
 
+    public getListaUsuariosPromise() {
+        return this.baseDeUsuario.getListaUsuariosPromise()
+    }
+
     /**
      * Método para salvar a lista de usuários.
      */

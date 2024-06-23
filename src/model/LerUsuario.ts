@@ -12,7 +12,7 @@ export default class LerUsuario {
         // A função retorna um array com os usuarios já formatados
         let usuarios: any = [];
         
-        const res = await fetch("../assets/usuarios.json");
+        const res = await fetch("/src/assets/usuario.json");
         const json =     await res.json();
 
         // percorre todo o array do json formatado

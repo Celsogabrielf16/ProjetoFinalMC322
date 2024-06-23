@@ -1,5 +1,13 @@
 import BaseDeMidiaController from "./Controllers/BaseDeMidiaController.js";
+import BaseDeUsuarioController from "./Controllers/BaseDeUsuarioController.js";
 
-console.log("Projeto Final MC322");
+class LeadingPage {
+    constructor () {
+        let baseMidia = new BaseDeMidiaController();
+        let baseUsuario = new BaseDeUsuarioController();
+    }
+}
 
-new BaseDeMidiaController();
+document.addEventListener('DOMContentLoaded', () => {
+    new LeadingPage();
+});

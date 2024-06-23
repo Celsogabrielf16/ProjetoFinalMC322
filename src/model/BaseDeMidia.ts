@@ -8,6 +8,7 @@ export default class BaseDeMidia implements Observer {
     private static instancia: BaseDeMidia;
     private lerMidia: LerMidia;
     private listaMidia: Array <Filme|Serie>;
+    private listaMidiaPromise: Promise <(Filme | Serie)[]>;
 
     /**
      * Construtor privado para garantir que a classe seja Singleton e inicializar LerMidia.
@@ -15,7 +16,12 @@ export default class BaseDeMidia implements Observer {
     private constructor() {
         this.lerMidia = new LerMidia();
         this.listaMidia = [];
-        this.criaListaMidia();
+        
+        this.listaMidiaPromise = this.criaListaMidia();
+    }
+
+    public getListaMidiaPromise() {
+        return this.listaMidiaPromise;
     }
 
     /**
@@ -42,17 +48,21 @@ export default class BaseDeMidia implements Observer {
      * Método que cria a lista de mídias utilizando o método lerArquivo() de LerMidia.
      * Atualiza a lista de mídias na instância atual.
      */
-    public criaListaMidia(): void {
-        this.lerMidia.lerArquivo().then(listaMidia => {
+    public async criaListaMidia() {
+        let arquivoLido = this.lerMidia.lerArquivo();
+        
+        arquivoLido.then(listaMidia => {
             this.listaMidia = listaMidia;
         });
+
+        return arquivoLido;
     }
 
     /**
      * Método que salva a lista de Midia utilizando o método escreverArquivo() de LerMidia.
     */
     public salvaListaMidia(): void {
-        this.lerMidia.escreverArquivo(this.getListaMidia());
+        //this.lerMidia.escreverArquivo(this.getListaMidia());
     }
 
     /**

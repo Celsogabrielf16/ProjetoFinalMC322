@@ -10,6 +10,7 @@ export default class BaseDeUsuario implements Observer{
     private usuarioAtivo: Usuario | null;
     private lerUsuario: LerUsuario;
     private listaUsuarios: Array<Usuario>;
+    private listaUsuariosPromisse: Promise<Usuario>;
 
     /**
      * Construtor privado para garantir que a classe seja Singleton e inicializar LerUsuario.
@@ -17,9 +18,15 @@ export default class BaseDeUsuario implements Observer{
     private constructor() {
         this.lerUsuario = new LerUsuario();
         this.listaUsuarios = [];
-        this.criaListaUsuario();
+        this.listaUsuariosPromisse = this.criaListaUsuario();
         this.usuarioAtivo = null;
     }
+
+    public getListaUsuariosPromise() {
+        return this.listaUsuariosPromisse;
+    }
+
+
 
     /**
      * Método estático para obter a instância única da classe BaseDeUsuario (Singleton).
@@ -44,17 +51,21 @@ export default class BaseDeUsuario implements Observer{
     /**
      * Método que cria a lista de usuários utilizando o método lerArquivo() de LerUsuario.
      */ 
-    private criaListaUsuario(): void {
-        this.lerUsuario.lerArquivo().then(listaUsuario => {
+    private criaListaUsuario() {
+        let listaUsuario = this.lerUsuario.lerArquivo();
+        
+        listaUsuario.then(listaUsuario => {
             this.listaUsuarios = listaUsuario;
         });
+
+        return listaUsuario;
     }
 
     /**
      * Método que salva a lista de usuários utilizando o método escreverArquivo() de LerUsuario.
      */
     public salvaListaUsuario(): void {
-        this.lerUsuario.escreverArquivo(this.getListaUsuarios());
+        //this.lerUsuario.escreverArquivo(this.getListaUsuarios());
     }
 
     /**

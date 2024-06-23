@@ -13,6 +13,10 @@ export default class BaseDeMidiaController {
         this.baseDeMidia = BaseDeMidia.getInstancia();
     }
 
+    public getListaMidiaPromise() {
+        return this.baseDeMidia.getListaMidiaPromise()
+    }
+
     /**
      * Método para iniciar a lista de Midia na base de Midia.
      */
