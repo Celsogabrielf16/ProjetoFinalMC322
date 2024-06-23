@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./home.css">
         <link rel="stylesheet" href="../../main.css">
-        <script src="/dist/view/home/home.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css"/>
     <title>Projeto Final</title>
 </head>
 <body>
@@ -52,9 +52,21 @@
                 <div class="information__button background-gradient-tertiary">
                     Avaliar
                 </div>
-            </img>
+            </div>
         </div>
-        <div class="main-content__sliders"></div>
-    </main>
+        <div class="main-content__sliders">
+            <div id="my-keen-slider" class="slider-film keen-slider">
+                <div class="keen-slider__slide number-slide1">1</div>
+                <div class="keen-slider__slide number-slide2">2</div>
+                <div class="keen-slider__slide number-slide3">3</div>
+                <div class="keen-slider__slide number-slide4">4</div>
+                <div class="keen-slider__slide number-slide5">5</div>
+                <div class="keen-slider__slide number-slide6">6</div>
+            </div>
+            <div class="slider-series"></div>
+        </div>
+    </main>    
+        <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.js"></script>
+        <script src="/dist/view/home/home.js"></script>
 </body>
 </html>
