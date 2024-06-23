@@ -1,7 +1,9 @@
+import { Usuario } from "./Usuario"
+
 export abstract class Avaliacao {
 
     private id: number;
-    private avaliacao: number;
+    private notaAvaliacao: number;
     private dataAvaliacao: string;
     private comentario: string;
     private usuario: Usuario;
@@ -10,7 +12,7 @@ export abstract class Avaliacao {
         comentario: string, usuario: Usuario
     ) {
         this.id = id;
-        this.avaliacao = avaliacao;
+        this.notaAvaliacao = avaliacao;
         this.dataAvaliacao = dataAvaliacao;
         this.comentario = comentario;
         this.usuario = usuario;
@@ -20,8 +22,8 @@ export abstract class Avaliacao {
         return this.id;
     }
 
-    public getAvaliacao(): number {
-        return this.avaliacao;
+    public getNotaAvaliacao(): number {
+        return this.notaAvaliacao;
     }
 
     public getDataAvaliacao(): string {

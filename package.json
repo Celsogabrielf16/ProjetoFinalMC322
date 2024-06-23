@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "devDependencies": {
+=======
+  "dependencies": {
+>>>>>>> 99f1af1 (Desenvolvimento da classe LerMidia, além de realizar alterações pequenas em Avaliacao.ts, Filme.ts e Serie.ts)
     "@types/node": "^20.14.8"
   }
 }

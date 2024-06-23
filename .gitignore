@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 dist/
+=======
+/node_modules
+>>>>>>> 99f1af1 (Desenvolvimento da classe LerMidia, além de realizar alterações pequenas em Avaliacao.ts, Filme.ts e Serie.ts)
