@@ -49,6 +49,15 @@ input:-webkit-autofill:hover {
     background-clip: content-box, border-box;
 }
 
+.background-gradient-tertiary {
+    backdrop-filter: blur(10px);
+    border: double 1px transparent;
+    border-radius: 24px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), var(--gradient-secondary);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
 .text--gradient-font-primary {
     background-image: var(--gradient-primary);
     background-clip: text;
