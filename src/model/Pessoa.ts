@@ -1,22 +1,24 @@
-abstract class Pessoa {
+export default abstract class Pessoa {
 
-    private _nome: string;
+    private nome: string;
 
     constructor(nome: string) {
-
-        this._nome = nome;
+        this.nome = nome;
     }
 
-    // Getter para nome
-
-    public get nome(): string {
-        return this._nome;
+    /**
+     * Obtém o nome da pessoa.
+     * @returns O nome da pessoa.
+     */
+    public getNome(): string {
+        return this.nome;
     }
 
-    // Setter para nome
-
-    public set nome(nome: string) {
-        this._nome = nome;
+    /**
+     * Define um novo nome para a pessoa.
+     * @param nome - O novo nome da pessoa.
+     */
+    public setNome(nome: string): void {
+        this.nome = nome;
     }
-
 }
