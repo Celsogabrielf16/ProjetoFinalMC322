@@ -44,9 +44,9 @@
   "faixaEtaria": "+14",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/duna2.jpg",
-  "imagemCapa":"src/assets/imagensCapa/duna2.jpg",
-  "imagemLogo":"src/assets/imagensLogo/duna2.png",
+  "imagemBanner":"/assets/imagensBanner/duna2.jpg",
+  "imagemCapa":"/assets/imagensCapa/duna2.jpg",
+  "imagemLogo":"/assets/imagensLogo/duna2.png",
   "duracao":"2h 46m"
 },
 {
@@ -83,15 +83,15 @@
   "faixaEtaria": "+12",
   "categorias": ["COMEDIA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/genteGrande.webp",
-  "imagemCapa":"src/assets/imagensCapa/genteGrande.jpg",
-  "imagemLogo":"src/assets/imagensLogo/genteGrande.png",
+  "imagemBanner":"/assets/imagensBanner/genteGrande.webp",
+  "imagemCapa":"/assets/imagensCapa/genteGrande.jpg",
+  "imagemLogo":"/assets/imagensLogo/genteGrande.png",
   "duracao":"1h 42m"
 },
 {
   "tipo": "Filme",
   "titulo": "Ilha do Medo",
-  "sinopse": "Em 1954, Teddy Daniels (Leonardo DiCaprio) investiga o desaparecimento de um paciente no Shutter Island Ashecliffe Hospital, em Boston. No local, ele descobre que os médicos realizam experiências radicais com os pacientes, envolvendo métodos ilegais e anti-éticos. Teddy tenta buscar mais informações, mas enfrenta a resistência dos médicos em lhe fornecer os arquivos que possam permitir que o caso seja aberto. Quando um furacão deixa a ilha sem comunicação, diversos prisioneiros conseguem escapar e tornam a situação ainda mais perigosa.",
+  "sinopse": "Em 1954, Teddy Daniels (Leonardo DiCaprio) investiga o desaparecimento de um paciente no Shutter Island Ashecliffe Hospital, em Boston. No local, ele descobre que os médicos realizam experiências radicais com os pacientes, envolvendo métodos ilegais e anti-éticos.",
   "elenco": [
      {
         "nome": "Leonardo DiCaprio",
@@ -122,15 +122,15 @@
   "faixaEtaria": "+16",
   "categorias": ["DRAMA", "MISTERIO"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/ilhaDoMedo.jpg",
-  "imagemCapa":"src/assets/imagensCapa/ilhaDoMedo.jpg",
-  "imagemLogo":"src/assets/imagensLogo/ilhaDoMedo.png",
+  "imagemBanner":"/assets/imagensBanner/ilhaDoMedo.jpg",
+  "imagemCapa":"/assets/imagensCapa/ilhaDoMedo.jpg",
+  "imagemLogo":"/assets/imagensLogo/ilhaDoMedo.png",
   "duracao":"2h 18m"
 },
 {
   "tipo": "Filme",
   "titulo": "Interestelar",
-  "sinopse": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand (Anne Hathaway), Jenkins (Marlon Sanders) e Doyle (Wes Bentley), ele seguirá em busca de uma nova casa. Com o passar dos anos, sua filha Murph (Mackenzie Foy e Jessica Chastain) investirá numa própria jornada para também tentar salvar a população do planeta.",
+  "sinopse": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos.",
   "elenco": [
      {
         "nome": "Matthew McConaughey",
@@ -161,9 +161,9 @@
   "faixaEtaria": "+10",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/interstellar.jpg",
-  "imagemCapa":"src/assets/imagensCapa/interstellar.jpg",
-  "imagemLogo":"src/assets/imagensLogo/interstellar.png",
+  "imagemBanner":"/assets/imagensBanner/interstellar.jpg",
+  "imagemCapa":"/assets/imagensCapa/interstellar.jpg",
+  "imagemLogo":"/assets/imagensLogo/interstellar.png",
   "duracao":"2h 49m"
 },
 {
@@ -196,15 +196,15 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/matadorDeAluguel.jpg",
-  "imagemCapa":"src/assets/imagensCapa/matadorDeAluguel.jpg",
-  "imagemLogo":"src/assets/imagensLogo/matadorDeAluguel.png",
+  "imagemBanner":"/assets/imagensBanner/matadorDeAluguel.jpg",
+  "imagemCapa":"/assets/imagensCapa/matadorDeAluguel.jpg",
+  "imagemLogo":"/assets/imagensLogo/matadorDeAluguel.png",
   "duracao":"2h 1m"
 },
 {
   "tipo": "Filme",
   "titulo": "Matrix",
-  "sinopse": "Em um futuro ciberpunk distópico, a realidade percebida pela maioria dos humanos é na verdade uma simulação criada por máquinas sencientes para subjugar a população humana, enquanto usam o calor e a atividade elétrica de seus corpos como fonte de energia. O cibercriminoso e programador de computador Neo descobre este fato e é atraído para uma rebelião contra as máquinas, que envolve outras pessoas que foram libertadas do 'mundo dos sonhos'.",
+  "sinopse": "Em um futuro ciberpunk distópico, a realidade percebida pela maioria dos humanos é na verdade uma simulação criada por máquinas sencientes para subjugar a população humana, enquanto usam o calor e a atividade elétrica de seus corpos como fonte de energia.",
   "elenco": [
      {
         "nome": "Keanu Reeves",
@@ -235,9 +235,9 @@
   "faixaEtaria": "+14",
   "categorias": ["ACAO", "FICCAOCIENTIFICA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/matrix.jpg",
-  "imagemCapa":"src/assets/imagensCapa/matrix.jpg",
-  "imagemLogo":"src/assets/imagensLogo/matrix.png",
+  "imagemBanner":"/assets/imagensBanner/matrix.jpg",
+  "imagemCapa":"/assets/imagensCapa/matrix.jpg",
+  "imagemLogo":"/assets/imagensLogo/matrix.png",
   "duracao":"2h 16m"
 },
 {
@@ -286,15 +286,15 @@
   "faixaEtaria": "+13",
   "categorias": ["ACAO", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/theBatman.jpg",
-  "imagemCapa":"src/assets/imagensCapa/theBatman.jpg",
-  "imagemLogo":"src/assets/imagensLogo/theBatman.png",
+  "imagemBanner":"/assets/imagensBanner/theBatman.jpg",
+  "imagemCapa":"/assets/imagensCapa/theBatman.jpg",
+  "imagemLogo":"/assets/imagensLogo/theBatman.png",
   "duracao":"2h 56m"
 },
 {
    "tipo": "Filme",
    "titulo": "A Casa Monstro",
-   "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação. Na véspera do Dia das Bruxas, DJ e seus amigos Chowder e Jenny descobrem que a casa tem vida própria e tentam destruí-la antes que ela faça mal a alguém.",
+   "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação.",
    "elenco": [
       {
          "nome": "Mitchel Musso",
@@ -321,9 +321,9 @@
    "faixaEtaria": "+10",
    "categorias": ["COMEDIA", "TERROR"],
    "avaliacoes": [],
-   "imagemBanner":"src/assets/imagensBanner/aCasaMonstro.jpg",
-   "imagemCapa":"src/assets/imagensCapa/aCasaMonstro.jpg",
-   "imagemLogo":"src/assets/imagensLogo/aCasaMonstro.png",
+   "imagemBanner":"/assets/imagensBanner/aCasaMonstro.jpg",
+   "imagemCapa":"/assets/imagensCapa/aCasaMonstro.jpg",
+   "imagemLogo":"/assets/imagensLogo/aCasaMonstro.png",
    "duracao":"1h 31m"
 },
 {
@@ -394,9 +394,9 @@
   "faixaEtaria": "+16",
   "categorias": ["DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/breakingBad.jpg",
-  "imagemCapa":"src/assets/imagensCapa/breakingBad.jpg",
-  "imagemLogo":"src/assets/imagensLogo/breakingBad.png",
+  "imagemBanner":"/assets/imagensBanner/breakingBad.jpg",
+  "imagemCapa":"/assets/imagensCapa/breakingBad.jpg",
+  "imagemLogo":"/assets/imagensLogo/breakingBad.png",
   "temporadas":"5 temporadas"
 },
 {
@@ -451,9 +451,9 @@
   "faixaEtaria": "+14",
   "categorias": ["COMEDIA", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/brooklynNine-Nine.webp",
-  "imagemCapa":"src/assets/imagensCapa/brooklynNine-Nine.jpg",
-  "imagemLogo":"src/assets/imagensLogo/brooklynNine-Nine.png",
+  "imagemBanner":"/assets/imagensBanner/brooklynNine-Nine.webp",
+  "imagemCapa":"/assets/imagensCapa/brooklynNine-Nine.jpg",
+  "imagemLogo":"/assets/imagensLogo/brooklynNine-Nine.png",
   "temporadas":"8 temporadas"
 },
 {
@@ -500,9 +500,9 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "AVENTURA", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/gameOfThrones.jpg",
-  "imagemCapa":"src/assets/imagensCapa/gameOfThrones.jpg",
-  "imagemLogo":"src/assets/imagensLogo/gameOfThrones.png",
+  "imagemBanner":"/assets/imagensBanner/gameOfThrones.jpg",
+  "imagemCapa":"/assets/imagensCapa/gameOfThrones.jpg",
+  "imagemLogo":"/assets/imagensLogo/gameOfThrones.png",
   "temporadas":"8 temporadas"
 },
 {
@@ -541,9 +541,9 @@
   "faixaEtaria": "+18",
   "categorias": ["DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/peakyBlinders.jpg",
-  "imagemCapa":"src/assets/imagensCapa/peakyBlinders.jpg",
-  "imagemLogo":"src/assets/imagensLogo/peakyBlinders.png",
+  "imagemBanner":"/assets/imagensBanner/peakyBlinders.jpg",
+  "imagemCapa":"/assets/imagensCapa/peakyBlinders.jpg",
+  "imagemLogo":"/assets/imagensLogo/peakyBlinders.png",
   "temporadas":"6 temporadas"
 },
 {
@@ -586,9 +586,9 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
   "avaliacoes": [],
-  "imagemBanner":"src/assets/imagensBanner/theBoys.webp",
-  "imagemCapa":"src/assets/imagensCapa/theBoys.jpg",
-  "imagemLogo":"src/assets/imagensLogo/theBoys.png",
+  "imagemBanner":"/assets/imagensBanner/theBoys.webp",
+  "imagemCapa":"/assets/imagensCapa/theBoys.jpg",
+  "imagemLogo":"/assets/imagensLogo/theBoys.png",
   "temporadas":"4 temporadas"
 },
 {
@@ -631,15 +631,15 @@
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
    "avaliacoes": [],
-   "imagemBanner":"src/assets/imagensBanner/silo.jpg",
-   "imagemCapa":"src/assets/imagensCapa/silo.jpg",
-   "imagemLogo":"src/assets/imagensLogo/silo.png",
+   "imagemBanner":"/assets/imagensBanner/silo.jpg",
+   "imagemCapa":"/assets/imagensCapa/silo.jpg",
+   "imagemLogo":"/assets/imagensLogo/silo.png",
    "temporadas":"1 temporada"
 },
 {
    "tipo": "Série",
    "titulo": "Dark",
-   "sinopse": "Quatro diferentes famílias - Kahnwald, Nielsen, Doppler e Tiedemann - vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear. Segredos familiares começam a emergir à medida que a polícia investiga os sumiços e logo percebe uma relação com eventos também sombrios do passado. O tempo e o espaço parecem se embaralhar cada vez mais, deflagrando uma série de tragédias que, curiosamente, se repete a cada geração.",
+   "sinopse": "Quatro diferentes famílias vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear.",
    "elenco": [
       {
          "nome": "Louis Hofmann",
@@ -666,9 +666,9 @@
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "MISTERIO"],
    "avaliacoes": [],
-   "imagemBanner":"src/assets/imagensBanner/dark.jpg",
-   "imagemCapa":"src/assets/imagensCapa/dark.jpg",
-   "imagemLogo":"src/assets/imagensLogo/dark.png",
+   "imagemBanner":"/assets/imagensBanner/dark.jpg",
+   "imagemCapa":"/assets/imagensCapa/dark.jpg",
+   "imagemLogo":"/assets/imagensLogo/dark.png",
    "temporadas":"3 temporadas"
 },
 {
@@ -703,8 +703,8 @@
    "faixaEtaria": "+13",
    "categorias": ["ACAO"],
    "avaliacoes": [],
-   "imagemBanner":"src/assets/imagensBanner/onePiece.jpg",
-   "imagemCapa":"src/assets/imagensCapa/onePiece.jpg",
-   "imagemLogo":"src/assets/imagensLogo/onePiece.png",
+   "imagemBanner":"/assets/imagensBanner/onePiece.jpg",
+   "imagemCapa":"/assets/imagensCapa/onePiece.jpg",
+   "imagemLogo":"/assets/imagensLogo/onePiece.png",
    "temporadas":"1 temporada"
 }]

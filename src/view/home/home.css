@@ -213,7 +213,7 @@ body {
     padding: 30px 50px;
     gap: 100px;
     display: grid;
-    grid-template-columns: 45% 25% 25%;
+    grid-template-columns: 45% 20% 20%;
 }
 
 .information-logo {
@@ -239,6 +239,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--light-color);
+    font-size: 1.2rem;
 }
 
 .information-text {
