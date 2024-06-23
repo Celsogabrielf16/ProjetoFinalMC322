@@ -44,9 +44,9 @@
   "faixaEtaria": "+14",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/duna2.jpg",
+  "imagemCapa":"src/assets/imagensCapa/duna2.jpg",
+  "imagemLogo":"src/assets/imagensLogo/duna2.png",
   "duracao":"2h 46m"
 },
 {
@@ -83,9 +83,9 @@
   "faixaEtaria": "+12",
   "categorias": ["COMEDIA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/genteGrande.webp",
+  "imagemCapa":"src/assets/imagensCapa/genteGrande.jpg",
+  "imagemLogo":"src/assets/imagensLogo/genteGrande.png",
   "duracao":"1h 42m"
 },
 {
@@ -122,9 +122,9 @@
   "faixaEtaria": "+16",
   "categorias": ["DRAMA", "MISTERIO"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/ilhaDoMedo.jpg",
+  "imagemCapa":"src/assets/imagensCapa/ilhaDoMedo.jpg",
+  "imagemLogo":"src/assets/imagensLogo/ilhaDoMedo.png",
   "duracao":"2h 18m"
 },
 {
@@ -161,9 +161,9 @@
   "faixaEtaria": "+10",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/interstellar.jpg",
+  "imagemCapa":"src/assets/imagensCapa/interstellar.jpg",
+  "imagemLogo":"src/assets/imagensLogo/interstellar.png",
   "duracao":"2h 49m"
 },
 {
@@ -196,9 +196,9 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/matadorDeAluguel.jpg",
+  "imagemCapa":"src/assets/imagensCapa/matadorDeAluguel.jpg",
+  "imagemLogo":"src/assets/imagensLogo/matadorDeAluguel.png",
   "duracao":"2h 1m"
 },
 {
@@ -235,9 +235,9 @@
   "faixaEtaria": "+14",
   "categorias": ["ACAO", "FICCAOCIENTIFICA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/matrix.jpg",
+  "imagemCapa":"src/assets/imagensCapa/matrix.jpg",
+  "imagemLogo":"src/assets/imagensLogo/matrix.png",
   "duracao":"2h 16m"
 },
 {
@@ -286,9 +286,9 @@
   "faixaEtaria": "+13",
   "categorias": ["ACAO", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/theBatman.jpg",
+  "imagemCapa":"src/assets/imagensCapa/theBatman.jpg",
+  "imagemLogo":"src/assets/imagensLogo/theBatman.png",
   "duracao":"2h 56m"
 },
 {
@@ -321,9 +321,9 @@
    "faixaEtaria": "+10",
    "categorias": ["COMEDIA", "TERROR"],
    "avaliacoes": [],
-   "imagemBanner":"",
-   "imagemCapa":"",
-   "imagemLogo":"",
+   "imagemBanner":"src/assets/imagensBanner/aCasaMonstro.jpg",
+   "imagemCapa":"src/assets/imagensCapa/aCasaMonstro.jpg",
+   "imagemLogo":"src/assets/imagensLogo/aCasaMonstro.png",
    "duracao":"1h 31m"
 },
 {
@@ -394,9 +394,9 @@
   "faixaEtaria": "+16",
   "categorias": ["DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/breakingBad.jpg",
+  "imagemCapa":"src/assets/imagensCapa/breakingBad.jpg",
+  "imagemLogo":"src/assets/imagensLogo/breakingBad.png",
   "temporadas":"5 temporadas"
 },
 {
@@ -451,9 +451,9 @@
   "faixaEtaria": "+14",
   "categorias": ["COMEDIA", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/brooklynNine-Nine.webp",
+  "imagemCapa":"src/assets/imagensCapa/brooklynNine-Nine.jpg",
+  "imagemLogo":"src/assets/imagensLogo/brooklynNine-Nine.png",
   "temporadas":"8 temporadas"
 },
 {
@@ -500,9 +500,9 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "AVENTURA", "DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/gameOfThrones.jpg",
+  "imagemCapa":"src/assets/imagensCapa/gameOfThrones.jpg",
+  "imagemLogo":"src/assets/imagensLogo/gameOfThrones.png",
   "temporadas":"8 temporadas"
 },
 {
@@ -541,9 +541,9 @@
   "faixaEtaria": "+18",
   "categorias": ["DRAMA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/peakyBlinders.jpg",
+  "imagemCapa":"src/assets/imagensCapa/peakyBlinders.jpg",
+  "imagemLogo":"src/assets/imagensLogo/peakyBlinders.png",
   "temporadas":"6 temporadas"
 },
 {
@@ -586,9 +586,9 @@
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
   "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
+  "imagemBanner":"src/assets/imagensBanner/theBoys.webp",
+  "imagemCapa":"src/assets/imagensCapa/theBoys.jpg",
+  "imagemLogo":"src/assets/imagensLogo/theBoys.png",
   "temporadas":"4 temporadas"
 },
 {
@@ -631,9 +631,9 @@
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
    "avaliacoes": [],
-   "imagemBanner":"",
-   "imagemCapa":"",
-   "imagemLogo":"",
+   "imagemBanner":"src/assets/imagensBanner/silo.jpg",
+   "imagemCapa":"src/assets/imagensCapa/silo.jpg",
+   "imagemLogo":"src/assets/imagensLogo/silo.png",
    "temporadas":"1 temporada"
 },
 {
@@ -666,9 +666,9 @@
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "MISTERIO"],
    "avaliacoes": [],
-   "imagemBanner":"",
-   "imagemCapa":"",
-   "imagemLogo":"",
+   "imagemBanner":"src/assets/imagensBanner/dark.jpg",
+   "imagemCapa":"src/assets/imagensCapa/dark.jpg",
+   "imagemLogo":"src/assets/imagensLogo/dark.png",
    "temporadas":"3 temporadas"
 },
 {
@@ -703,8 +703,8 @@
    "faixaEtaria": "+13",
    "categorias": ["ACAO"],
    "avaliacoes": [],
-   "imagemBanner":"",
-   "imagemCapa":"",
-   "imagemLogo":"",
+   "imagemBanner":"src/assets/imagensBanner/onePiece.jpg",
+   "imagemCapa":"src/assets/imagensCapa/onePiece.jpg",
+   "imagemLogo":"src/assets/imagensLogo/onePiece.png",
    "temporadas":"1 temporada"
 }]

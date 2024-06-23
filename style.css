@@ -4,7 +4,6 @@ body {
     height: 100vh;
     background-color: var(--dark-color);
     font-family: var(--font-primary);
-    overflow: hidden;
 }
 
 .navbar {
