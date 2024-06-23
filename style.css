@@ -1,16 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     background-color: var(--dark-color);
     font-family: var(--font-primary);
     overflow: hidden;
 }
 
 .navbar {
+    left: 5%;
     width: 90%;
-    min-width: 1600px;
-    display: flex;
     margin: 0 auto;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -43,4 +44,65 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--light-color);
+}
+
+.main-content {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    gap: 100px;
+}
+
+.detail {
+    width: 4px;
+    height: 780px;
+    background: linear-gradient(0deg, var(--secondary-color), var(--primary-color), var(--dark-color));
+}
+
+.content-section {
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.content-section__principal-information {
+    display: flex;
+    gap: 120px;
+}
+
+.principal-information__text {
+    color: var(--light-color);
+    max-width: 700px;
+}
+
+.text__title {
+    margin: 0;
+    font-size: 2.8rem;
+}
+
+.text__paragraph {
+    font-size: 1.2rem;
+}
+
+.text__button {
+    width: 300px;
+    height: 55px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.content-section__brands {
+    display: flex;
+    gap: 120px;
+}
+
+.content-section__brands img {
+    height: 60px; 
 }
