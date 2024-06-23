@@ -22,18 +22,6 @@
      {
         "nome": "Stellan Skarsgård",
         "Papel": "Baron Harkonnen"
-     },
-     {
-        "nome": "Dave Bautista",
-        "Papel": "Beast Rabban"
-     },
-     {
-        "nome": "Christopher Walken",
-        "Papel": "Emperor"
-     },
-     {
-        "nome": "Léa Seydoux",
-        "Papel": "Lady Margot Fenring"
      }
   ],
   "diretor": {
@@ -258,20 +246,8 @@
         "papel": "Edward Nashton / Charada"
      },
      {
-        "nome": "Jeffrey Wright",
-        "papel": "James Gordon"
-     },
-     {
         "nome": "John Turturro",
         "papel": "Carmine Falcone"
-     },
-     {
-        "nome": "Peter Sarsgaard",
-        "papel": "Gil Colson"
-     },
-     {
-        "nome": "Andy Serkis",
-        "papel": "Alfred Pennyworth"
      },
      {
         "nome": "Colin Farrell",
@@ -344,24 +320,8 @@
         "papel": "Skyler White"
      },
      {
-        "nome": "Dean Norris",
-        "papel": "Hank Schrader"
-     },
-     {
-        "nome": "Betsy Brandt",
-        "papel": "Marie Schrader"
-     },
-     {
-        "nome": "RJ Mitte",
-        "papel": "Walter White Jr."
-     },
-     {
         "nome": "Bob Odenkirk",
         "papel": "Saul Goodman"
-     },
-     {
-        "nome": "Jonathan Banks",
-        "papel": "Mike Ehrmantraut"
      },
      {
         "nome": "Giancarlo Esposito",
@@ -380,14 +340,6 @@
      {
         "nome": "Adam Bernstein",
         "sobre": "Adam Bernstein é um diretor e produtor que dirigiu vários episódios de 'Breaking Bad'. Ele é conhecido por seu trabalho em séries de televisão aclamadas e por sua capacidade de dirigir cenas intensas e memoráveis."
-     },
-     {
-        "nome": "Michael Slovis",
-        "sobre": "Michael Slovis é um diretor de fotografia e diretor que trabalhou em 'Breaking Bad'. Ele é elogiado por sua habilidade em criar uma atmosfera visual única que complementa a narrativa da série."
-     },
-     {
-        "nome": "Rian Johnson",
-        "sobre": "Rian Johnson é um cineasta que dirigiu alguns dos episódios mais notáveis de 'Breaking Bad'. Ele é conhecido por seu estilo distinto e por trazer uma abordagem cinematográfica para a televisão."
      }
   ],
   "anoLancamento": 2008,
@@ -409,10 +361,6 @@
         "papel": "Jake Peralta"
      },
      {
-        "nome": "Stephanie Beatriz",
-        "papel": "Rosa Diaz"
-     },
-     {
         "nome": "Terry Crews",
         "papel": "Terry Jeffords"
      },
@@ -427,14 +375,6 @@
      {
         "nome": "Andre Braugher",
         "papel": "Raymond Holt"
-     },
-     {
-        "nome": "Dirk Blocker",
-        "papel": "Hitchcock"
-     },
-     {
-        "nome": "Joel McKinnon Miller",
-        "papel": "Scully"
      }
   ],
   "diretores": [
@@ -476,10 +416,6 @@
      {
         "nome": "Lena Headey",
         "papel": "Cersei Lannister"
-     },
-     {
-        "nome": "Sophie Turner",
-        "papel": "Sansa Stark"
      },
      {
         "nome": "Maisie Williams",
