@@ -293,42 +293,38 @@
 },
 {
    "tipo": "Filme",
-   "titulo": "Jogador Nº1",
-   "sinopse": "Em 2044, num futuro distópico, Wade Watts, como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday, morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
+   "titulo": "A Casa Monstro",
+   "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação. Na véspera do Dia das Bruxas, DJ e seus amigos Chowder e Jenny descobrem que a casa tem vida própria e tentam destruí-la antes que ela faça mal a alguém.",
    "elenco": [
       {
-         "nome": "Tye Sheridan",
-         "papel": "Wade Watts / Parzival"
+         "nome": "Mitchel Musso",
+         "Papel": "DJ"
       },
       {
-         "nome": "Olivia Cooke",
-         "papel": "Samantha Cook / Art3mis"
+         "nome": "Sam Lerner",
+         "Papel": "Chowder"
       },
       {
-         "nome": "Ben Mendelsohn",
-         "papel": "Nolan Sorrento"
+         "nome": "Spencer Locke",
+         "Papel": "Jenny"
       },
       {
-         "nome": "Simon Pegg",
-         "papel": "Ogden Morrow"
-      },
-      {
-         "nome": "Mark Rylance",
-         "papel": "James Halliday / Anorak"
+         "nome": "Steve Buscemi",
+         "Papel": "Nebbercracker"
       }
    ],
    "diretor": {
-      "nome": "Steven Spielberg",
-      "sobre": "Steven Spielberg é um renomado cineasta, produtor e roteirista americano, conhecido por seus trabalhos em filmes icônicos e por ser um dos pioneiros da Nova Hollywood. Com uma carreira que abrange mais de quatro décadas, ele é um dos diretores mais reconhecidos e influentes na indústria cinematográfica mundial."
+      "nome": "Gil Kenan",
+      "sobre": "Gil Kenan é um cineasta que explora o gênero de fantasia e terror. Conhecido por 'A Casa Monstro' e envolvimento em 'Five Nights at Freddy's' e 'Poltergeist'."
    },
-   "anoLancamento": 2018,
-   "faixaEtaria": "+14",
-   "categorias": ["ACAO", "AVENTURA", "FICCAOCIENTIFICA"],
+   "anoLancamento": 2006,
+   "faixaEtaria": "+10",
+   "categorias": ["COMEDIA", "TERROR"],
    "avaliacoes": [],
    "imagemBanner":"",
    "imagemCapa":"",
    "imagemLogo":"",
-   "duracao":"2h 20m"
+   "duracao":"1h 31m"
 },
 {
   "tipo": "Série",
@@ -596,53 +592,49 @@
   "temporadas":"4 temporadas"
 },
 {
-  "tipo": "Série",
-  "titulo": "Todo Mundo Odeia o Chris",
-  "sinopse": "Baseada nas experiências de adolescência do comediante Chris Rock, a série segue as desventuras de Chris enquanto ele enfrenta os desafios de crescer em Bed-Stuy, Nova Iorque, durante a década de 1980.",
-  "elenco": [
-     {
-        "nome": "Tyler James Williams",
-        "papel": "Chris"
-     },
-     {
-        "nome": "Terry Crews",
-        "papel": "Julius"
-     },
-     {
-        "nome": "Tichina Arnold",
-        "papel": "Rochelle"
-     },
-     {
-        "nome": "Tequan Richmond",
-        "papel": "Drew"
-     },
-     {
-        "nome": "Imani Hakim",
-        "papel": "Tonya"
-     },
-     {
-        "nome": "Vincent Martella",
-        "papel": "Greg Wuliger"
-     }
-  ],
-  "diretores": [
-     {
-        "nome": "Ali LeRoi",
-        "sobre": "Ali LeRoi é um dos criadores da série e dirigiu vários episódios. Ele é conhecido por seu trabalho em comédias e por trazer uma perspectiva única e humorística para as histórias que conta."
-     },
-     {
-        "nome": "Chris Rock",
-        "sobre": "Chris Rock, além de ser o criador e narrador da série, também dirigiu alguns episódios, trazendo sua visão pessoal e experiências de vida para a tela."
-     }
-  ],
-  "anoLancamento": 2005,
-  "faixaEtaria": "Livre",
-  "categorias": ["COMEDIA", "DRAMA"],
-  "avaliacoes": [],
-  "imagemBanner":"",
-  "imagemCapa":"",
-  "imagemLogo":"",
-  "temporadas":"4 temporadas"
+   "tipo": "Série",
+   "titulo": "Silo",
+   "sinopse": "Em um futuro distópico, os últimos dez mil sobreviventes da Terra vivem em um silo subterrâneo, protegidos do mundo tóxico e mortal do lado de fora, enquanto lutam com as verdades ocultas de sua existência.",
+   "elenco": [
+      {
+         "nome": "Rebecca Ferguson",
+         "papel": "Juliette Nichols"
+      },
+      {
+         "nome": "Rashida Jones",
+         "papel": "Allison Becker"
+      },
+      {
+         "nome": "David Oyelowo",
+         "papel": "Holston Becker"
+      },
+      {
+         "nome": "Common",
+         "papel": "Robert Sims"
+      },
+      {
+         "nome": "Tim Robbins",
+         "papel": "Bernard Holland"
+      }
+   ],
+   "diretores": [
+      {
+         "nome": "Adam Bernstein",
+         "sobre": "Diretor de 3 episódios, conhecido por seu trabalho em séries dramáticas e de ficção científica."
+      },
+      {
+         "nome": "Morten Tyldum",
+         "sobre": "Diretor de 3 episódios, com uma carreira que inclui filmes aclamados e séries de televisão."
+      }
+   ],
+   "anoLancamento": 2023,
+   "faixaEtaria": "+16",
+   "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
+   "avaliacoes": [],
+   "imagemBanner":"",
+   "imagemCapa":"",
+   "imagemLogo":"",
+   "temporadas":"1 temporada"
 },
 {
    "tipo": "Série",
