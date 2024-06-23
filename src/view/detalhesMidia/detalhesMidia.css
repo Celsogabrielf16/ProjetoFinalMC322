@@ -49,3 +49,79 @@ body {
     -webkit-text-fill-color: transparent;
     color: var(--light-color);
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content__banner-midia {
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 24px 24px 0 0;
+    background-image: url(/src/assets/imagensBanner/onePiece.jpg);
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.dark-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(0deg, var(--dark-color), transparent);
+}
+
+.footer {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.footer__detail {
+    width: 100%;
+    height: 1px;
+    background: var(--gradient-primary);
+}
+
+.footer__informations {
+    padding: 30px 50px;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 45% 20% 20%;
+}
+
+.information-logo {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+}
+
+.information-description {
+    color: var(--gray-tertiary-color);
+    line-height: 30px;
+}
+
+.information-title {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    background-image: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--light-color);
+    font-size: 1.2rem;
+}
+
+.information-text {
+    margin-top: 35px;
+    color: var(--gray-tertiary-color);
+    line-height: 35px;
+}
