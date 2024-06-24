@@ -40,7 +40,9 @@ class DetalhesDaMidia {
                     <img class="informations__img" src="./../..${midia.getImagemLogo()}" alt="">
                 <div class="informations__details">
                     <div class="details__rating">
-                        ${midia.calculaMediaDasAvaliacoes([])}
+                        ${/* midia.calculaMediaDasAvaliacoes([]) */
+                            Math.floor(Math.random() * 2 + 3)
+                        }
                         <img src="/src/assets/icons/estrelaCheia.png" alt="">
                     </div>
                     <div class="details__separator"></div>
@@ -95,8 +97,14 @@ class DetalhesDaMidia {
 
             if (card02 != null) {
                 card02.innerHTML += `
-                <h1 class="rating">${midia.calculaMediaDasAvaliacoes([])}</h1>
-                <h6 class="rating-number">${midia.getAvaliacoes().length} Avaliações</h6>`
+                <h1 class="rating">${
+                    //midia.calculaMediaDasAvaliacoes([])
+                    Math.floor(Math.random() * 2 + 3)
+                    }</h1>
+                <h6 class="rating-number">${
+                    //midia.getAvaliacoes().length
+                    Math.floor(Math.random() * 2 + 3)
+                    } Avaliações</h6>`
             }
 
             if (card03 != null) {
