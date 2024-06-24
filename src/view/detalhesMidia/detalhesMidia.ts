@@ -17,7 +17,7 @@ class DetalhesDaMidia {
         let idString = window.location.search.split("=")[1]
         return parseInt(idString);
     }
-
+        
     private preencherTela() {
         this.baseMidia.getListaMidiaPromise().then(listaMidias => {
             const card01: HTMLElement = document.getElementById("card01") as HTMLElement;
@@ -27,11 +27,6 @@ class DetalhesDaMidia {
             const loading: HTMLElement = document.getElementById("loading") as HTMLElement;
 
             let midia = listaMidias[this.idMidia];
-
-            setTimeout(() => {
-                loading.style.display = 'none';
-                loading.style.position = 'static';
-            }, 100);
 
             // @ts-ignore
             banner.style.backgroundImage = `url('/src${midia.imagemBanner}')`;
@@ -161,6 +156,8 @@ class DetalhesDaMidia {
 
                 card03.innerHTML += `</div>`
             }
+            loading.style.display = 'none';
+            loading.style.position = 'static';
         })
     }
     

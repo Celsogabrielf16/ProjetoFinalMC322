@@ -8,6 +8,16 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+    background-color: var(--dark-color);
+    width: 7px;
+  }
+  
+body::-webkit-scrollbar-thumb{
+    background-color: var(--gray-primary-color);
+    border-radius: 3px;
+}
+
 .navbar {
     z-index: 1000;
     left: 5%;
