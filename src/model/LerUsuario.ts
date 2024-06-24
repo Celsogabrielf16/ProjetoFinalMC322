@@ -13,7 +13,10 @@ export default class LerUsuario {
         let usuarios: any = [];
         
         const res = await fetch("/src/assets/usuario.json");
-        const json =     await res.json();
+        const json = await res.json();
+
+        console.log(json[0]);
+        
 
         // percorre todo o array do json formatado
         for(let i = 0; i < json.length; i++) {
@@ -25,6 +28,8 @@ export default class LerUsuario {
             usuarios[i] = this.parserUsuario(json[i], i);
         }
     
+        console.log(usuarios);
+        
         return usuarios;
     }
 

@@ -54,8 +54,8 @@ export default abstract class Midia {
 
     // função listar categorias, que retorna o array de categorias inteiro
     // substitui o getCategorias
-    public listarCategorias(): Array<Categoria> { 
-        return this.categorias;
+    public listarCategorias(): String { 
+        return this.categorias.join(", ");
     }
 
     // função listar avaliações, que retorna o array de avaliações inteiro

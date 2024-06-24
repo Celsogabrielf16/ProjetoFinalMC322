@@ -5,23 +5,23 @@
   "elenco": [
      {
         "nome": "Timothée Chalamet",
-        "Papel": "Paul Atreides"
+        "papel": "Paul Atreides"
      },
      {
         "nome": "Zendaya",
-        "Papel": "Chani"
+        "papel": "Chani"
      },
      {
         "nome": "Rebecca Ferguson",
-        "Papel": "Lady Jessica"
+        "papel": "Lady Jessica"
      },
      {
         "nome": "Josh Brolin",
-        "Papel": "Gurney Halleck"
+        "papel": "Gurney Halleck"
      },
      {
         "nome": "Stellan Skarsgård",
-        "Papel": "Baron Harkonnen"
+        "papel": "Baron Harkonnen"
      }
   ],
   "diretor": {
@@ -44,23 +44,23 @@
   "elenco": [
      {
         "nome": "Adam Sandler",
-        "Papel": "Lenny Feder"
+        "papel": "Lenny Feder"
      },
      {
         "nome": "Kevin James",
-        "Papel": "Eric Lamonsoff"
+        "papel": "Eric Lamonsoff"
      },
      {
         "nome": "Chris Rock",
-        "Papel": "Kurt McKenzie"
+        "papel": "Kurt McKenzie"
      },
      {
         "nome": "David Spade",
-        "Papel": "Marcus Higgins"
+        "papel": "Marcus Higgins"
      },
      {
         "nome": "Rob Schneider",
-        "Papel": "Rob Hilliard"
+        "papel": "Rob Hilliard"
      }
   ],
   "diretor": {
@@ -274,19 +274,19 @@
    "elenco": [
       {
          "nome": "Mitchel Musso",
-         "Papel": "DJ"
+         "papel": "DJ"
       },
       {
          "nome": "Sam Lerner",
-         "Papel": "Chowder"
+         "papel": "Chowder"
       },
       {
          "nome": "Spencer Locke",
-         "Papel": "Jenny"
+         "papel": "Jenny"
       },
       {
          "nome": "Steve Buscemi",
-         "Papel": "Nebbercracker"
+         "papel": "Nebbercracker"
       }
    ],
    "diretor": {
@@ -614,15 +614,19 @@
    "elenco": [
       {
          "nome": "Iñaki Godoy",
-         "Papel": "Monkey D. Luffy"
+         "papel": "Monkey D. Luffy"
       },
       {
          "nome": "Emily Rudd",
-         "Papel": "Nami"
+         "papel": "Nami"
       },
       {
          "nome": "Mackenyu",
-         "Papel": "Roronoa Zoro"
+         "papel": "Roronoa Zoro"
+      },
+      {
+         "nome": "Jacob Gibson",
+         "papel": "Usopp"
       }
    ],
    "diretores": [

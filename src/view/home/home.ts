@@ -1,13 +1,10 @@
 import BaseDeMidiaController from "./../../Controllers/BaseDeMidiaController.js";
-import BaseDeUsuarioController from "./../../Controllers/BaseDeUsuarioController.js";
 
 class Home {
     private baseMidia;
-    private baseUsuario;
 
     constructor () {
         this.baseMidia = new BaseDeMidiaController();
-        this.baseUsuario = new BaseDeUsuarioController();
 
         this.preencherTela();
     }
@@ -24,7 +21,7 @@ class Home {
                 listaMidias.forEach((midia: any) => {
                     sliderFilmsElement.innerHTML += `
                     <div class="keen-slider__slide">
-                        <a class="card__link" href="/${contador}">
+                        <a class="card__link" href="/src/view/detalhesMidia/detalhesMidia.html?id=${contador}">
                             <img class="card__img" src="./../..${midia.imagemCapa}" alt="${midia.titulo}">
                             <div class="card__informations">
                                 <h3 class="card__title">${midia.titulo}</h3>

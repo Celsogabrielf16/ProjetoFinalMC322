@@ -95,7 +95,7 @@ body {
 
 .card__midia-informations {
     position: sticky;
-    height: 600px;
+    height: min-content;
     top: 100px;
     display: flex;
     flex-direction: column;
