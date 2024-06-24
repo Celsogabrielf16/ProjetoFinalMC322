@@ -36,12 +36,14 @@ export default abstract class Midia {
     }
 
     public calculaMediaDasAvaliacoes(avaliacoes: Array<Avaliacao>): number {
+        
         let numeroDeAvaliacoes = avaliacoes.length;
         this.mediaAvaliacao = 0;
-
+        
         for(let i = 0; i < avaliacoes.length; i++)
-            this.mediaAvaliacao += avaliacoes[i].getNotaAvaliacao();
-
+          // @ts-ignore
+          this.mediaAvaliacao += avaliacoes[0].notaAvaliacao;
+        
         // caso não tenha avaliações ainda
         if(avaliacoes.length == 0) {
             // isso evita o erro de divisão por zero

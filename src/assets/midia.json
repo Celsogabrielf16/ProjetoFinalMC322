@@ -31,7 +31,26 @@
   "anoLancamento": 2024,
   "faixaEtaria": "+14",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Duna me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 0
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Duna é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 0
+},{
+   "notaAvaliacao": 7,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Duna é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 0
+}],
   "imagemBanner":"/assets/imagensBanner/duna2.jpg",
   "imagemCapa":"/assets/imagensCapa/duna2.jpg",
   "imagemLogo":"/assets/imagensLogo/duna2.png",
@@ -70,7 +89,26 @@
   "anoLancamento": 2010,
   "faixaEtaria": "+12",
   "categorias": ["COMEDIA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Gente Grande me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 1
+}, 
+{
+    "notaAvaliacao": 7,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Gente Grande é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 1
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Gente Grande é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 1
+}],
   "imagemBanner":"/assets/imagensBanner/genteGrande.webp",
   "imagemCapa":"/assets/imagensCapa/genteGrande.jpg",
   "imagemLogo":"/assets/imagensLogo/genteGrande.png",
@@ -109,7 +147,26 @@
   "anoLancamento": 2010,
   "faixaEtaria": "+16",
   "categorias": ["DRAMA", "MISTERIO"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Ilha do Medo me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 2
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Ilha do Medo é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 2
+},{
+   "notaAvaliacao": 2,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Ilha do Medo é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 2
+}],
   "imagemBanner":"/assets/imagensBanner/ilhaDoMedo.jpg",
   "imagemCapa":"/assets/imagensCapa/ilhaDoMedo.jpg",
   "imagemLogo":"/assets/imagensLogo/ilhaDoMedo.png",
@@ -148,7 +205,26 @@
   "anoLancamento": 2014,
   "faixaEtaria": "+10",
   "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 9,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Interestelar me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 3
+}, 
+{
+    "notaAvaliacao": 10,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Interestelar é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 3
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Interestelar é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 3
+}],
   "imagemBanner":"/assets/imagensBanner/interstellar.jpg",
   "imagemCapa":"/assets/imagensCapa/interstellar.jpg",
   "imagemLogo":"/assets/imagensLogo/interstellar.png",
@@ -183,7 +259,26 @@
   "anoLancamento": 2024,
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Matador de Aluguel me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 4
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Matador de Aluguel é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 4
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Matador de Aluguel é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 4
+}],
   "imagemBanner":"/assets/imagensBanner/matadorDeAluguel.jpg",
   "imagemCapa":"/assets/imagensCapa/matadorDeAluguel.jpg",
   "imagemLogo":"/assets/imagensLogo/matadorDeAluguel.png",
@@ -222,7 +317,26 @@
   "anoLancamento": 1999,
   "faixaEtaria": "+14",
   "categorias": ["ACAO", "FICCAOCIENTIFICA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 5,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Matrix me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 5
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Matrix é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 5
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Matrix é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 5
+}],
   "imagemBanner":"/assets/imagensBanner/matrix.jpg",
   "imagemCapa":"/assets/imagensCapa/matrix.jpg",
   "imagemLogo":"/assets/imagensLogo/matrix.png",
@@ -261,7 +375,26 @@
   "anoLancamento": 2022,
   "faixaEtaria": "+13",
   "categorias": ["ACAO", "DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "The Batman me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 6
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "The Batman é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 6
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "The Batman é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 6
+}],
   "imagemBanner":"/assets/imagensBanner/theBatman.jpg",
   "imagemCapa":"/assets/imagensCapa/theBatman.jpg",
   "imagemLogo":"/assets/imagensLogo/theBatman.png",
@@ -296,7 +429,26 @@
    "anoLancamento": 2006,
    "faixaEtaria": "+10",
    "categorias": ["COMEDIA", "TERROR"],
-   "avaliacoes": [],
+   "avaliacoes": [{
+      "notaAvaliacao": 6,
+      "dataAvaliacao": "Jan 08",
+      "comentario": "A Casa Monstro me surpreendeu, muito bom!",
+      "nomeUsuario": "Helena Rodrigues",
+      "idMidia": 7
+   }, 
+   {
+       "notaAvaliacao": 6,
+       "dataAvaliacao": "Mar 01",
+       "comentario": "A Casa Monstro é bom, mas poderia ser melhor.",
+       "nomeUsuario": "Bruno Oliveira",
+       "idMidia": 7
+   },{
+      "notaAvaliacao": 10,
+      "dataAvaliacao": "Out 16",
+      "comentario": "A Casa Monstro é maravilhoso, recomendo!.",
+      "nomeUsuario": "Julia Camargo",
+      "idMidia": 7
+   }],
    "imagemBanner":"/assets/imagensBanner/aCasaMonstro.jpg",
    "imagemCapa":"/assets/imagensCapa/aCasaMonstro.jpg",
    "imagemLogo":"/assets/imagensLogo/aCasaMonstro.png",
@@ -345,7 +497,26 @@
   "anoLancamento": 2008,
   "faixaEtaria": "+16",
   "categorias": ["DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Breaking Bad me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 8
+}, 
+{
+    "notaAvaliacao": 6,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Breaking Bad é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 8
+},{
+   "notaAvaliacao": 5,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Breaking Bad é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 8
+}],
   "imagemBanner":"/assets/imagensBanner/breakingBad.jpg",
   "imagemCapa":"/assets/imagensCapa/breakingBad.jpg",
   "imagemLogo":"/assets/imagensLogo/breakingBad.png",
@@ -390,7 +561,26 @@
   "anoLancamento": 2013,
   "faixaEtaria": "+14",
   "categorias": ["COMEDIA", "DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [ {
+   "notaAvaliacao": 3,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Brooklyn Nine-Nine me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 9
+}, 
+{
+    "notaAvaliacao": 7,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 9
+},{
+   "notaAvaliacao": 2,
+   "dataAvaliacao": "17/07/2023",
+   "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+   "nomeUsuario": "Daniela Lima",
+   "idMidia": 9
+}],
   "imagemBanner":"/assets/imagensBanner/brooklynNine-Nine.webp",
   "imagemCapa":"/assets/imagensCapa/brooklynNine-Nine.jpg",
   "imagemLogo":"/assets/imagensLogo/brooklynNine-Nine.png",
@@ -435,7 +625,19 @@
   "anoLancamento": 2011,
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "AVENTURA", "DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+       "notaAvaliacao": 7,
+       "dataAvaliacao": "24/05/2023",
+       "comentario": "Game of Thrones é incrível, não deixe de conferir.",
+       "nomeUsuario": "Helena Rodrigues",
+       "idMidia": 10
+   },{
+      "notaAvaliacao": 8,
+      "dataAvaliacao": "Out 16",
+      "comentario": "Game of Thrones é maravilhoso, recomendo!.",
+      "nomeUsuario": "Julia Camargo",
+      "idMidia": 10
+  }],
   "imagemBanner":"/assets/imagensBanner/gameOfThrones.jpg",
   "imagemCapa":"/assets/imagensCapa/gameOfThrones.jpg",
   "imagemLogo":"/assets/imagensLogo/gameOfThrones.png",
@@ -476,7 +678,26 @@
   "anoLancamento": 2013,
   "faixaEtaria": "+18",
   "categorias": ["DRAMA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 9,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "Peaky Blinders me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 11
+}, 
+{
+    "notaAvaliacao": 8,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "Peaky Blinders é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 11
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "Peaky Blinders é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 11
+}],
   "imagemBanner":"/assets/imagensBanner/peakyBlinders.jpg",
   "imagemCapa":"/assets/imagensCapa/peakyBlinders.jpg",
   "imagemLogo":"/assets/imagensLogo/peakyBlinders.png",
@@ -521,7 +742,26 @@
   "anoLancamento": 2019,
   "faixaEtaria": "+18",
   "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
-  "avaliacoes": [],
+  "avaliacoes": [{
+   "notaAvaliacao": 8,
+   "dataAvaliacao": "Jan 08",
+   "comentario": "The Boys me surpreendeu, muito bom!",
+   "nomeUsuario": "Helena Rodrigues",
+   "idMidia": 12
+}, 
+{
+    "notaAvaliacao": 5,
+    "dataAvaliacao": "Mar 01",
+    "comentario": "The Boys é bom, mas poderia ser melhor.",
+    "nomeUsuario": "Bruno Oliveira",
+    "idMidia": 12
+},{
+   "notaAvaliacao": 10,
+   "dataAvaliacao": "Out 16",
+   "comentario": "The Boys é maravilhoso, recomendo!.",
+   "nomeUsuario": "Julia Camargo",
+   "idMidia": 12
+}],
   "imagemBanner":"/assets/imagensBanner/theBoys.webp",
   "imagemCapa":"/assets/imagensCapa/theBoys.jpg",
   "imagemLogo":"/assets/imagensLogo/theBoys.png",
@@ -566,7 +806,26 @@
    "anoLancamento": 2023,
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
-   "avaliacoes": [],
+   "avaliacoes": [{
+      "notaAvaliacao": 8,
+      "dataAvaliacao": "Jan 08",
+      "comentario": "Silo me surpreendeu, muito bom!",
+      "nomeUsuario": "Helena Rodrigues",
+      "idMidia": 13
+   }, 
+   {
+       "notaAvaliacao": 6,
+       "dataAvaliacao": "Mar 01",
+       "comentario": "Silo é bom, mas poderia ser melhor.",
+       "nomeUsuario": "Bruno Oliveira",
+       "idMidia": 13
+   },{
+      "notaAvaliacao": 10,
+      "dataAvaliacao": "Out 16",
+      "comentario": "Silo é maravilhoso, recomendo!.",
+      "nomeUsuario": "Julia Camargo",
+      "idMidia": 13
+   }],
    "imagemBanner":"/assets/imagensBanner/silo.jpg",
    "imagemCapa":"/assets/imagensCapa/silo.jpg",
    "imagemLogo":"/assets/imagensLogo/silo.png",
@@ -601,7 +860,26 @@
    "anoLancamento": 2017,
    "faixaEtaria": "+16",
    "categorias": ["DRAMA", "MISTERIO"],
-   "avaliacoes": [],
+   "avaliacoes": [{
+      "notaAvaliacao": 8,
+      "dataAvaliacao": "Jan 08",
+      "comentario": "Dark me surpreendeu, muito bom!",
+      "nomeUsuario": "Helena Rodrigues",
+      "idMidia": 14
+   }, 
+   {
+       "notaAvaliacao": 6,
+       "dataAvaliacao": "Mar 01",
+       "comentario": "Dark é bom, mas poderia ser melhor.",
+       "nomeUsuario": "Bruno Oliveira",
+       "idMidia": 14
+   },{
+      "notaAvaliacao": 10,
+      "dataAvaliacao": "Out 16",
+      "comentario": "Dark é maravilhoso, recomendo!.",
+      "nomeUsuario": "Julia Camargo",
+      "idMidia": 14
+   }],
    "imagemBanner":"/assets/imagensBanner/dark.jpg",
    "imagemCapa":"/assets/imagensCapa/dark.jpg",
    "imagemLogo":"/assets/imagensLogo/dark.png",
@@ -642,7 +920,26 @@
    "anoLancamento": 2023,
    "faixaEtaria": "+13",
    "categorias": ["ACAO"],
-   "avaliacoes": [],
+   "avaliacoes": [{
+      "notaAvaliacao": 10,
+      "dataAvaliacao": "Jan 08",
+      "comentario": "One Piece: A Série me surpreendeu, muito bom!",
+      "nomeUsuario": "Helena Rodrigues",
+      "idMidia": 15
+   }, 
+   {
+       "notaAvaliacao": 9,
+       "dataAvaliacao": "Mar 01",
+       "comentario": "One Piece: A Série é bom, mas poderia ser melhor.",
+       "nomeUsuario": "Bruno Oliveira",
+       "idMidia": 15
+   },{
+      "notaAvaliacao": 10,
+      "dataAvaliacao": "Out 16",
+      "comentario": "One Piece: A Série é maravilhoso, recomendo!.",
+      "nomeUsuario": "Julia Camargo",
+      "idMidia": 15
+   }],
    "imagemBanner":"/assets/imagensBanner/onePiece.jpg",
    "imagemCapa":"/assets/imagensCapa/onePiece.jpg",
    "imagemLogo":"/assets/imagensLogo/onePiece.png",

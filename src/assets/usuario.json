@@ -1,650 +1,249 @@
-[{
-    "tipo": "Filme",
-    "titulo": "Duna: Parte Dois",
-    "sinopse": "A sequência épica de 'Duna', onde Paul Atreides se une a Chani e aos Fremen em uma guerra de vingança contra os conspiradores que destruíram sua família, enfrentando escolhas difíceis entre o amor e o destino do universo.",
-    "elenco": [
+[   {
+   "email": "alice.silva.99@yahoo.com",
+   "senha": "Yun33ONsMpm8",
+   "nome": "Alice Silva",
+   "filmesFavoritos": [
+       "The Batman",
+       "Matrix",
+       "The Boys"
+   ],
+   "seriesFavoritos": [
+       "Game of Thrones",
+       "Breaking Bad",
+       "Silo"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Timothée Chalamet",
-          "Papel": "Paul Atreides"
+           "notaAvaliacao": 10,
+           "dataAvaliacao": "22/07/2020",
+           "comentario": "The Batman é incrível, não deixe de conferir.",
+           "nomeUsuario": "Alice Silva",
+           "idMidia": 6 
        },
        {
-          "nome": "Zendaya",
-          "Papel": "Chani"
-       },
-       {
-          "nome": "Rebecca Ferguson",
-          "Papel": "Lady Jessica"
-       },
-       {
-          "nome": "Josh Brolin",
-          "Papel": "Gurney Halleck"
-       },
-       {
-          "nome": "Stellan Skarsgård",
-          "Papel": "Baron Harkonnen"
+           "notaAvaliacao": 6,
+           "dataAvaliacao": "26/09/2022",
+           "comentario": "Gostei muito de Breaking Bad, recomendo para todos!",
+           "nomeUsuario": "Alice Silva",
+           "idMidia": 8
        }
-    ],
-    "diretor": {
-       "nome": "Denis Villeneuve",
-       "sobre": "Denis Villeneuve é um aclamado diretor canadense conhecido por seu trabalho em filmes de ficção científica e dramas, como 'A Chegada' e 'Blade Runner 2049'. Com 'Duna: Parte Dois', ele continua sua visão épica do clássico de Frank Herbert."
-    },
-    "anoLancamento": 2024,
-    "faixaEtaria": "+14",
-    "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-    "avaliacoes": [],
-    "imagemBanner":"/assets/imagensBanner/duna2.jpg",
-    "imagemCapa":"/assets/imagensCapa/duna2.jpg",
-    "imagemLogo":"/assets/imagensLogo/duna2.png",
-    "duracao":"2h 46m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "Gente Grande",
-    "sinopse": "Cinco amigos de infância se reencontram após a morte do treinador de basquete da escola para passar o feriado de 4 de julho juntos. Acompanhados de suas famílias, eles descobrem que envelhecer não necessariamente significa amadurecer.",
-    "elenco": [
+   ]
+},
+{
+   "email": "bruno.oliveira.46@yahoo.com",
+   "senha": "rDfsMdfrfxY0",
+   "nome": "Bruno Oliveira",
+   "filmesFavoritos": [
+       "Matrix",
+       "The Batman",
+       "Ilha do Medo"
+   ],
+   "seriesFavoritos": [
+       "Breaking Bad",
+       "Dark",
+       "Brooklyn Nine-Nine"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Adam Sandler",
-          "Papel": "Lenny Feder"
+           "notaAvaliacao": 9,
+           "dataAvaliacao": "01/09/2020",
+           "comentario": "The Batman me surpreendeu, muito bom!",
+           "nomeUsuario": "Bruno Oliveira",
+           "idMidia": 6
        },
        {
-          "nome": "Kevin James",
-          "Papel": "Eric Lamonsoff"
-       },
-       {
-          "nome": "Chris Rock",
-          "Papel": "Kurt McKenzie"
-       },
-       {
-          "nome": "David Spade",
-          "Papel": "Marcus Higgins"
-       },
-       {
-          "nome": "Rob Schneider",
-          "Papel": "Rob Hilliard"
+           "notaAvaliacao": 7,
+           "dataAvaliacao": "10/03/2021",
+           "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+           "nomeUsuario": "Bruno Oliveira",
+           "idMidia": 9
        }
-    ],
-    "diretor": {
-       "nome": "Dennis Dugan",
-       "sobre": "Dennis Dugan é um diretor americano conhecido por colaborar frequentemente com Adam Sandler, dirigindo comédias como 'Happy Gilmore' e 'Big Daddy'."
-    },
-    "anoLancamento": 2010,
-    "faixaEtaria": "+12",
-    "categorias": ["COMEDIA"],
-    "avaliacoes": [],
-    "imagemBanner":"/assets/imagensBanner/genteGrande.webp",
-    "imagemCapa":"/assets/imagensCapa/genteGrande.jpg",
-    "imagemLogo":"/assets/imagensLogo/genteGrande.png",
-    "duracao":"1h 42m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "Ilha do Medo",
-    "sinopse": "Em 1954, Teddy Daniels (Leonardo DiCaprio) investiga o desaparecimento de um paciente no Shutter Island Ashecliffe Hospital, em Boston. No local, ele descobre que os médicos realizam experiências radicais com os pacientes, envolvendo métodos ilegais e anti-éticos.",
-    "elenco": [
+   ]
+},
+{
+   "email": "carlos.souza.40@gmail.com",
+   "senha": "MHMtHqS6ycXZ",
+   "nome": "Carlos Souza",
+   "filmesFavoritos": [
+       "The Batman",
+       "Breaking Bad",
+       "Silo"
+   ],
+   "seriesFavoritos": [
+       "The Boys",
+       "One Piece",
+       "Peaky Blinders"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Leonardo DiCaprio",
-          "papel": "Teddy Daniels"
+           "notaAvaliacao": 4,
+           "dataAvaliacao": "05/12/2023",
+           "comentario": "Gostei muito de Silo, recomendo para todos!",
+           "nomeUsuario": "Carlos Souza",
+           "idMidia": 13
        },
        {
-          "nome": "Mark Ruffalo",
-          "papel": "Chuck Aule"
-       },
-       {
-          "nome": "Ben Kingsley",
-          "papel": "Dr. John Cawley"
-       },
-       {
-          "nome": "Michelle Williams",
-          "papel": "Dolores Chanal"
-       },
-       {
-          "nome": "Emily Mortimer",
-          "papel": "Rachel Solando"
+           "notaAvaliacao": 6,
+           "dataAvaliacao": "15/08/2022",
+           "comentario": "The Boys é incrível, não deixe de conferir.",
+           "nomeUsuario": "Carlos Souza",
+           "idMidia": 12
        }
-    ],
-    "diretor": {
-       "nome": "Martin Scorsese",
-       "sobre": "Martin Scorsese é um renomado cineasta americano, cuja carreira se estende por mais de cinco décadas. Ele é conhecido por seu estilo distintivo e filmes que exploram temas como a culpa e a redenção, a fé e a moralidade, muitas vezes através de personagens complexos e conturbados."
-    },
-    "anoLancamento": 2010,
-    "faixaEtaria": "+16",
-    "categorias": ["DRAMA", "MISTERIO"],
-    "avaliacoes": ["Ilha do Medo foi uma ótima experiência, vale a pena assistir."],
-    "imagemBanner":"/assets/imagensBanner/ilhaDoMedo.jpg",
-    "imagemCapa":"/assets/imagensCapa/ilhaDoMedo.jpg",
-    "imagemLogo":"/assets/imagensLogo/ilhaDoMedo.png",
-    "duracao":"2h 18m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "Interestelar",
-    "sinopse": "Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos.",
-    "elenco": [
+   ]
+},
+{
+   "email": "daniela.lima.14@gmail.com",
+   "senha": "s!2NlP)F37lB",
+   "nome": "Daniela Lima",
+   "filmesFavoritos": [
+       "Brooklyn Nine-Nine",
+       "Silo",
+       "The Boys"
+   ],
+   "seriesFavoritos": [
+       "Peaky Blinders",
+       "The Boys",
+       "Dark"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Matthew McConaughey",
-          "papel": "Cooper"
+           "notaAvaliacao": 5,
+           "dataAvaliacao": "17/07/2023",
+           "comentario": "Brooklyn Nine-Nine é bom, mas poderia ser melhor.",
+           "nomeUsuario": "Daniela Lima",
+           "idMidia": 9
        },
        {
-          "nome": "Anne Hathaway",
-          "papel": "Brand"
-       },
-       {
-          "nome": "Jessica Chastain",
-          "papel": "Murph"
-       },
-       {
-          "nome": "Mackenzie Foy",
-          "papel": "Murph (10 Yrs.)"
-       },
-       {
-          "nome": "Michael Caine",
-          "papel": "Professor Brand"
+           "notaAvaliacao": 8,
+           "dataAvaliacao": "20/11/2020",
+           "comentario": "Dark me surpreendeu, muito bom!",
+           "nomeUsuario": "Daniela Lima",
+           "idMidia": 14
        }
-    ],
-    "diretor": {
-       "nome": "Christopher Nolan",
-       "sobre": "Christopher Nolan é um aclamado cineasta britânico conhecido por seus filmes complexos e visualmente impressionantes. Ele é o cérebro por trás de 'Interestelar', trazendo à vida a visão do espaço profundo e da exploração intergaláctica."
-    },
-    "anoLancamento": 2014,
-    "faixaEtaria": "+10",
-    "categorias": ["FICCAOCIENTIFICA", "DRAMA", "AVENTURA"],
-    "avaliacoes": [],
-    "imagemBanner":"/assets/imagensBanner/interstellar.jpg",
-    "imagemCapa":"/assets/imagensCapa/interstellar.jpg",
-    "imagemLogo":"/assets/imagensLogo/interstellar.png",
-    "duracao":"2h 49m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "Matador de Aluguel",
-    "sinopse": "No remake do clássico de 1989, um ex-lutador de UFC aceita um emprego como segurança em uma estalagem nas Florida Keys, mas logo descobre que nem tudo é o que parece neste paraíso tropical.",
-    "elenco": [
+   ]
+},
+{
+   "email": "eduardo.pereira.96@outlook.com",
+   "senha": "zq2EF^1KNbRP",
+   "nome": "Eduardo Pereira",
+   "filmesFavoritos": [
+       "One Piece",
+       "Dark",
+       "Matrix"
+   ],
+   "seriesFavoritos": [
+       "Game of Thrones",
+       "Dark",
+       "Breaking Bad"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Jake Gyllenhaal",
-          "papel": "Dalton"
+           "notaAvaliacao": 9,
+           "dataAvaliacao": "08/06/2021",
+           "comentario": "One Piece é incrível, não deixe de conferir.",
+           "nomeUsuario": "Eduardo Pereira",
+           "idMidia": 15
        },
        {
-          "nome": "Conor McGregor",
-          "papel": "Knox"
-       },
-       {
-          "nome": "Daniela Melchior",
-          "papel": "Ellie"
-       },
-       {
-          "nome": "Jessica Williams",
-          "papel": "Frankie"
+           "notaAvaliacao": 7,
+           "dataAvaliacao": "14/01/2020",
+           "comentario": "Dark foi uma ótima experiência, vale a pena assistir.",
+           "nomeUsuario": "Eduardo Pereira",
+           "idMidia": 14
        }
-    ],
-    "diretor": {
-       "nome": "Doug Liman",
-       "sobre": "Doug Liman é um diretor americano conhecido por filmes de ação e aventura. Ele dirigiu sucessos como 'A Identidade Bourne' e 'No Limite do Amanhã', e é reconhecido por seu estilo dinâmico e cenas de ação inovadoras."
-    },
-    "anoLancamento": 2024,
-    "faixaEtaria": "+18",
-    "categorias": ["ACAO", "DRAMA"],
-    "avaliacoes": [],
-    "imagemBanner":"/assets/imagensBanner/matadorDeAluguel.jpg",
-    "imagemCapa":"/assets/imagensCapa/matadorDeAluguel.jpg",
-    "imagemLogo":"/assets/imagensLogo/matadorDeAluguel.png",
-    "duracao":"2h 1m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "Matrix",
-    "sinopse": "Em um futuro ciberpunk distópico, a realidade percebida pela maioria dos humanos é na verdade uma simulação criada por máquinas sencientes para subjugar a população humana, enquanto usam o calor e a atividade elétrica de seus corpos como fonte de energia.",
-    "elenco": [
+   ]
+},
+{
+   "email": "fernanda.costa.23@yahoo.com",
+   "senha": "fXd8L#z0J4Bm",
+   "nome": "Fernanda Costa",
+   "filmesFavoritos": [
+       "Matrix",
+       "Dark",
+       "Brooklyn Nine-Nine"
+   ],
+   "seriesFavoritos": [
+       "The Boys",
+       "Silo",
+       "Peaky Blinders"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Keanu Reeves",
-          "papel": "Neo"
+           "notaAvaliacao": 7,
+           "dataAvaliacao": "25/03/2022",
+           "comentario": "Gostei muito de Matrix, recomendo para todos!",
+           "nomeUsuario": "Fernanda Costa",
+           "idMidia": 5
        },
        {
-          "nome": "Laurence Fishburne",
-          "papel": "Morpheus"
-       },
-       {
-          "nome": "Carrie-Anne Moss",
-          "papel": "Trinity"
-       },
-       {
-          "nome": "Hugo Weaving",
-          "papel": "Agent Smith"
-       },
-       {
-          "nome": "Joe Pantoliano",
-          "papel": "Cypher"
+           "notaAvaliacao": 6,
+           "dataAvaliacao": "09/10/2021",
+           "comentario": "Silo é bom, mas poderia ser melhor.",
+           "nomeUsuario": "Fernanda Costa",
+           "idMidia": 13
        }
-    ],
-    "diretor": {
-       "nome": "Lilly Wachowski e Lana Wachowski",
-       "sobre": "Lilly e Lana Wachowski são cineastas conhecidas por seu trabalho em filmes de ficção científica e ação, incluindo a série Matrix. Elas são conhecidas por explorar temas complexos através de efeitos visuais inovadores e narrativas profundas."
-    },
-    "anoLancamento": 1999,
-    "faixaEtaria": "+14",
-    "categorias": ["ACAO", "FICCAOCIENTIFICA"],
-    "avaliacoes": ["Gostei muito de Matrix, recomendo para todos!"],
-    "imagemBanner":"/assets/imagensBanner/matrix.jpg",
-    "imagemCapa":"/assets/imagensCapa/matrix.jpg",
-    "imagemLogo":"/assets/imagensLogo/matrix.png",
-    "duracao":"2h 16m"
-  },
-  {
-    "tipo": "Filme",
-    "titulo": "The Batman",
-    "sinopse": "Batman, em seu segundo ano de luta contra o crime em Gotham City, descobre corrupção ligada à sua própria família enquanto persegue o Charada, um misterioso assassino em série que mira a elite da cidade.",
-    "elenco": [
+   ]
+},
+{
+   "email": "gabriel.martins.87@hotmail.com",
+   "senha": "XIaGPuH@1PUK",
+   "nome": "Gabriel Martins",
+   "filmesFavoritos": [
+       "Brooklyn Nine-Nine",
+       "Silo",
+       "Ilha do Medo"
+   ],
+   "seriesFavoritos": [
+       "Peaky Blinders",
+       "The Boys",
+       "One Piece"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Robert Pattinson",
-          "papel": "Bruce Wayne / Batman"
+           "notaAvaliacao": 8,
+           "dataAvaliacao": "29/10/2023",
+           "comentario": "Ilha do Medo foi uma ótima experiência, vale a pena assistir.",
+           "nomeUsuario": "Gabriel Martins",
+           "idMidia": 2
        },
        {
-          "nome": "Zoë Kravitz",
-          "papel": "Selina Kyle / Mulher-Gato"
-       },
-       {
-          "nome": "Paul Dano",
-          "papel": "Edward Nashton / Charada"
-       },
-       {
-          "nome": "John Turturro",
-          "papel": "Carmine Falcone"
-       },
-       {
-          "nome": "Colin Farrell",
-          "papel": "Oz / Pinguim"
+           "notaAvaliacao": 10,
+           "dataAvaliacao": "19/04/2021",
+           "comentario": "Gostei muito de Dark, recomendo para todos!",
+           "nomeUsuario": "Gabriel Martins",
+           "idMidia": 14
        }
-    ],
-    "diretor": {
-       "nome": "Matt Reeves",
-       "sobre": "Matt Reeves é um cineasta americano conhecido por dirigir filmes como 'Cloverfield', 'Planeta dos Macacos: A Guerra' e 'The Batman'. Ele é elogiado por sua habilidade em contar histórias visuais e por trazer uma nova perspectiva para franquias estabelecidas."
-    },
-    "anoLancamento": 2022,
-    "faixaEtaria": "+13",
-    "categorias": ["ACAO", "DRAMA"],
-    "avaliacoes": ["The Batman é incrível, não deixe de conferir.",
-    "The Batman me surpreendeu, muito bom!"],
-    "imagemBanner":"/assets/imagensBanner/theBatman.jpg",
-    "imagemCapa":"/assets/imagensCapa/theBatman.jpg",
-    "imagemLogo":"/assets/imagensLogo/theBatman.png",
-    "duracao":"2h 56m"
-  },
-  {
-     "tipo": "Filme",
-     "titulo": "A Casa Monstro",
-     "sinopse": "DJ Walters é um garoto de 12 anos que suspeita que há algo estranho na casa do velho Nebbercracker, que fica do outro lado da rua. Tudo que se aproxima da casa desaparece, incluindo brinquedos e animais de estimação.",
-     "elenco": [
-        {
-           "nome": "Mitchel Musso",
-           "Papel": "DJ"
-        },
-        {
-           "nome": "Sam Lerner",
-           "Papel": "Chowder"
-        },
-        {
-           "nome": "Spencer Locke",
-           "Papel": "Jenny"
-        },
-        {
-           "nome": "Steve Buscemi",
-           "Papel": "Nebbercracker"
-        }
-     ],
-     "diretor": {
-        "nome": "Gil Kenan",
-        "sobre": "Gil Kenan é um cineasta que explora o gênero de fantasia e terror. Conhecido por 'A Casa Monstro' e envolvimento em 'Five Nights at Freddy's' e 'Poltergeist'."
-     },
-     "anoLancamento": 2006,
-     "faixaEtaria": "+10",
-     "categorias": ["COMEDIA", "TERROR"],
-     "avaliacoes": [],
-     "imagemBanner":"/assets/imagensBanner/aCasaMonstro.jpg",
-     "imagemCapa":"/assets/imagensCapa/aCasaMonstro.jpg",
-     "imagemLogo":"/assets/imagensLogo/aCasaMonstro.png",
-     "duracao":"1h 31m"
-  },
-  {
-    "tipo": "Série",
-    "titulo": "Breaking Bad",
-    "sinopse": "Um professor de química do ensino médio diagnosticado com câncer de pulmão inoperável se volta para a fabricação e venda de metanfetamina com um ex-aluno para garantir o futuro financeiro de sua família.",
-    "elenco": [
+   ]
+},
+{
+   "email": "helena.rodrigues.69@outlook.com",
+   "senha": "Z75lTp%I$7^H",
+   "nome": "Helena Rodrigues",
+   "filmesFavoritos": [
+       "A Casa Monstro",
+       "Brooklyn Nine-Nine",
+       "Game of Thrones"
+   ],
+   "seriesFavoritos": [
+       "Brooklyn Nine-Nine",
+       "The Boys",
+       "Game of Thrones"
+   ],
+   "avaliacoes": [
        {
-          "nome": "Bryan Cranston",
-          "papel": "Walter White"
+           "notaAvaliacao": 3,
+           "dataAvaliacao": "08/01/2021",
+           "comentario": "Brooklyn Nine-Nine me surpreendeu, muito bom!",
+           "nomeUsuario": "Helena Rodrigues",
+           "idMidia": 9
        },
        {
-          "nome": "Aaron Paul",
-          "papel": "Jesse Pinkman"
-       },
-       {
-          "nome": "Anna Gunn",
-          "papel": "Skyler White"
-       },
-       {
-          "nome": "Bob Odenkirk",
-          "papel": "Saul Goodman"
-       },
-       {
-          "nome": "Giancarlo Esposito",
-          "papel": "Gus Fring"
+           "notaAvaliacao": 7,
+           "dataAvaliacao": "24/05/2023",
+           "comentario": "Game of Thrones é incrível, não deixe de conferir.",
+           "nomeUsuario": "Helena Rodrigues",
+           "idMidia": 10
        }
-    ],
-    "diretores": [
-       {
-          "nome": "Vince Gilligan",
-          "sobre": "Vince Gilligan é o criador, roteirista, diretor e produtor executivo da série 'Breaking Bad'. Ele é conhecido por seu trabalho inovador na televisão, especialmente por transformar o protagonista em antagonista ao longo da série."
-       },
-       {
-          "nome": "Michelle MacLaren",
-          "sobre": "Michelle MacLaren é uma diretora e produtora canadense que dirigiu vários episódios de 'Breaking Bad'. Ela é reconhecida por seu estilo visual forte e habilidade de construir tensão dramática."
-       },
-       {
-          "nome": "Adam Bernstein",
-          "sobre": "Adam Bernstein é um diretor e produtor que dirigiu vários episódios de 'Breaking Bad'. Ele é conhecido por seu trabalho em séries de televisão aclamadas e por sua capacidade de dirigir cenas intensas e memoráveis."
-       }
-    ],
-    "anoLancamento": 2008,
-    "faixaEtaria": "+16",
-    "categorias": ["DRAMA"],
-    "avaliacoes": ["Gostei muito de Breaking Bad, recomendo para todos!"],
-    "imagemBanner":"/assets/imagensBanner/breakingBad.jpg",
-    "imagemCapa":"/assets/imagensCapa/breakingBad.jpg",
-    "imagemLogo":"/assets/imagensLogo/breakingBad.png",
-    "temporadas":"5 temporadas"
-  },
-  {
-    "tipo": "Série",
-    "titulo": "Brooklyn Nine-Nine",
-    "sinopse": "Ambientada na 99ª Delegacia de Polícia de Nova York, no Brooklyn, a série segue as maluquices do imaturo detetive Jake Peralta e a relação que ele tem com o novo capitão, Ray Holt.",
-    "elenco": [
-       {
-          "nome": "Andy Samberg",
-          "papel": "Jake Peralta"
-       },
-       {
-          "nome": "Terry Crews",
-          "papel": "Terry Jeffords"
-       },
-       {
-          "nome": "Melissa Fumero",
-          "papel": "Amy Santiago"
-       },
-       {
-          "nome": "Joe Lo Truglio",
-          "papel": "Charles Boyle"
-       },
-       {
-          "nome": "Andre Braugher",
-          "papel": "Raymond Holt"
-       }
-    ],
-    "diretores": [
-       {
-          "nome": "Michael McDonald",
-          "sobre": "Diretor de 12 episódios da série, conhecido por seu trabalho em comédias e programas de variedades."
-       },
-       {
-          "nome": "Claire Scanlon",
-          "sobre": "Diretora de 10 episódios, com uma carreira que inclui direção em séries de comédia aclamadas."
-       }
-    ],
-    "anoLancamento": 2013,
-    "faixaEtaria": "+14",
-    "categorias": ["COMEDIA", "DRAMA"],
-    "avaliacoes": ["Brooklyn Nine-Nine é bom, mas poderia ser melhor.", 
-    "Brooklyn Nine-Nine é MUITO bom, recomendo demais!",
-    "Brooklyn Nine-Nine me surpreendeu, muito bom!"],
-    "imagemBanner":"/assets/imagensBanner/brooklynNine-Nine.webp",
-    "imagemCapa":"/assets/imagensCapa/brooklynNine-Nine.jpg",
-    "imagemLogo":"/assets/imagensLogo/brooklynNine-Nine.png",
-    "temporadas":"8 temporadas"
-  },
-  {
-    "tipo": "Série",
-    "titulo": "Game of Thrones",
-    "sinopse": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete reinos nobres lutam pelo controle de Westeros, enquanto uma antiga inimiga retorna após estar adormecida por milênios.",
-    "elenco": [
-       {
-          "nome": "Emilia Clarke",
-          "papel": "Daenerys Targaryen"
-       },
-       {
-          "nome": "Peter Dinklage",
-          "papel": "Tyrion Lannister"
-       },
-       {
-          "nome": "Kit Harington",
-          "papel": "Jon Snow"
-       },
-       {
-          "nome": "Lena Headey",
-          "papel": "Cersei Lannister"
-       },
-       {
-          "nome": "Maisie Williams",
-          "papel": "Arya Stark"
-       }
-    ],
-    "diretores": [
-       {
-          "nome": "David Nutter",
-          "sobre": "Diretor de 9 episódios, conhecido por seu trabalho em séries de televisão de alto perfil."
-       },
-       {
-          "nome": "Alan Taylor",
-          "sobre": "Diretor de 7 episódios, com uma carreira que inclui direção em séries de sucesso e filmes."
-       }
-    ],
-    "anoLancamento": 2011,
-    "faixaEtaria": "+18",
-    "categorias": ["ACAO", "AVENTURA", "DRAMA"],
-    "avaliacoes": ["Game of Thrones é incrível, não deixe de conferir."],
-    "imagemBanner":"/assets/imagensBanner/gameOfThrones.jpg",
-    "imagemCapa":"/assets/imagensCapa/gameOfThrones.jpg",
-    "imagemLogo":"/assets/imagensLogo/gameOfThrones.png",
-    "temporadas":"8 temporadas"
-  },
-  {
-    "tipo": "Série",
-    "titulo": "Peaky Blinders",
-    "sinopse": "Ambientada na Inglaterra do pós-Primeira Guerra Mundial, a série segue a família Shelby e sua gangue criminosa enquanto eles navegam pelas complexidades sociais e políticas da época, expandindo seu império criminoso.",
-    "elenco": [
-       {
-          "nome": "Cillian Murphy",
-          "papel": "Thomas Shelby"
-       },
-       {
-          "nome": "Paul Anderson",
-          "papel": "Arthur Shelby"
-       },
-       {
-          "nome": "Sophie Rundle",
-          "papel": "Ada Shelby"
-       },
-       {
-          "nome": "Helen McCrory",
-          "papel": "Polly Gray"
-       }
-    ],
-    "diretores": [
-       {
-          "nome": "Anthony Byrne",
-          "sobre": "Diretor de 12 episódios, conhecido por seu estilo visual distinto e narrativa envolvente."
-       },
-       {
-          "nome": "Colm McCarthy",
-          "sobre": "Diretor de 6 episódios, com um talento para criar atmosferas densas e dramáticas."
-       }
-    ],
-    "anoLancamento": 2013,
-    "faixaEtaria": "+18",
-    "categorias": ["DRAMA"],
-    "avaliacoes": [],
-    "imagemBanner":"/assets/imagensBanner/peakyBlinders.jpg",
-    "imagemCapa":"/assets/imagensCapa/peakyBlinders.jpg",
-    "imagemLogo":"/assets/imagensLogo/peakyBlinders.png",
-    "temporadas":"6 temporadas"
-  },
-  {
-    "tipo": "Série",
-    "titulo": "The Boys",
-    "sinopse": "Em um mundo onde super-heróis são celebridades e parte de uma poderosa corporação, Vought International, 'The Boys' é uma equipe de vigilantes que busca expor a verdade sobre os 'Supes' e a corrupção por trás de suas fachadas heroicas.",
-    "elenco": [
-       {
-          "nome": "Karl Urban",
-          "papel": "Billy Butcher"
-       },
-       {
-          "nome": "Jack Quaid",
-          "papel": "Hughie Campbell"
-       },
-       {
-          "nome": "Antony Starr",
-          "papel": "Homelander"
-       },
-       {
-          "nome": "Erin Moriarty",
-          "papel": "Annie January / Starlight"
-       },
-       {
-          "nome": "Jessie T. Usher",
-          "papel": "A-Train"
-       }
-    ],
-    "diretores": [
-       {
-          "nome": "Eric Kripke",
-          "sobre": "Eric Kripke é o criador e showrunner da série, conhecido por seu trabalho em outras séries de sucesso e por trazer uma visão única para o mundo dos super-heróis em 'The Boys'."
-       },
-       {
-          "nome": "Philip Sgriccia",
-          "sobre": "Philip Sgriccia é um dos diretores e produtores executivos da série, contribuindo com sua vasta experiência em televisão para dar vida à ação e ao drama de 'The Boys'."
-       }
-    ],
-    "anoLancamento": 2019,
-    "faixaEtaria": "+18",
-    "categorias": ["ACAO", "COMEDIA", "DRAMA", "FICCAOCIENTIFICA"],
-    "avaliacoes": ["The Boys é incrível, não deixe de conferir."],
-    "imagemBanner":"/assets/imagensBanner/theBoys.webp",
-    "imagemCapa":"/assets/imagensCapa/theBoys.jpg",
-    "imagemLogo":"/assets/imagensLogo/theBoys.png",
-    "temporadas":"4 temporadas"
-  },
-  {
-     "tipo": "Série",
-     "titulo": "Silo",
-     "sinopse": "Em um futuro distópico, os últimos dez mil sobreviventes da Terra vivem em um silo subterrâneo, protegidos do mundo tóxico e mortal do lado de fora, enquanto lutam com as verdades ocultas de sua existência.",
-     "elenco": [
-        {
-           "nome": "Rebecca Ferguson",
-           "papel": "Juliette Nichols"
-        },
-        {
-           "nome": "Rashida Jones",
-           "papel": "Allison Becker"
-        },
-        {
-           "nome": "David Oyelowo",
-           "papel": "Holston Becker"
-        },
-        {
-           "nome": "Common",
-           "papel": "Robert Sims"
-        },
-        {
-           "nome": "Tim Robbins",
-           "papel": "Bernard Holland"
-        }
-     ],
-     "diretores": [
-        {
-           "nome": "Adam Bernstein",
-           "sobre": "Diretor de 3 episódios, conhecido por seu trabalho em séries dramáticas e de ficção científica."
-        },
-        {
-           "nome": "Morten Tyldum",
-           "sobre": "Diretor de 3 episódios, com uma carreira que inclui filmes aclamados e séries de televisão."
-        }
-     ],
-     "anoLancamento": 2023,
-     "faixaEtaria": "+16",
-     "categorias": ["DRAMA", "FICCAOCIENTIFICA"],
-     "avaliacoes": ["Silo é bom, mas poderia ser melhor."],
-     "imagemBanner":"/assets/imagensBanner/silo.jpg",
-     "imagemCapa":"/assets/imagensCapa/silo.jpg",
-     "imagemLogo":"/assets/imagensLogo/silo.png",
-     "temporadas":"1 temporada"
-  },
-  {
-     "tipo": "Série",
-     "titulo": "Dark",
-     "sinopse": "Quatro diferentes famílias vivem em Winden, uma pequena e aparentemente tranquila cidade alemã. A rotina dos moradores vira de cabeça para baixo quando duas crianças desaparecem misteriosamente, nas proximidades de uma antiga usina nuclear.",
-     "elenco": [
-        {
-           "nome": "Louis Hofmann",
-           "papel": "Jonas Kahnwald"
-        },
-        {
-           "nome": "Lisa Vicari",
-           "papel": "Martha Nielsen"
-        },
-        {
-           "nome": "Moritz Jahn",
-           "papel": "Magnus Nielsen"
-        },
-        {
-           "nome": "Oliver Masucci",
-           "papel": "Ulrich Nielsen"
-        }
-     ],
-     "diretores": [{
-        "nome": "Baran bo Odar",
-        "sobre": "Baran bo Odar é conhecido por seu trabalho em 'Dark', aclamada série de drama, suspense e ficção científica. Junto com Jantje Friese, criou uma narrativa complexa que explora as implicações existenciais do tempo e seus efeitos sobre a natureza humana, ganhando reconhecimento mundial e prêmios importantes."
-     }],
-     "anoLancamento": 2017,
-     "faixaEtaria": "+16",
-     "categorias": ["DRAMA", "MISTERIO"],
-     "avaliacoes": ["Dark me surpreendeu, muito bom!",
-     "Dark foi uma ótima experiência, vale a pena assistir."],
-     "imagemBanner":"/assets/imagensBanner/dark.jpg",
-     "imagemCapa":"/assets/imagensCapa/dark.jpg",
-     "imagemLogo":"/assets/imagensLogo/dark.png",
-     "temporadas":"3 temporadas"
-  },
-  {
-     "tipo": "Série",
-     "titulo": "One Piece: A Série",
-     "sinopse": "Monkey D. Luffy é um garoto de espírito livre que tem energia e coragem de sobra. Seu maior sonho é se tornar o Rei dos Piratas e conquistar os mares e, para isso, ele tem como missão encontrar o legado de Gold Roger.",
-     "elenco": [
-        {
-           "nome": "Iñaki Godoy",
-           "Papel": "Monkey D. Luffy"
-        },
-        {
-           "nome": "Emily Rudd",
-           "Papel": "Nami"
-        },
-        {
-           "nome": "Mackenyu",
-           "Papel": "Roronoa Zoro"
-        }
-     ],
-     "diretores": [
-        {
-           "nome": "Steven Maeda",
-           "sobre": "Steven Maeda é um diretor talentoso com uma vasta experiência em produção de séries de televisão. Ele é conhecido por seu trabalho em várias séries populares e tem uma abordagem criativa e inovadora para contar histórias."
-        },
-        {
-           "nome": "Matt Owens",
-           "sobre": "Steven Maeda é um diretor talentoso com uma vasta experiência em produção de séries de televisão. Ele é conhecido por seu trabalho em várias séries populares e tem uma abordagem criativa e inovadora para contar histórias."
-        }
-     ],
-     "anoLancamento": 2023,
-     "faixaEtaria": "+13",
-     "categorias": ["ACAO"],
-     "avaliacoes": ["One Piece é incrível, não deixe de conferir."],
-     "imagemBanner":"/assets/imagensBanner/onePiece.jpg",
-     "imagemCapa":"/assets/imagensCapa/onePiece.jpg",
-     "imagemLogo":"/assets/imagensLogo/onePiece.png",
-     "temporadas":"1 temporada"
-  }]
+   ]
+}
+]

@@ -13,8 +13,13 @@ class Home {
         this.baseMidia.getListaMidiaPromise().then(listaMidias => {
             const sliderFilmsElement: HTMLElement = document.getElementById("slider-films") as HTMLElement;
             const sliderSeriesElement: HTMLElement = document.getElementById("slider-series") as HTMLElement;
+            const loading: HTMLElement = document.getElementById("loading") as HTMLElement;
+
+            setTimeout(() => {
+                loading.style.display = 'none';
+                loading.style.position = 'static';
+            }, 100);
     
-            console.log(listaMidias);
             let contador = 0;
             
             if (sliderFilmsElement != null && sliderSeriesElement != null) {
@@ -27,7 +32,7 @@ class Home {
                                 <h3 class="card__title">${midia.titulo}</h3>
                                 <div class="card__details">
                                     <div class="details__rating">
-                                        ${Math.floor(Math.random() * 2 + 3)}
+                                        ${midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes())}
                                         <img src="/src/assets/icons/estrelaCheia.png" alt="">
                                     </div>
                                     <div class="details__separator"></div>

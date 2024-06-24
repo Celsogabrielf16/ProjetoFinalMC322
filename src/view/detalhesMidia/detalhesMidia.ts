@@ -23,8 +23,18 @@ class DetalhesDaMidia {
             const card01: HTMLElement = document.getElementById("card01") as HTMLElement;
             const card02: HTMLElement = document.getElementById("card02") as HTMLElement;
             const card03: HTMLElement = document.getElementById("card03") as HTMLElement;
+            const banner: HTMLElement = document.getElementById("banner") as HTMLElement;
+            const loading: HTMLElement = document.getElementById("loading") as HTMLElement;
 
             let midia = listaMidias[this.idMidia];
+
+            setTimeout(() => {
+                loading.style.display = 'none';
+                loading.style.position = 'static';
+            }, 100);
+
+            // @ts-ignore
+            banner.style.backgroundImage = `url('/src${midia.imagemBanner}')`;
             console.log(midia);
             
 
@@ -40,8 +50,8 @@ class DetalhesDaMidia {
                     <img class="informations__img" src="./../..${midia.getImagemLogo()}" alt="">
                 <div class="informations__details">
                     <div class="details__rating">
-                        ${/* midia.calculaMediaDasAvaliacoes([]) */
-                            Math.floor(Math.random() * 2 + 3)
+                        ${
+                            midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes())
                         }
                         <img src="/src/assets/icons/estrelaCheia.png" alt="">
                     </div>
@@ -99,11 +109,11 @@ class DetalhesDaMidia {
                 card02.innerHTML += `
                 <h1 class="rating">${
                     //midia.calculaMediaDasAvaliacoes([])
-                    Math.floor(Math.random() * 2 + 3)
+                    midia.calculaMediaDasAvaliacoes(midia.getAvaliacoes())
                     }</h1>
                 <h6 class="rating-number">${
                     //midia.getAvaliacoes().length
-                    Math.floor(Math.random() * 2 + 3)
+                    midia.getAvaliacoes().length
                     } Avaliações</h6>`
             }
 
@@ -115,33 +125,41 @@ class DetalhesDaMidia {
 
                 card03.innerHTML += `
                 <h2 class="card-rating card-rating__rating-number">${midia.getAvaliacoes().length} Avaliações</h2>
-                    <div class="ratings">
-                        <div class="rating">
-                            <div class="name-date">
-                                <h5 class="name">Celso Gabriel Prado</h5>
-                                <h6 class="date">Out 16</h6>
-                            </div>
-                            <div class="rating-value">
-                                4.5
-                                <img src="/src/assets/icons/estrelaCheia.png" alt=""></div>
-                            <div class="comment">
-                                A trama de "One Piece" é cheia de reviravoltas surpreendentes e personagens cativantes.
-                            </div>
+                <div class="ratings">`
+
+                let avaliacaoAtual = 0;
+                midia.getAvaliacoes().forEach(avaliacao => {
+                    card03.innerHTML += `
+                    <div class="rating rating-user">
+                        <div class="name-date">
+                            <h5 class="name">${
+                                // @ts-ignore
+                                avaliacao.nomeUsuario
+                            }</h5>
+                            <h6 class="date">${
+                                // @ts-ignore
+                                avaliacao.dataAvaliacao
+                            }</h6>
                         </div>
-                        <div class="rating__separator"></div>
-                        <div class="rating">
-                            <div class="name-date">
-                                <h5 class="name">Celso Gabriel Prado</h5>
-                                <h6 class="date">Out 16</h6>
-                            </div>
-                            <div class="rating-value">
-                                4.5
-                                <img src="/src/assets/icons/estrelaCheia.png" alt=""></div>
-                            <div class="comment">
-                                A trama de "One Piece" é cheia de reviravoltas surpreendentes e personagens cativantes.
-                            </div>
-                        </div>
+                        <div class="rating-value">${
+                            // @ts-ignore
+                            avaliacao.notaAvaliacao / 2
+                        }
+                            <img src="/src/assets/icons/estrelaCheia.png" alt=""></div>
+                        <div class="comment">${
+                                // @ts-ignore
+                                avaliacao.comentario
+                            }</div>
                     </div>`
+
+                    if (avaliacaoAtual != midia.getAvaliacoes().length - 1) {
+                        card03.innerHTML += `<div class="rating__separator"></div>`
+                    }
+
+                    avaliacaoAtual++;
+                })
+
+                card03.innerHTML += `</div>`
             }
         })
     }
